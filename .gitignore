@@ -20,6 +20,7 @@
 # Raw Data Files
 data/raw_data/PM2.5/*.nc
 data/raw_data/FSA/*.xlsx
+data/raw_data/Wildfire
 
 # Analysis Data 
 data/data_for_analysis/*.csv
