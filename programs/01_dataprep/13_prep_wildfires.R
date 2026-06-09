@@ -208,4 +208,29 @@ saveRDS(
   "data/data_for_analysis/wildfire_monthly_50km.rds"
 )
 
+# ------------------------------------------------------------
+# 14. Aggregate to Yearly 
+# ------------------------------------------------------------
 
+wildfire_yearly <- wildfire_monthly %>%
+  group_by(
+    SCHOOL_DISTRICT_NUMBER,
+    SCHOOL_DISTRICT_NAME,
+    year
+  ) %>%
+  summarise(
+    burned_ha = sum(burned_ha_50km),
+    fire_count = sum(fire_count_50km),
+    .groups = "drop"
+  )
+
+write.csv(
+  wildfire_yearly,
+  "data/data_for_analysis/wildfire_yearly_50km.csv",
+  row.names = FALSE
+)
+
+saveRDS(
+  wildfire_yearly,
+  "data/data_for_analysis/wildfire_yearly_50km.rds"
+)

@@ -129,3 +129,41 @@ saveRDS(
   "data/data_for_analysis/pm25_monthly.rds"
 )
 
+### Aggregate to Yearly 
+
+# Load monthly PM2.5 data
+pm25_monthly <- readRDS(
+  "data/data_for_analysis/pm25_monthly.rds"
+)
+
+
+# Create May-September district-year PM2.5 exposure
+pm25_yearly <- pm25_monthly %>%
+  filter(month %in% 5:9) %>%
+  group_by(
+    SCHOOL_DISTRICT_NUMBER,
+    SCHOOL_DISTRICT_NAME,
+    year
+  ) %>%
+  summarise(
+    pm25 = mean(pm25_mean, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(SCHOOL_DISTRICT_NUMBER, year)
+
+# Checks
+dim(pm25_yearly)
+table(pm25_yearly$year)
+summary(pm25_yearly$pm25)
+
+# Save yearly PM2.5 data
+write.csv(
+  pm25_yearly,
+  "data/data_for_analysis/pm25_yearly.csv",
+  row.names = FALSE
+)
+
+saveRDS(
+  pm25_yearly,
+  "data/data_for_analysis/pm25_yearly.rds"
+)

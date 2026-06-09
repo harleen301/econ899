@@ -39,6 +39,8 @@ write.csv(fsa_num,
 saveRDS(fsa_num,
   "data/data_for_analysis/fsa_num.rds")
 
-
+# Load data 
+fsa_num <- readRDS(
+  "data/data_for_analysis/fsa_num.rds")
 
 
