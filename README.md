@@ -1,23 +1,16 @@
 ---
 title: README for "The  Effect of Wildfire Smoke Exposure on Student Performance in Britsh Columbia"
 contributors:
-  - Harleen Kaur 
-version: 1.2.rc1
+  - Harleen Kaur
+version: July 15, 2026
 ---
-
-# Template README and Guidance
-
-> INSTRUCTIONS: This README suggests structure and content that have been approved by various journals, see [Endorsers](Endorsers.md). It is available in annotated form as [Markdown/txt](https://github.com/social-science-data-editors/template_README/blob/master/template-README.md), [Word](templates/README_annotated.docx),  and [PDF](templates/README_annotated.pdf), and as ready-to-use templates in  [Markdown](templates/README_sparse.md), [Word](templates/README.docx), and [LaTeX](templates/README.tex). In practice, there are many variations and complications, and authors should feel free to adapt to their needs. If using the annotated versions, all instructions should be removed from the final README (in Markdown, remove lines starting with `> INSTRUCTIONS`). Please ensure that a PDF is submitted in addition to the chosen native format. Please ensure that the README is called "README" plus the appropriate suffix, not some non-standard name. This helps replicators immediately locate the necessary document.
-
-> INSTRUCTIONS: Change the title to reflect the title of the paper. For instance,
-
-> README for "Title of the paper" (Author A, Author B)
 
 ## Overview
 
-> INSTRUCTIONS: The typical README in social science journals serves the purpose of guiding a reader through the available material and a route to replicating the results in the research paper. Start by providing a brief overview of the available material and a brief guide as to how to proceed from beginning to end.
-
-*Example*: The code in this replication package constructs the analysis file from the three data sources (Ruggles et al, 2018; Inglehart et al, 2019; BEA, 2016) using Stata and Julia. Two main files run all of the code to generate the data for the 15 figures and 3 tables in the paper. The replicator should expect the code to run for about 14 hours.
+This repository contains the data, code, and replication materials for my MA research paper The Effect of Wildfire Smoke Exposure on Student Performance in British Columbia. The paper examines whether wildfire smoke exposure affects student numeracy performance across British Columbia school districts 
+between 2017 and 2024. Wildfire smoke exposure is measured using satellite-derived PM₂.₅ concentrations and wildfire activity from the National Burned Area Composite (NBAC). Student achievement is measured using district-level Foundation Skills Assessment (FSA) numeracy scores. The empirical analysis
+employs a two-stage least squares (2SLS) instrumental variables approach, using nearby wildfire activity as an instrument for wildfire-season PM₂.₅ exposure. The replication package contains scripts to construct the analysis dataset, estimate all models presented in the paper, and reproduce all tables 
+and figures.
 
 ## Data Availability and Provenance Statements
 
