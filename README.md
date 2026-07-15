@@ -128,128 +128,203 @@ You must request the following datasets in your proposal:
 
 ### Software Requirements
 
-> INSTRUCTIONS: List all of the software requirements, up to and including any operating system requirements, for the entire set of code. It is suggested to distribute most dependencies together with the replication package if allowed, in particular if sourced from unversioned code repositories, Github repos, and personal webpages. In all cases, list the version *you* used. All packages should be listed in human-readable form in this README, but should also be included in a setup or install script.
+The analysis was conducted in R (version 4.5.1) using RStudio.
 
-- [ ] The replication package contains one or more programs to install all dependencies and set up the necessary directory structure. [HIGHLY RECOMMENDED]
+The replication package includes a setup script (00_setup.R) that installs all required R packages. 
+This script should be run before executing any other programs.
 
-- Stata (code was last run with version 15)
-  - `estout` (as of 2018-05-12)
-  - `rdrobust` (as of 2019-01-05)
-  - the program "`0_setup.do`" will install all dependencies locally, and should be run once.
-- Python 3.6.4
-  - `pandas` 0.24.2
-  - `numpy` 1.16.4
-  - the file "`requirements.txt`" lists these dependencies, please run "`pip install -r requirements.txt`" as the first step. See [https://pip.pypa.io/en/stable/user_guide/#ensuring-repeatability](https://pip.pypa.io/en/stable/user_guide/#ensuring-repeatability) for further instructions on creating and using the "`requirements.txt`" file.
-- Intel Fortran Compiler version 20200104
-- Matlab (code was run with Matlab Release 2018a)
-- R 3.4.3
-  - `tidyr` (0.8.3)
-  - `rdrobust` (0.99.4)
-  - the file "`0_setup.R`" will install all dependencies (latest version), and should be run once prior to running other programs.
+The primary R packages used in the analysis include:
 
-Portions of the code use bash scripting, which may require Linux.
+tidyverse
+dplyr
+sf
+terra
+exactextractr
+bcdata
+fixest
+ggplot2
+patchwork
+lubridate
+readxl
+purrr
 
-Portions of the code use Powershell scripting, which may require Windows 10 or higher.
+Additional package dependencies are installed automatically by 00_setup.R.
 
 ### Controlled Randomness
 
-> INSTRUCTIONS: Some estimation code uses random numbers, almost always provided by pseudorandom number generators (PRNGs). For reproducibility purposes, these should be provided with a deterministic seed, so that the sequence of numbers provided is the same for the original author and any replicators. While this is not always possible, it is a requirement by many journals' policies. The seed should be set once, and not use a time-stamp. If using parallel processing, special care needs to be taken. If using multiple programs in sequence, care must be taken on how to call these programs, ideally from a main program, so that the sequence is not altered. 
-> INSTRUCTIONS: If no PRNG is used, check the appropriate box.
-> INSTRUCTIONS: If despite attempts to control for randomness, the results are not fully reproducible, please provide a detailed explanation of why, and ideally what kind of instability in numbers a replicator should expect. 
+No pseudo-random number generation is used in the analysis.
 
-- [ ] Random seed is set at line _____ of program ______
-- [ ] The analysis relies on random number generation, but setting a seed is not possible (explanation follows)
-- [ ] No Pseudo random generator is used in the analysis described here.
+All results are deterministic and can be reproduced by running the scripts in the order described in this README.
 
 ### Memory, Runtime, Storage Requirements
 
-> INSTRUCTIONS: Memory and compute-time requirements may also be relevant or even critical. Some example text follows. It may be useful to break this out by Table/Figure/section of processing. For instance, some estimation routines might run for weeks, but data prep and creating figures might only take a few minutes. You should also describe how much storage is required in addition to the space visible in the typical repository, for instance, because data will be unzipped, data downloaded, or temporary files written.
-
 #### Summary time to reproduce
 
-Approximate time needed to reproduce the analyses on a standard (CURRENT YEAR) desktop machine:
+Two replication options are provided:
 
-- [ ] <10 minutes
-- [ ] 10-60 minutes
-- [ ] 1-2 hours
-- [ ] 2-8 hours
-- [ ] 8-24 hours
-- [ ] 1-3 days
-- [ ] 3-14 days
-- [ ] > 14 days
+Replication Option
+Full replication (beginning with raw PM₂.₅ raster files)	8–10 hours
+Realistic replication (beginning with cleaned analysis datasets)	Less than 10 minutes
+
+The majority of computation time is devoted to extracting district-level PM₂.₅ exposure from monthly satellite raster files. All subsequent data preparation, estimation, 
+tables, and figures require only a few minutes.
 
 #### Summary of required storage space
 
-Approximate storage space needed:
-
-- [ ] < 25 MBytes
-- [ ] 25 MB - 250 MB
-- [ ] 250 MB - 2 GB
-- [ ] 2 GB - 25 GB
-- [ ] 25 GB - 250 GB
-- [ ] > 250 GB
-
-- [ ] Not feasible to run on a desktop machine, as described below.
+Approximately 5–10 GB of available storage is recommended to accommodate the raw datasets, intermediate files, and generated outputs.
 
 #### Computational Details
 
-The code was last run on a **4-core Intel-based laptop with MacOS version 10.14.4 with 200GB of free space**. 
+The code was developed and tested using:
 
-Portions of the code were last run on a **32-core Intel server with 1024 GB of RAM, 12 TB of fast local storage**. Computation took **734 hours**. 
+Operating System: Windows 11
+R Version: 4.5.1
+RStudio: (Update version if desired)
 
-Portions of the code were last run on a **12-node AWS R3 cluster, consuming 20,000 core-hours, with 2TB of attached storage**.  
-
-> INSTRUCTIONS: Identifiying hardware and OS can be obtained through a variety of ways:
-> Some of these details can be found as follows:
->
-> - (Windows) by right-clicking on "This PC" in File Explorer and choosing "Properties"
-> - (Mac) Apple-menu > "About this Mac"
-> - (Linux) see code in [linux-system-info.sh](https://github.com/AEADataEditor/replication-template/blob/master/tools/linux-system-info.sh)`
-
+The analysis is designed to run on a standard desktop or laptop computer and does not require high-performance computing resources.
 
 ## Description of programs/code
 
-> INSTRUCTIONS: Give a high-level overview of the program files and their purpose. Remove redundant/ obsolete files from the Replication archive.
+The replication package is organized into four main folders: programs/, data/, results/, and paper/.
 
-- Programs in `programs/01_dataprep` will extract and reformat all datasets referenced above. The file `programs/01_dataprep/main.do` will run them all.
-- Programs in `programs/02_analysis` generate all tables and figures in the main body of the article. The program `programs/02_analysis/main.do` will run them all. Each program called from `main.do` identifies the table or figure it creates (e.g., `05_table5.do`).  Output files are called appropriate names (`table5.tex`, `figure12.png`) and should be easy to correlate with the manuscript.
-- Programs in `programs/03_appendix` will generate all tables and figures  in the online appendix. The program `programs/03_appendix/main-appendix.do` will run them all. 
-- Ado files have been stored in `programs/ado` and the `main.do` files set the ADO directories appropriately. 
-- The program `programs/00_setup.do` will populate the `programs/ado` directory with updated ado packages, but for purposes of exact reproduction, this is not needed. The file `programs/00_setup.log` identifies the versions as they were last updated.
-- The program `programs/config.do` contains parameters used by all programs, including a random seed. Note that the random seed is set once for each of the two sequences (in `02_analysis` and `03_appendix`). If running in any order other than the one outlined below, your results may differ.
+*programs/00_setup.R*
 
-### (Optional, but recommended) License for Code
+Installs all required R packages and creates the directory structure needed to run the replication package. This script should be run once on a new system before 
+executing any other programs.
 
-> INSTRUCTIONS: Most journal repositories provide for a default license, but do not impose a specific license. Authors should actively select a license. This should be provided in a LICENSE.txt file, separately from the README, possibly combined with the license for any data provided. Some code may be subject to inherited license requirements, i.e., the original code author may allow for redistribution only if the code is licensed under specific rules - authors should check with their sources. For instance, some code authors require that their article describing the econometrics of the package be cited. Licensing can be complex. Some non-legal guidance may be found [here](https://social-science-data-editors.github.io/guidance/Licensing_guidance.html).
+*programs/01_dataprep/*
 
-The code is licensed under a MIT/BSD/GPL [choose one!] license. See LICENSE.txt file for details.
+Contains all scripts used to clean the raw datasets and construct the analysis datasets.
+
+These scripts include:
+
+Importing and cleaning Foundation Skills Assessment (FSA) data.
+Processing monthly satellite-derived PM₂.₅ data and calculating district-level wildfire-season exposure.
+Processing National Burned Area Composite (NBAC) wildfire polygons and constructing district-level wildfire exposure measures.
+Building the final analysis panel used throughout the paper.
+
+The final cleaned datasets are saved in: *data/data_for_analysis/*
+
+*programs/02_analysis/*
+
+Contains scripts that reproduce all tables and figures reported in the main paper.
+
+These scripts estimate:
+
+Descriptive statistics
+First-stage regression
+Instrumental variables estimates
+Main figures and maps
+
+All outputs are automatically saved in *results/* using filenames corresponding to the tables and figures reported in the paper.
+
+*programs/03_appendix/*
+
+Contains scripts used to generate all appendix tables and robustness checks, including:
+
+Ordinary Least Squares (OLS) estimates
+COVID-19 exclusion robustness check
+Alternative 75 km wildfire buffer specification
+Excluding the 2023 wildfire season
+
+Outputs are saved in *results/* using filenames corresponding to the appendix tables.
+
 
 ## Instructions to Replicators
 
-> INSTRUCTIONS: The first two sections ensure that the data and software necessary to conduct the replication have been collected. This section then describes a human-readable instruction to conduct the replication. This may be simple, or may involve many complicated steps. It should be a simple list, no excess prose. Strict linear sequence. If more than 4-5 manual steps, please wrap a main program/Makefile around them, in logical sequences. Examples follow.
+Two replication options are provided.
 
-- Edit `programs/config.do` to adjust the default path
-- Run `programs/00_setup.do` once on a new system to set up the working environment. 
-- Download the data files referenced above. Each should be stored in the prepared subdirectories of `data/`, in the format that you download them in. Do not unzip. Scripts are provided in each directory to download the public-use files. Confidential data files requested as part of your FSRDC project will appear in the `/data` folder. No further action is needed on the replicator's part.
-- Run `programs/01_main.do` to run all steps in sequence.
+*Option 1: Full Replication*
+
+This option reproduces the complete analysis beginning with the original raw datasets.
+
+Download the original datasets listed in the Data Availability section and place them in the appropriate folders under data/raw_data/
+Run programs/00_setup.R
+Run programs/01_main_full.R
+
+This script executes all data preparation, estimation, table generation, and figure generation from the raw data.
+
+*Expected runtime: approximately 8–10 hours*, primarily due to processing the monthly PM₂.₅ raster files.
+
+*Option 2: Quick Replication*
+
+This option begins from the cleaned analysis datasets contained in data/data_for_analysis/
+
+Run programs/00_setup.R
+Run programs/02_main_quick.R
+
+This script reproduces:
+
+the final analysis panel,
+all regression results,
+all tables,
+all figures, and
+all appendix outputs.
+
+*Expected runtime: less than 10 minutes*
+
+Notes: 
+All intermediate datasets are saved as both .csv and .rds files to improve transparency and reproducibility.
+Figure and table scripts automatically save outputs to the results/ folder.
+The analysis is fully reproducible without requiring manual intervention after the appropriate replication script has been launched.
 
 ### Details on various programs
 
-- `programs/00_setup.do`: will create all output directories, install needed ado packages. 
-   - If wishing to update the ado packages used by this archive, change the parameter `update_ado` to `yes`. However, this is not needed to successfully reproduce the manuscript tables. 
-- `programs/01_dataprep`:  
-   - These programs were last run at various times in 2018. 
-   - Order does not matter, all programs can be run in parallel, if needed. 
-   - A `programs/01_dataprep/main.do` will run them all in sequence, which should take about 2 hours.
-- `programs/02_analysis/main.do`.
-   - If running programs individually, note that ORDER IS IMPORTANT. 
-   - The programs were last run top to bottom on July 4, 2019.
-- `programs/03_appendix/main-appendix.do`. The programs were last run top to bottom on July 4, 2019.
-- Figure 1: The figure can be reproduced using the data provided in the folder “2_data/data_map”, and ArcGIS Desktop (Version 10.7.1) by following these (manual) instructions:
-  - Create a new map document in ArcGIS ArcMap, browse to the folder
-“2_data/data_map” in the “Catalog”, with files  "provinceborders.shp", "lakes.shp", and "cities.shp". 
-  - Drop the files listed above onto the new map, creating three separate layers. Order them with "lakes" in the top layer and "cities" in the bottom layer.
-  - Right-click on the cities file, in properties choose the variable "health"... (more details)
+*programs/00_setup.R*
+Installs all required R packages used throughout the project.
+This script should be run once before executing any other programs.
+
+*programs/01_dataprep/*
+
+Contains all scripts used to construct the analysis datasets from the original raw data.
+
+Cleaning and preparing Foundation Skills Assessment (FSA) data.
+Processing monthly ACAG PM₂.₅ raster files to calculate district-level wildfire-season exposure.
+Processing National Burned Area Composite (NBAC) wildfire polygons to construct wildfire exposure measures.
+Building the final district-year analysis panel used throughout the paper.
+
+These scripts should be run in numerical order.
+
+The PM₂.₅ processing script is the most computationally intensive component of the replication package and requires approximately 8 hours to complete. 
+All other data preparation scripts complete within a few minutes.
+
+*programs/02_analysis/*
+
+Contains scripts used to reproduce all tables and figures reported in the main paper.
+
+The scripts generate:
+
+Table 1: Summary Statistics
+Table 2: First-Stage Regression Results
+Table 3: Instrumental Variables Estimates
+Figure 1: Spatial Distribution of Wildfire Smoke Exposure Across British Columbia School Districts
+
+Each script automatically saves its output to the results/ folder.
+
+Scripts should be run in numerical order.
+
+*programs/03_appendix/*
+
+Contains scripts used to reproduce all appendix tables and robustness checks.
+
+The scripts generate:
+
+Appendix Table A1: Ordinary Least Squares Estimates
+Appendix Table A2: Excluding COVID-19 (2020–2021)
+Appendix Table A3: Alternative 75 km Wildfire Buffer
+Appendix Table A4: Excluding the 2023 Wildfire Season
+
+Outputs are automatically saved to the results/ folder.
+
+Scripts should be run in numerical order.
+
+Main Replication Scripts 
+
+Two master scripts are provided for replication:
+
+*programs/01_main_full.R* reproduces the complete analysis beginning with the raw datasets, including PM₂.₅ extraction.
+*programs/02_main_quick.R* reproduces all tables and figures beginning from the cleaned datasets contained in data/data_for_analysis.
+
 
 ## List of tables and programs
 
