@@ -17,6 +17,7 @@ panel_dy <- panel %>%
 # Create Table 1
 table1 <- bind_rows(
   
+  # Raw Grade 4 score
   panel %>%
     filter(GRADE == "04") %>%
     summarise(
@@ -30,6 +31,21 @@ table1 <- bind_rows(
       Max = max(AVG_SCORE, na.rm = TRUE)
     ),
   
+  # Standardized Grade 4 score
+  panel %>%
+    filter(GRADE == "04") %>%
+    summarise(
+      Variable = "Numeracy z-score (Grade 4)",
+      Min = min(AVG_SCORE_Z, na.rm = TRUE),
+      Q1 = quantile(AVG_SCORE_Z, 0.25, na.rm = TRUE),
+      Median = median(AVG_SCORE_Z, na.rm = TRUE),
+      Mean = mean(AVG_SCORE_Z, na.rm = TRUE),
+      SD = sd(AVG_SCORE_Z, na.rm = TRUE),
+      Q3 = quantile(AVG_SCORE_Z, 0.75, na.rm = TRUE),
+      Max = max(AVG_SCORE_Z, na.rm = TRUE)
+    ),
+  
+  # Raw Grade 7 score
   panel %>%
     filter(GRADE == "07") %>%
     summarise(
@@ -41,6 +57,20 @@ table1 <- bind_rows(
       SD = sd(AVG_SCORE, na.rm = TRUE),
       Q3 = quantile(AVG_SCORE, 0.75, na.rm = TRUE),
       Max = max(AVG_SCORE, na.rm = TRUE)
+    ),
+  
+  # Standardized Grade 7 score
+  panel %>%
+    filter(GRADE == "07") %>%
+    summarise(
+      Variable = "Numeracy z-score (Grade 7)",
+      Min = min(AVG_SCORE_Z, na.rm = TRUE),
+      Q1 = quantile(AVG_SCORE_Z, 0.25, na.rm = TRUE),
+      Median = median(AVG_SCORE_Z, na.rm = TRUE),
+      Mean = mean(AVG_SCORE_Z, na.rm = TRUE),
+      SD = sd(AVG_SCORE_Z, na.rm = TRUE),
+      Q3 = quantile(AVG_SCORE_Z, 0.75, na.rm = TRUE),
+      Max = max(AVG_SCORE_Z, na.rm = TRUE)
     ),
   
   panel_dy %>%
@@ -65,8 +95,7 @@ table1 <- bind_rows(
       SD = sd(burned_ha, na.rm = TRUE),
       Q3 = quantile(burned_ha, 0.75, na.rm = TRUE),
       Max = max(burned_ha, na.rm = TRUE)
-    )
-)
+    ))
 
 # Round values
 table1 <- table1 %>%

@@ -35,7 +35,8 @@ province_fsa_stats <- fsa_province_level %>%
       "%02d",
       as.integer(as.character(GRADE))
     ),
-    PROVINCE_SD = as.numeric(STDEV_SCORE)
+    PROVINCE_SD = as.numeric(STDEV_SCORE),
+    PROVINCE_AVG = as.numeric(AVG_SCORE)
   ) %>%
   filter(
     year %in% 2017:2024,
@@ -135,9 +136,8 @@ panel <- fsa_num %>%
 
 panel <- panel %>%
   mutate(
-    AVG_SCORE_STD =
-      AVG_SCORE/ PROVINCE_SD)
-
+    # Main specification (year-specific z-score)
+    AVG_SCORE_Z = (AVG_SCORE - PROVINCE_AVG) / PROVINCE_SD)
 
 # ------------------------------------------------------------
 # 7. Select final analysis variables
@@ -151,9 +151,10 @@ panel <- panel %>%
     GRADE,
     NUMBER_WRITERS,
     AVG_SCORE,
-    AVG_SCORE_STD,
+    AVG_SCORE_Z,
     MEDIAN_SCORE,
     STDEV_SCORE,
+    PROVINCE_AVG,
     PROVINCE_SD,
     pm25,
     burned_ha,
@@ -172,12 +173,10 @@ panel <- panel %>%
 write.csv(
   panel,
   "data/data_for_analysis/final_panel.csv",
-  row.names = FALSE
-)
+  row.names = FALSE)
 
 saveRDS(
   panel,
-  "data/data_for_analysis/final_panel.rds"
-)
+  "data/data_for_analysis/final_panel.rds")
 
 
