@@ -1,9 +1,4 @@
-library(sf)
-library(dplyr)
-library(purrr)
-library(tidyr)
-library(bcdata)
-library(lubridate)
+source("programs/config.R")
 
 # ------------------------------------------------------------
 # 1. Load school districts

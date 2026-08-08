@@ -1,5 +1,4 @@
-library(dplyr)
-library(fixest)
+source("programs/config.R")
 
 # Load final panel
 panel <- readRDS("data/data_for_analysis/final_panel.rds")
@@ -36,7 +35,7 @@ panel_g4 <- panel %>%
   filter(GRADE == "04")
 
 iv_temp <- feols(
-  AVG_SCORE ~ 1 |
+  AVG_SCORE_Z ~ 1 |
     SCHOOL_DISTRICT_NUMBER + year |
     pm25 ~ burned_ha_100k,
   cluster = ~ SCHOOL_DISTRICT_NUMBER,
@@ -48,7 +47,7 @@ capture.output(
   {
     etable(
       fs1,
-      digits = 3,
+      digits = 4,
       dict = c(
         burned_ha_100k = "Burned area within 50 km (100,000 ha)"
       )

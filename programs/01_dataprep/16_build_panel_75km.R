@@ -1,6 +1,6 @@
-library(dplyr)
+source("programs/config.R")
 
-# ------------------------------------------------------------
+# -----------------------------------------------------------
 # 1. Load datasets
 # ------------------------------------------------------------
 
@@ -14,6 +14,10 @@ wildfire_yearly_75km <- readRDS(
 
 fsa_num <- readRDS(
   "data/data_for_analysis/fsa_num.rds"
+)
+
+final_panel <- readRDS(
+  "data/data_for_analysis/final_panel.rds"
 )
 
 # ------------------------------------------------------------
@@ -74,6 +78,22 @@ panel_75km <- panel_75km %>%
     pm25,
     burned_ha_75km,
     fire_count_75km
+  )
+
+panel_75km <- panel_75km %>%
+  left_join(
+    final_panel %>%
+      select(
+        SCHOOL_DISTRICT_NUMBER,
+        year,
+        GRADE,
+        AVG_SCORE_Z
+      ),
+    by = c(
+      "SCHOOL_DISTRICT_NUMBER",
+      "year",
+      "GRADE"
+    )
   )
 
 # ------------------------------------------------------------

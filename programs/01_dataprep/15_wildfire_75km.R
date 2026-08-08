@@ -1,8 +1,4 @@
-library(sf)
-library(dplyr)
-library(tidyr)
-library(purrr)
-library(bcdata)
+source("programs/config.R")
 
 # ------------------------------------------------------------
 # 1. Set years and wildfire-season months

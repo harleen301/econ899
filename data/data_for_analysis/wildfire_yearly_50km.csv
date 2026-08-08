@@ -1,0 +1,473 @@
+"SCHOOL_DISTRICT_NUMBER","SCHOOL_DISTRICT_NAME","year","burned_ha","fire_count"
+5,"South East Kootenay",2017,55827,31
+5,"South East Kootenay",2018,28982,28
+5,"South East Kootenay",2019,98,8
+5,"South East Kootenay",2020,7210,7
+5,"South East Kootenay",2021,15992,18
+5,"South East Kootenay",2022,5148,19
+5,"South East Kootenay",2023,22729,19
+5,"South East Kootenay",2024,18549,13
+6,"Rocky Mountain",2017,56181,52
+6,"Rocky Mountain",2018,45840,87
+6,"Rocky Mountain",2019,52,7
+6,"Rocky Mountain",2020,8382,15
+6,"Rocky Mountain",2021,29314,61
+6,"Rocky Mountain",2022,10771,57
+6,"Rocky Mountain",2023,36201,53
+6,"Rocky Mountain",2024,50094,58
+8,"Kootenay Lake",2017,16670,55
+8,"Kootenay Lake",2018,44225,79
+8,"Kootenay Lake",2019,95,7
+8,"Kootenay Lake",2020,9613,16
+8,"Kootenay Lake",2021,68133,52
+8,"Kootenay Lake",2022,9122,50
+8,"Kootenay Lake",2023,19041,42
+8,"Kootenay Lake",2024,37880,63
+10,"Arrow Lakes",2017,12422,35
+10,"Arrow Lakes",2018,23568,74
+10,"Arrow Lakes",2019,12,3
+10,"Arrow Lakes",2020,2446,12
+10,"Arrow Lakes",2021,73236,52
+10,"Arrow Lakes",2022,6812,47
+10,"Arrow Lakes",2023,9643,40
+10,"Arrow Lakes",2024,38037,61
+19,"Revelstoke",2017,6459,32
+19,"Revelstoke",2018,23843,100
+19,"Revelstoke",2019,5,1
+19,"Revelstoke",2020,143,10
+19,"Revelstoke",2021,46165,75
+19,"Revelstoke",2022,2593,41
+19,"Revelstoke",2023,11370,48
+19,"Revelstoke",2024,11890,70
+20,"Kootenay-Columbia",2017,5035,15
+20,"Kootenay-Columbia",2018,20963,34
+20,"Kootenay-Columbia",2019,1,1
+20,"Kootenay-Columbia",2020,1247,4
+20,"Kootenay-Columbia",2021,59490,23
+20,"Kootenay-Columbia",2022,2184,17
+20,"Kootenay-Columbia",2023,177,10
+20,"Kootenay-Columbia",2024,12396,21
+22,"Vernon",2017,3629,25
+22,"Vernon",2018,20265,83
+22,"Vernon",2019,45,6
+22,"Vernon",2020,1425,14
+22,"Vernon",2021,153797,64
+22,"Vernon",2022,2588,36
+22,"Vernon",2023,61356,35
+22,"Vernon",2024,5558,44
+23,"Central Okanagan",2017,8254,19
+23,"Central Okanagan",2018,6081,36
+23,"Central Okanagan",2019,64,11
+23,"Central Okanagan",2020,2187,12
+23,"Central Okanagan",2021,96266,33
+23,"Central Okanagan",2022,6519,14
+23,"Central Okanagan",2023,24385,24
+23,"Central Okanagan",2024,2165,18
+27,"Cariboo-Chilcotin",2017,921725,71
+27,"Cariboo-Chilcotin",2018,304191,110
+27,"Cariboo-Chilcotin",2019,215,15
+27,"Cariboo-Chilcotin",2020,425,5
+27,"Cariboo-Chilcotin",2021,261802,89
+27,"Cariboo-Chilcotin",2022,6701,48
+27,"Cariboo-Chilcotin",2023,203088,113
+27,"Cariboo-Chilcotin",2024,68532,88
+28,"Quesnel",2017,701494,63
+28,"Quesnel",2018,211345,63
+28,"Quesnel",2019,95,6
+28,"Quesnel",2020,7,1
+28,"Quesnel",2021,67150,49
+28,"Quesnel",2022,49,13
+28,"Quesnel",2023,166903,89
+28,"Quesnel",2024,51146,58
+33,"Chilliwack",2017,185,4
+33,"Chilliwack",2018,6207,6
+33,"Chilliwack",2019,5,1
+33,"Chilliwack",2020,18,3
+33,"Chilliwack",2021,14923,7
+33,"Chilliwack",2022,6966,12
+33,"Chilliwack",2023,2329,10
+33,"Chilliwack",2024,4556,4
+34,"Abbotsford",2017,94,2
+34,"Abbotsford",2018,440,4
+34,"Abbotsford",2019,5,1
+34,"Abbotsford",2020,17,2
+34,"Abbotsford",2021,223,1
+34,"Abbotsford",2022,586,3
+34,"Abbotsford",2023,1347,9
+34,"Abbotsford",2024,11,3
+35,"Langley",2017,0,1
+35,"Langley",2018,124,5
+35,"Langley",2019,9,2
+35,"Langley",2020,17,2
+35,"Langley",2021,0,0
+35,"Langley",2022,11,2
+35,"Langley",2023,1085,5
+35,"Langley",2024,0,0
+36,"Surrey",2017,0,0
+36,"Surrey",2018,122,3
+36,"Surrey",2019,4,1
+36,"Surrey",2020,2,1
+36,"Surrey",2021,0,0
+36,"Surrey",2022,11,2
+36,"Surrey",2023,296,3
+36,"Surrey",2024,0,0
+37,"Delta",2017,0,0
+37,"Delta",2018,22,3
+37,"Delta",2019,8,2
+37,"Delta",2020,1,1
+37,"Delta",2021,91,2
+37,"Delta",2022,5,1
+37,"Delta",2023,175,1
+37,"Delta",2024,9,2
+38,"Richmond",2017,0,0
+38,"Richmond",2018,207,4
+38,"Richmond",2019,8,2
+38,"Richmond",2020,1,1
+38,"Richmond",2021,91,2
+38,"Richmond",2022,5,1
+38,"Richmond",2023,0,0
+38,"Richmond",2024,11,3
+39,"Vancouver",2017,3,1
+39,"Vancouver",2018,327,6
+39,"Vancouver",2019,21,4
+39,"Vancouver",2020,1,1
+39,"Vancouver",2021,93,3
+39,"Vancouver",2022,0,0
+39,"Vancouver",2023,199,2
+39,"Vancouver",2024,11,3
+40,"New Westminster",2017,0,0
+40,"New Westminster",2018,122,3
+40,"New Westminster",2019,4,1
+40,"New Westminster",2020,2,1
+40,"New Westminster",2021,0,0
+40,"New Westminster",2022,11,2
+40,"New Westminster",2023,194,2
+40,"New Westminster",2024,0,0
+41,"Burnaby",2017,3,1
+41,"Burnaby",2018,122,3
+41,"Burnaby",2019,8,2
+41,"Burnaby",2020,2,1
+41,"Burnaby",2021,0,0
+41,"Burnaby",2022,11,2
+41,"Burnaby",2023,214,3
+41,"Burnaby",2024,2,1
+42,"Maple-Ridge Pitt-Meadows",2017,190,5
+42,"Maple-Ridge Pitt-Meadows",2018,137,9
+42,"Maple-Ridge Pitt-Meadows",2019,13,3
+42,"Maple-Ridge Pitt-Meadows",2020,495,8
+42,"Maple-Ridge Pitt-Meadows",2021,702,5
+42,"Maple-Ridge Pitt-Meadows",2022,4101,5
+42,"Maple-Ridge Pitt-Meadows",2023,2362,12
+42,"Maple-Ridge Pitt-Meadows",2024,732,10
+43,"Coquitlam",2017,3,2
+43,"Coquitlam",2018,124,5
+43,"Coquitlam",2019,13,3
+43,"Coquitlam",2020,3,2
+43,"Coquitlam",2021,231,2
+43,"Coquitlam",2022,11,2
+43,"Coquitlam",2023,1285,8
+43,"Coquitlam",2024,8,3
+44,"North Vancouver",2017,3,1
+44,"North Vancouver",2018,122,3
+44,"North Vancouver",2019,8,2
+44,"North Vancouver",2020,2,1
+44,"North Vancouver",2021,8,1
+44,"North Vancouver",2022,11,2
+44,"North Vancouver",2023,393,4
+44,"North Vancouver",2024,4,2
+45,"West Vancouver",2017,3,1
+45,"West Vancouver",2018,122,3
+45,"West Vancouver",2019,21,4
+45,"West Vancouver",2020,0,0
+45,"West Vancouver",2021,63,2
+45,"West Vancouver",2022,0,0
+45,"West Vancouver",2023,199,2
+45,"West Vancouver",2024,11,3
+46,"Sunshine Coast",2017,20,5
+46,"Sunshine Coast",2018,1050,10
+46,"Sunshine Coast",2019,25,5
+46,"Sunshine Coast",2020,76,4
+46,"Sunshine Coast",2021,109,5
+46,"Sunshine Coast",2022,39,5
+46,"Sunshine Coast",2023,2403,13
+46,"Sunshine Coast",2024,617,9
+47,"Powell RIver",2017,19,6
+47,"Powell RIver",2018,5141,17
+47,"Powell RIver",2019,45,8
+47,"Powell RIver",2020,453,7
+47,"Powell RIver",2021,85,5
+47,"Powell RIver",2022,363,7
+47,"Powell RIver",2023,2893,16
+47,"Powell RIver",2024,562,10
+48,"Sea to Sky",2017,49,5
+48,"Sea to Sky",2018,3720,17
+48,"Sea to Sky",2019,35,8
+48,"Sea to Sky",2020,910,10
+48,"Sea to Sky",2021,119601,7
+48,"Sea to Sky",2022,14499,18
+48,"Sea to Sky",2023,35911,32
+48,"Sea to Sky",2024,2187,18
+49,"Central Coast",2017,31375,4
+49,"Central Coast",2018,229665,13
+49,"Central Coast",2019,51,5
+49,"Central Coast",2020,0,0
+49,"Central Coast",2021,9709,7
+49,"Central Coast",2022,465,9
+49,"Central Coast",2023,87406,39
+49,"Central Coast",2024,82868,9
+50,"Haida Gwaii",2017,0,0
+50,"Haida Gwaii",2018,0,0
+50,"Haida Gwaii",2019,0,0
+50,"Haida Gwaii",2020,0,0
+50,"Haida Gwaii",2021,2,1
+50,"Haida Gwaii",2022,0,0
+50,"Haida Gwaii",2023,0,0
+50,"Haida Gwaii",2024,0,0
+51,"Boundary",2017,5632,26
+51,"Boundary",2018,34723,56
+51,"Boundary",2019,3334,6
+51,"Boundary",2020,3383,12
+51,"Boundary",2021,131408,38
+51,"Boundary",2022,6958,17
+51,"Boundary",2023,58103,20
+51,"Boundary",2024,3940,23
+52,"Prince Rupert",2017,0,0
+52,"Prince Rupert",2018,0,0
+52,"Prince Rupert",2019,1,1
+52,"Prince Rupert",2020,40,1
+52,"Prince Rupert",2021,4,1
+52,"Prince Rupert",2022,54,1
+52,"Prince Rupert",2023,506,4
+52,"Prince Rupert",2024,123,2
+53,"Okanagan-Similkameen",2017,18373,14
+53,"Okanagan-Similkameen",2018,43976,34
+53,"Okanagan-Similkameen",2019,3348,8
+53,"Okanagan-Similkameen",2020,2160,9
+53,"Okanagan-Similkameen",2021,27186,22
+53,"Okanagan-Similkameen",2022,12783,15
+53,"Okanagan-Similkameen",2023,58024,19
+53,"Okanagan-Similkameen",2024,4856,15
+54,"Bulkley Valley",2017,69,3
+54,"Bulkley Valley",2018,128036,14
+54,"Bulkley Valley",2019,4,2
+54,"Bulkley Valley",2020,46,2
+54,"Bulkley Valley",2021,267,2
+54,"Bulkley Valley",2022,347,5
+54,"Bulkley Valley",2023,35067,40
+54,"Bulkley Valley",2024,61562,12
+57,"Prince George",2017,439213,50
+57,"Prince George",2018,118825,87
+57,"Prince George",2019,95,8
+57,"Prince George",2020,34,5
+57,"Prince George",2021,56729,67
+57,"Prince George",2022,32919,25
+57,"Prince George",2023,290806,105
+57,"Prince George",2024,24908,70
+58,"Nicola-Similkameen",2017,198251,33
+58,"Nicola-Similkameen",2018,48302,60
+58,"Nicola-Similkameen",2019,1177,17
+58,"Nicola-Similkameen",2020,2157,19
+58,"Nicola-Similkameen",2021,347773,64
+58,"Nicola-Similkameen",2022,19382,46
+58,"Nicola-Similkameen",2023,123653,43
+58,"Nicola-Similkameen",2024,28067,30
+59,"Peace River South",2017,469,9
+59,"Peace River South",2018,613,21
+59,"Peace River South",2019,331,6
+59,"Peace River South",2020,61,5
+59,"Peace River South",2021,13989,23
+59,"Peace River South",2022,39375,25
+59,"Peace River South",2023,80627,52
+59,"Peace River South",2024,2031,29
+60,"Peace River North",2017,414,12
+60,"Peace River North",2018,58703,63
+60,"Peace River North",2019,1045,13
+60,"Peace River North",2020,58,4
+60,"Peace River North",2021,66901,28
+60,"Peace River North",2022,35350,33
+60,"Peace River North",2023,1634480,83
+60,"Peace River North",2024,37892,43
+61,"Victoria",2017,3,2
+61,"Victoria",2018,91,3
+61,"Victoria",2019,3,1
+61,"Victoria",2020,12,5
+61,"Victoria",2021,30,1
+61,"Victoria",2022,0,0
+61,"Victoria",2023,2,1
+61,"Victoria",2024,158,1
+62,"Sooke",2017,3,2
+62,"Sooke",2018,291,5
+62,"Sooke",2019,19,2
+62,"Sooke",2020,36,8
+62,"Sooke",2021,91,2
+62,"Sooke",2022,0,0
+62,"Sooke",2023,31,3
+62,"Sooke",2024,161,3
+63,"Saanich",2017,3,2
+63,"Saanich",2018,91,3
+63,"Saanich",2019,3,1
+63,"Saanich",2020,19,7
+63,"Saanich",2021,91,2
+63,"Saanich",2022,0,0
+63,"Saanich",2023,2,1
+63,"Saanich",2024,158,1
+64,"Gulf Islands",2017,3,2
+64,"Gulf Islands",2018,292,6
+64,"Gulf Islands",2019,7,2
+64,"Gulf Islands",2020,19,7
+64,"Gulf Islands",2021,91,2
+64,"Gulf Islands",2022,0,0
+64,"Gulf Islands",2023,2,1
+64,"Gulf Islands",2024,167,3
+67,"Okanagan-Skaha",2017,18915,20
+67,"Okanagan-Skaha",2018,39450,36
+67,"Okanagan-Skaha",2019,3348,8
+67,"Okanagan-Skaha",2020,2181,10
+67,"Okanagan-Skaha",2021,90845,27
+67,"Okanagan-Skaha",2022,6617,10
+67,"Okanagan-Skaha",2023,58024,19
+67,"Okanagan-Skaha",2024,4868,16
+68,"Nanaimo-Ladysmith",2017,19,5
+68,"Nanaimo-Ladysmith",2018,268,9
+68,"Nanaimo-Ladysmith",2019,45,8
+68,"Nanaimo-Ladysmith",2020,31,5
+68,"Nanaimo-Ladysmith",2021,95,4
+68,"Nanaimo-Ladysmith",2022,6,1
+68,"Nanaimo-Ladysmith",2023,408,4
+68,"Nanaimo-Ladysmith",2024,13,6
+69,"Qualicum",2017,17,4
+69,"Qualicum",2018,268,9
+69,"Qualicum",2019,45,8
+69,"Qualicum",2020,24,3
+69,"Qualicum",2021,95,4
+69,"Qualicum",2022,8,2
+69,"Qualicum",2023,409,6
+69,"Qualicum",2024,13,6
+70,"Pacific Rim",2017,20,6
+70,"Pacific Rim",2018,2012,13
+70,"Pacific Rim",2019,23,4
+70,"Pacific Rim",2020,24,3
+70,"Pacific Rim",2021,63,2
+70,"Pacific Rim",2022,989,7
+70,"Pacific Rim",2023,2152,12
+70,"Pacific Rim",2024,5,4
+71,"Comox Valley",2017,19,6
+71,"Comox Valley",2018,741,8
+71,"Comox Valley",2019,43,7
+71,"Comox Valley",2020,17,1
+71,"Comox Valley",2021,4,2
+71,"Comox Valley",2022,963,7
+71,"Comox Valley",2023,1798,11
+71,"Comox Valley",2024,3,3
+72,"Campbell River",2017,88,5
+72,"Campbell River",2018,26366,29
+72,"Campbell River",2019,44,5
+72,"Campbell River",2020,424,4
+72,"Campbell River",2021,19,2
+72,"Campbell River",2022,1616,15
+72,"Campbell River",2023,20176,34
+72,"Campbell River",2024,493,3
+73,"Kamloops-Thompson",2017,200160,54
+73,"Kamloops-Thompson",2018,29450,113
+73,"Kamloops-Thompson",2019,368,15
+73,"Kamloops-Thompson",2020,176,17
+73,"Kamloops-Thompson",2021,457774,129
+73,"Kamloops-Thompson",2022,6562,53
+73,"Kamloops-Thompson",2023,103651,80
+73,"Kamloops-Thompson",2024,43985,98
+74,"Gold Trail",2017,403757,26
+74,"Gold Trail",2018,17275,50
+74,"Gold Trail",2019,299,19
+74,"Gold Trail",2020,594,21
+74,"Gold Trail",2021,370543,61
+74,"Gold Trail",2022,15919,55
+74,"Gold Trail",2023,45469,51
+74,"Gold Trail",2024,27211,53
+75,"Mission",2017,188,5
+75,"Mission",2018,978,9
+75,"Mission",2019,5,1
+75,"Mission",2020,402,5
+75,"Mission",2021,1383,8
+75,"Mission",2022,5004,8
+75,"Mission",2023,16807,16
+75,"Mission",2024,664,9
+78,"Fraser-Cascade",2017,14045,13
+78,"Fraser-Cascade",2018,27045,29
+78,"Fraser-Cascade",2019,31,7
+78,"Fraser-Cascade",2020,596,16
+78,"Fraser-Cascade",2021,117448,21
+78,"Fraser-Cascade",2022,17402,30
+78,"Fraser-Cascade",2023,61906,37
+78,"Fraser-Cascade",2024,28546,25
+79,"Cowichan",2017,20,5
+79,"Cowichan",2018,353,11
+79,"Cowichan",2019,24,4
+79,"Cowichan",2020,36,8
+79,"Cowichan",2021,93,3
+79,"Cowichan",2022,6,1
+79,"Cowichan",2023,231,4
+79,"Cowichan",2024,170,6
+81,"Fort Nelson",2017,3779,17
+81,"Fort Nelson",2018,206201,58
+81,"Fort Nelson",2019,7627,19
+81,"Fort Nelson",2020,8,2
+81,"Fort Nelson",2021,10151,20
+81,"Fort Nelson",2022,2862,17
+81,"Fort Nelson",2023,1963733,53
+81,"Fort Nelson",2024,59487,28
+82,"Coast Mountains",2017,133,2
+82,"Coast Mountains",2018,247249,25
+82,"Coast Mountains",2019,502,10
+82,"Coast Mountains",2020,46,2
+82,"Coast Mountains",2021,89,2
+82,"Coast Mountains",2022,477,13
+82,"Coast Mountains",2023,33766,49
+82,"Coast Mountains",2024,64733,16
+83,"Okanagan-Shuswap",2017,1681,29
+83,"Okanagan-Shuswap",2018,10250,82
+83,"Okanagan-Shuswap",2019,34,5
+83,"Okanagan-Shuswap",2020,122,10
+83,"Okanagan-Shuswap",2021,206493,82
+83,"Okanagan-Shuswap",2022,2990,41
+83,"Okanagan-Shuswap",2023,61713,48
+83,"Okanagan-Shuswap",2024,6745,52
+84,"Vancouver Island West",2017,96,5
+84,"Vancouver Island West",2018,5212,31
+84,"Vancouver Island West",2019,26,4
+84,"Vancouver Island West",2020,0,0
+84,"Vancouver Island West",2021,0,0
+84,"Vancouver Island West",2022,990,7
+84,"Vancouver Island West",2023,2330,16
+84,"Vancouver Island West",2024,0,0
+85,"Vancouver Island North",2017,31373,5
+85,"Vancouver Island North",2018,36072,43
+85,"Vancouver Island North",2019,28,4
+85,"Vancouver Island North",2020,3,1
+85,"Vancouver Island North",2021,8587,5
+85,"Vancouver Island North",2022,1476,12
+85,"Vancouver Island North",2023,26504,34
+85,"Vancouver Island North",2024,0,0
+87,"Stikine",2017,189,2
+87,"Stikine",2018,279946,26
+87,"Stikine",2019,8996,15
+87,"Stikine",2020,0,0
+87,"Stikine",2021,15264,5
+87,"Stikine",2022,16662,25
+87,"Stikine",2023,137480,25
+87,"Stikine",2024,17018,9
+91,"Nechako Lakes",2017,446338,43
+91,"Nechako Lakes",2018,503822,102
+91,"Nechako Lakes",2019,392,12
+91,"Nechako Lakes",2020,23,4
+91,"Nechako Lakes",2021,114482,44
+91,"Nechako Lakes",2022,1280,27
+91,"Nechako Lakes",2023,466309,161
+91,"Nechako Lakes",2024,101202,46
+92,"Nisgaa",2017,0,0
+92,"Nisgaa",2018,448,5
+92,"Nisgaa",2019,1,1
+92,"Nisgaa",2020,0,0
+92,"Nisgaa",2021,0,0
+92,"Nisgaa",2022,63,3
+92,"Nisgaa",2023,412,8
+92,"Nisgaa",2024,232,4

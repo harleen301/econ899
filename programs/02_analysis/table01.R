@@ -1,4 +1,4 @@
-library(dplyr)
+source("programs/config.R")
 
 # Load final panel
 panel <- readRDS("data/data_for_analysis/final_panel.rds")

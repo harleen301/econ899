@@ -1,8 +1,4 @@
-library(sf)
-library(dplyr)
-library(ggplot2)
-library(patchwork)
-library(scales)
+source("programs/config.R")
 
 # ------------------------------------------------------------
 # Figure 1: Average wildfire exposure, 2017–2024

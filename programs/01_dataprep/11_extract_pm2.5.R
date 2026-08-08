@@ -1,10 +1,4 @@
-library(terra)
-library(exactextractr)
-
-library(bcdata)
-library(sf)
-library(dplyr)
-library(stringr)
+source("programs/config.R")
 
 # Load districts
 districts <- bcdc_query_geodata("78ec5279-4534-49a1-97e8-9d315936f08b") %>%

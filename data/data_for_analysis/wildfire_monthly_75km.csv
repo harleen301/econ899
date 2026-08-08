@@ -1,0 +1,2361 @@
+"SCHOOL_DISTRICT_NUMBER","year","month","SCHOOL_DISTRICT_NAME","burned_ha_75km","fire_count_75km"
+5,2017,5,"South East Kootenay",0,0
+5,2017,6,"South East Kootenay",9119,2
+5,2017,7,"South East Kootenay",7216,13
+5,2017,8,"South East Kootenay",54319,19
+5,2017,9,"South East Kootenay",489,5
+5,2018,5,"South East Kootenay",5,1
+5,2018,6,"South East Kootenay",68,6
+5,2018,7,"South East Kootenay",21947,10
+5,2018,8,"South East Kootenay",7645,13
+5,2018,9,"South East Kootenay",0,0
+5,2019,5,"South East Kootenay",3,2
+5,2019,6,"South East Kootenay",57,4
+5,2019,7,"South East Kootenay",38,2
+5,2019,8,"South East Kootenay",0,0
+5,2019,9,"South East Kootenay",5,1
+5,2020,5,"South East Kootenay",0,0
+5,2020,6,"South East Kootenay",0,0
+5,2020,7,"South East Kootenay",1118,3
+5,2020,8,"South East Kootenay",7201,5
+5,2020,9,"South East Kootenay",4,1
+5,2021,5,"South East Kootenay",0,0
+5,2021,6,"South East Kootenay",0,0
+5,2021,7,"South East Kootenay",16831,19
+5,2021,8,"South East Kootenay",294,2
+5,2021,9,"South East Kootenay",0,0
+5,2022,5,"South East Kootenay",0,0
+5,2022,6,"South East Kootenay",0,0
+5,2022,7,"South East Kootenay",3304,5
+5,2022,8,"South East Kootenay",5768,22
+5,2022,9,"South East Kootenay",34,1
+5,2023,5,"South East Kootenay",57,4
+5,2023,6,"South East Kootenay",6,2
+5,2023,7,"South East Kootenay",22412,9
+5,2023,8,"South East Kootenay",4348,7
+5,2023,9,"South East Kootenay",8,1
+5,2024,5,"South East Kootenay",5,2
+5,2024,6,"South East Kootenay",4,1
+5,2024,7,"South East Kootenay",19045,9
+5,2024,8,"South East Kootenay",21,2
+5,2024,9,"South East Kootenay",14,3
+6,2017,5,"Rocky Mountain",2,1
+6,2017,6,"Rocky Mountain",11941,5
+6,2017,7,"Rocky Mountain",10784,33
+6,2017,8,"Rocky Mountain",40927,26
+6,2017,9,"Rocky Mountain",432,6
+6,2018,5,"Rocky Mountain",11,3
+6,2018,6,"Rocky Mountain",102,8
+6,2018,7,"Rocky Mountain",26670,44
+6,2018,8,"Rocky Mountain",25906,63
+6,2018,9,"Rocky Mountain",0,0
+6,2019,5,"Rocky Mountain",3,2
+6,2019,6,"Rocky Mountain",57,4
+6,2019,7,"Rocky Mountain",38,2
+6,2019,8,"Rocky Mountain",0,0
+6,2019,9,"Rocky Mountain",5,1
+6,2020,5,"Rocky Mountain",0,0
+6,2020,6,"Rocky Mountain",0,0
+6,2020,7,"Rocky Mountain",1118,3
+6,2020,8,"Rocky Mountain",8543,16
+6,2020,9,"Rocky Mountain",4,1
+6,2021,5,"Rocky Mountain",6,1
+6,2021,6,"Rocky Mountain",0,0
+6,2021,7,"Rocky Mountain",40212,74
+6,2021,8,"Rocky Mountain",666,11
+6,2021,9,"Rocky Mountain",0,0
+6,2022,5,"Rocky Mountain",0,0
+6,2022,6,"Rocky Mountain",69,1
+6,2022,7,"Rocky Mountain",3583,9
+6,2022,8,"Rocky Mountain",7418,53
+6,2022,9,"Rocky Mountain",342,6
+6,2023,5,"Rocky Mountain",2853,13
+6,2023,6,"Rocky Mountain",13,3
+6,2023,7,"Rocky Mountain",32848,41
+6,2023,8,"Rocky Mountain",5428,17
+6,2023,9,"Rocky Mountain",11,2
+6,2024,5,"Rocky Mountain",5,2
+6,2024,6,"Rocky Mountain",497,3
+6,2024,7,"Rocky Mountain",59812,70
+6,2024,8,"Rocky Mountain",254,15
+6,2024,9,"Rocky Mountain",39,4
+8,2017,5,"Kootenay Lake",2,1
+8,2017,6,"Kootenay Lake",9734,6
+8,2017,7,"Kootenay Lake",10506,29
+8,2017,8,"Kootenay Lake",5535,24
+8,2017,9,"Kootenay Lake",431,5
+8,2018,5,"Kootenay Lake",1,1
+8,2018,6,"Kootenay Lake",55,2
+8,2018,7,"Kootenay Lake",26968,42
+8,2018,8,"Kootenay Lake",22990,59
+8,2018,9,"Kootenay Lake",2,1
+8,2019,5,"Kootenay Lake",3,2
+8,2019,6,"Kootenay Lake",57,4
+8,2019,7,"Kootenay Lake",38,2
+8,2019,8,"Kootenay Lake",1,1
+8,2019,9,"Kootenay Lake",5,1
+8,2020,5,"Kootenay Lake",0,0
+8,2020,6,"Kootenay Lake",0,0
+8,2020,7,"Kootenay Lake",1118,3
+8,2020,8,"Kootenay Lake",8505,15
+8,2020,9,"Kootenay Lake",0,0
+8,2021,5,"Kootenay Lake",14,3
+8,2021,6,"Kootenay Lake",1060,2
+8,2021,7,"Kootenay Lake",82751,65
+8,2021,8,"Kootenay Lake",561,8
+8,2021,9,"Kootenay Lake",0,0
+8,2022,5,"Kootenay Lake",0,0
+8,2022,6,"Kootenay Lake",69,1
+8,2022,7,"Kootenay Lake",3586,12
+8,2022,8,"Kootenay Lake",7660,50
+8,2022,9,"Kootenay Lake",729,7
+8,2023,5,"Kootenay Lake",88,8
+8,2023,6,"Kootenay Lake",6,2
+8,2023,7,"Kootenay Lake",30748,29
+8,2023,8,"Kootenay Lake",3094,19
+8,2023,9,"Kootenay Lake",8,1
+8,2024,5,"Kootenay Lake",5,2
+8,2024,6,"Kootenay Lake",35,2
+8,2024,7,"Kootenay Lake",57540,55
+8,2024,8,"Kootenay Lake",119,14
+8,2024,9,"Kootenay Lake",15,4
+10,2017,5,"Arrow Lakes",8,3
+10,2017,6,"Arrow Lakes",658,7
+10,2017,7,"Arrow Lakes",9521,21
+10,2017,8,"Arrow Lakes",3066,15
+10,2017,9,"Arrow Lakes",39,3
+10,2018,5,"Arrow Lakes",5,2
+10,2018,6,"Arrow Lakes",0,0
+10,2018,7,"Arrow Lakes",25856,42
+10,2018,8,"Arrow Lakes",16456,54
+10,2018,9,"Arrow Lakes",2,1
+10,2019,5,"Arrow Lakes",0,0
+10,2019,6,"Arrow Lakes",2,1
+10,2019,7,"Arrow Lakes",5,1
+10,2019,8,"Arrow Lakes",1,1
+10,2019,9,"Arrow Lakes",10,2
+10,2020,5,"Arrow Lakes",2,1
+10,2020,6,"Arrow Lakes",0,0
+10,2020,7,"Arrow Lakes",1111,1
+10,2020,8,"Arrow Lakes",8606,17
+10,2020,9,"Arrow Lakes",27,1
+10,2021,5,"Arrow Lakes",14,3
+10,2021,6,"Arrow Lakes",1130,5
+10,2021,7,"Arrow Lakes",162083,60
+10,2021,8,"Arrow Lakes",299,9
+10,2021,9,"Arrow Lakes",0,0
+10,2022,5,"Arrow Lakes",0,0
+10,2022,6,"Arrow Lakes",69,1
+10,2022,7,"Arrow Lakes",2261,12
+10,2022,8,"Arrow Lakes",5619,42
+10,2022,9,"Arrow Lakes",794,8
+10,2023,5,"Arrow Lakes",31,4
+10,2023,6,"Arrow Lakes",0,0
+10,2023,7,"Arrow Lakes",25686,27
+10,2023,8,"Arrow Lakes",1467,21
+10,2023,9,"Arrow Lakes",0,0
+10,2024,5,"Arrow Lakes",0,0
+10,2024,6,"Arrow Lakes",35,2
+10,2024,7,"Arrow Lakes",38584,51
+10,2024,8,"Arrow Lakes",1064,16
+10,2024,9,"Arrow Lakes",3,2
+19,2017,5,"Revelstoke",5,1
+19,2017,6,"Revelstoke",2852,5
+19,2017,7,"Revelstoke",3625,24
+19,2017,8,"Revelstoke",290,9
+19,2017,9,"Revelstoke",89,2
+19,2018,5,"Revelstoke",6,2
+19,2018,6,"Revelstoke",34,2
+19,2018,7,"Revelstoke",7772,49
+19,2018,8,"Revelstoke",19696,67
+19,2018,9,"Revelstoke",0,0
+19,2019,5,"Revelstoke",0,0
+19,2019,6,"Revelstoke",4,2
+19,2019,7,"Revelstoke",0,0
+19,2019,8,"Revelstoke",0,0
+19,2019,9,"Revelstoke",5,1
+19,2020,5,"Revelstoke",0,0
+19,2020,6,"Revelstoke",0,0
+19,2020,7,"Revelstoke",0,0
+19,2020,8,"Revelstoke",146,11
+19,2020,9,"Revelstoke",0,0
+19,2021,5,"Revelstoke",6,1
+19,2021,6,"Revelstoke",4,1
+19,2021,7,"Revelstoke",55432,77
+19,2021,8,"Revelstoke",457,11
+19,2021,9,"Revelstoke",0,0
+19,2022,5,"Revelstoke",3,1
+19,2022,6,"Revelstoke",69,1
+19,2022,7,"Revelstoke",593,10
+19,2022,8,"Revelstoke",2517,33
+19,2022,9,"Revelstoke",730,8
+19,2023,5,"Revelstoke",2792,8
+19,2023,6,"Revelstoke",7,1
+19,2023,7,"Revelstoke",64037,43
+19,2023,8,"Revelstoke",1083,18
+19,2023,9,"Revelstoke",3,1
+19,2024,5,"Revelstoke",0,0
+19,2024,6,"Revelstoke",497,3
+19,2024,7,"Revelstoke",41453,81
+19,2024,8,"Revelstoke",372,14
+19,2024,9,"Revelstoke",25,1
+20,2017,5,"Kootenay-Columbia",7,2
+20,2017,6,"Kootenay-Columbia",42,4
+20,2017,7,"Kootenay-Columbia",2363,8
+20,2017,8,"Kootenay-Columbia",3206,12
+20,2017,9,"Kootenay-Columbia",40,3
+20,2018,5,"Kootenay-Columbia",1,1
+20,2018,6,"Kootenay-Columbia",0,0
+20,2018,7,"Kootenay-Columbia",23136,23
+20,2018,8,"Kootenay-Columbia",13638,29
+20,2018,9,"Kootenay-Columbia",4,2
+20,2019,5,"Kootenay-Columbia",0,0
+20,2019,6,"Kootenay-Columbia",11,1
+20,2019,7,"Kootenay-Columbia",5,1
+20,2019,8,"Kootenay-Columbia",1,1
+20,2019,9,"Kootenay-Columbia",5,1
+20,2020,5,"Kootenay-Columbia",0,0
+20,2020,6,"Kootenay-Columbia",18,1
+20,2020,7,"Kootenay-Columbia",1111,1
+20,2020,8,"Kootenay-Columbia",1326,7
+20,2020,9,"Kootenay-Columbia",0,0
+20,2021,5,"Kootenay-Columbia",7,2
+20,2021,6,"Kootenay-Columbia",1125,4
+20,2021,7,"Kootenay-Columbia",63979,24
+20,2021,8,"Kootenay-Columbia",237,3
+20,2021,9,"Kootenay-Columbia",0,0
+20,2022,5,"Kootenay-Columbia",0,0
+20,2022,6,"Kootenay-Columbia",0,0
+20,2022,7,"Kootenay-Columbia",1914,6
+20,2022,8,"Kootenay-Columbia",2247,14
+20,2022,9,"Kootenay-Columbia",72,2
+20,2023,5,"Kootenay-Columbia",7,2
+20,2023,6,"Kootenay-Columbia",0,0
+20,2023,7,"Kootenay-Columbia",219,3
+20,2023,8,"Kootenay-Columbia",191,9
+20,2023,9,"Kootenay-Columbia",0,0
+20,2024,5,"Kootenay-Columbia",0,0
+20,2024,6,"Kootenay-Columbia",0,0
+20,2024,7,"Kootenay-Columbia",14084,25
+20,2024,8,"Kootenay-Columbia",58,9
+20,2024,9,"Kootenay-Columbia",4,3
+22,2017,5,"Vernon",8,3
+22,2017,6,"Vernon",814,8
+22,2017,7,"Vernon",3236,17
+22,2017,8,"Vernon",2927,15
+22,2017,9,"Vernon",2191,4
+22,2018,5,"Vernon",13,3
+22,2018,6,"Vernon",25,1
+22,2018,7,"Vernon",9637,50
+22,2018,8,"Vernon",17089,60
+22,2018,9,"Vernon",0,0
+22,2019,5,"Vernon",25,2
+22,2019,6,"Vernon",18,4
+22,2019,7,"Vernon",0,0
+22,2019,8,"Vernon",2451,2
+22,2019,9,"Vernon",17,2
+22,2020,5,"Vernon",4,2
+22,2020,6,"Vernon",18,1
+22,2020,7,"Vernon",3,1
+22,2020,8,"Vernon",3436,20
+22,2020,9,"Vernon",27,1
+22,2021,5,"Vernon",3,2
+22,2021,6,"Vernon",1188,10
+22,2021,7,"Vernon",234944,69
+22,2021,8,"Vernon",1468,14
+22,2021,9,"Vernon",177,4
+22,2022,5,"Vernon",0,1
+22,2022,6,"Vernon",73,2
+22,2022,7,"Vernon",6731,16
+22,2022,8,"Vernon",2788,40
+22,2022,9,"Vernon",520,6
+22,2023,5,"Vernon",57,7
+22,2023,6,"Vernon",45,3
+22,2023,7,"Vernon",64272,34
+22,2023,8,"Vernon",1542,20
+22,2023,9,"Vernon",611,1
+22,2024,5,"Vernon",16,2
+22,2024,6,"Vernon",1,1
+22,2024,7,"Vernon",16544,48
+22,2024,8,"Vernon",1110,19
+22,2024,9,"Vernon",1,1
+23,2017,5,"Central Okanagan",6,2
+23,2017,6,"Central Okanagan",175,3
+23,2017,7,"Central Okanagan",14178,13
+23,2017,8,"Central Okanagan",2652,7
+23,2017,9,"Central Okanagan",2191,4
+23,2018,5,"Central Okanagan",13,3
+23,2018,6,"Central Okanagan",42,4
+23,2018,7,"Central Okanagan",41637,35
+23,2018,8,"Central Okanagan",11225,31
+23,2018,9,"Central Okanagan",0,0
+23,2019,5,"Central Okanagan",893,4
+23,2019,6,"Central Okanagan",18,4
+23,2019,7,"Central Okanagan",0,0
+23,2019,8,"Central Okanagan",2450,1
+23,2019,9,"Central Okanagan",35,7
+23,2020,5,"Central Okanagan",4,2
+23,2020,6,"Central Okanagan",18,1
+23,2020,7,"Central Okanagan",10,2
+23,2020,8,"Central Okanagan",2145,11
+23,2020,9,"Central Okanagan",27,1
+23,2021,5,"Central Okanagan",5,3
+23,2021,6,"Central Okanagan",82243,10
+23,2021,7,"Central Okanagan",230794,49
+23,2021,8,"Central Okanagan",1428,9
+23,2021,9,"Central Okanagan",177,4
+23,2022,5,"Central Okanagan",25,3
+23,2022,6,"Central Okanagan",4,1
+23,2022,7,"Central Okanagan",6451,9
+23,2022,8,"Central Okanagan",429,10
+23,2022,9,"Central Okanagan",520,6
+23,2023,5,"Central Okanagan",8,2
+23,2023,6,"Central Okanagan",45,3
+23,2023,7,"Central Okanagan",100595,24
+23,2023,8,"Central Okanagan",1385,9
+23,2023,9,"Central Okanagan",616,2
+23,2024,5,"Central Okanagan",16,2
+23,2024,6,"Central Okanagan",1,1
+23,2024,7,"Central Okanagan",1748,18
+23,2024,8,"Central Okanagan",1022,11
+23,2024,9,"Central Okanagan",1,1
+27,2017,5,"Cariboo-Chilcotin",682,4
+27,2017,6,"Cariboo-Chilcotin",199,6
+27,2017,7,"Cariboo-Chilcotin",920972,64
+27,2017,8,"Cariboo-Chilcotin",800,8
+27,2017,9,"Cariboo-Chilcotin",90,3
+27,2018,5,"Cariboo-Chilcotin",3754,6
+27,2018,6,"Cariboo-Chilcotin",2479,12
+27,2018,7,"Cariboo-Chilcotin",128104,62
+27,2018,8,"Cariboo-Chilcotin",179274,56
+27,2018,9,"Cariboo-Chilcotin",27,3
+27,2019,5,"Cariboo-Chilcotin",296,8
+27,2019,6,"Cariboo-Chilcotin",79,5
+27,2019,7,"Cariboo-Chilcotin",37,2
+27,2019,8,"Cariboo-Chilcotin",49,4
+27,2019,9,"Cariboo-Chilcotin",1,1
+27,2020,5,"Cariboo-Chilcotin",4,2
+27,2020,6,"Cariboo-Chilcotin",0,0
+27,2020,7,"Cariboo-Chilcotin",6,2
+27,2020,8,"Cariboo-Chilcotin",496,6
+27,2020,9,"Cariboo-Chilcotin",18,1
+27,2021,5,"Cariboo-Chilcotin",251,3
+27,2021,6,"Cariboo-Chilcotin",174136,33
+27,2021,7,"Cariboo-Chilcotin",196210,68
+27,2021,8,"Cariboo-Chilcotin",385,15
+27,2021,9,"Cariboo-Chilcotin",0,0
+27,2022,5,"Cariboo-Chilcotin",108,5
+27,2022,6,"Cariboo-Chilcotin",232,2
+27,2022,7,"Cariboo-Chilcotin",1547,12
+27,2022,8,"Cariboo-Chilcotin",6518,40
+27,2022,9,"Cariboo-Chilcotin",219,9
+27,2023,5,"Cariboo-Chilcotin",4628,17
+27,2023,6,"Cariboo-Chilcotin",433,9
+27,2023,7,"Cariboo-Chilcotin",254999,101
+27,2023,8,"Cariboo-Chilcotin",19201,23
+27,2023,9,"Cariboo-Chilcotin",272,6
+27,2024,5,"Cariboo-Chilcotin",520,7
+27,2024,6,"Cariboo-Chilcotin",157,3
+27,2024,7,"Cariboo-Chilcotin",148606,90
+27,2024,8,"Cariboo-Chilcotin",2539,19
+27,2024,9,"Cariboo-Chilcotin",25,1
+28,2017,5,"Quesnel",701,4
+28,2017,6,"Quesnel",77,6
+28,2017,7,"Quesnel",702266,59
+28,2017,8,"Quesnel",588,5
+28,2017,9,"Quesnel",2,1
+28,2018,5,"Quesnel",288,2
+28,2018,6,"Quesnel",2530,11
+28,2018,7,"Quesnel",234148,42
+28,2018,8,"Quesnel",170074,31
+28,2018,9,"Quesnel",28,4
+28,2019,5,"Quesnel",323,5
+28,2019,6,"Quesnel",75,3
+28,2019,7,"Quesnel",2,1
+28,2019,8,"Quesnel",1,1
+28,2019,9,"Quesnel",0,0
+28,2020,5,"Quesnel",7,1
+28,2020,6,"Quesnel",0,0
+28,2020,7,"Quesnel",0,0
+28,2020,8,"Quesnel",0,0
+28,2020,9,"Quesnel",0,0
+28,2021,5,"Quesnel",239,2
+28,2021,6,"Quesnel",32826,8
+28,2021,7,"Quesnel",49147,37
+28,2021,8,"Quesnel",338,16
+28,2021,9,"Quesnel",0,0
+28,2022,5,"Quesnel",12,3
+28,2022,6,"Quesnel",4,2
+28,2022,7,"Quesnel",0,0
+28,2022,8,"Quesnel",128,11
+28,2022,9,"Quesnel",10,5
+28,2023,5,"Quesnel",2535,17
+28,2023,6,"Quesnel",258,4
+28,2023,7,"Quesnel",178920,80
+28,2023,8,"Quesnel",1126,4
+28,2023,9,"Quesnel",27,3
+28,2024,5,"Quesnel",374,5
+28,2024,6,"Quesnel",5,2
+28,2024,7,"Quesnel",115903,54
+28,2024,8,"Quesnel",536,8
+28,2024,9,"Quesnel",0,0
+33,2017,5,"Chilliwack",0,0
+33,2017,6,"Chilliwack",0,0
+33,2017,7,"Chilliwack",13991,5
+33,2017,8,"Chilliwack",0,0
+33,2017,9,"Chilliwack",1,2
+33,2018,5,"Chilliwack",125,3
+33,2018,6,"Chilliwack",19,2
+33,2018,7,"Chilliwack",16938,4
+33,2018,8,"Chilliwack",8466,5
+33,2018,9,"Chilliwack",0,0
+33,2019,5,"Chilliwack",0,0
+33,2019,6,"Chilliwack",0,0
+33,2019,7,"Chilliwack",0,0
+33,2019,8,"Chilliwack",0,0
+33,2019,9,"Chilliwack",5,1
+33,2020,5,"Chilliwack",0,0
+33,2020,6,"Chilliwack",0,0
+33,2020,7,"Chilliwack",8,2
+33,2020,8,"Chilliwack",58,2
+33,2020,9,"Chilliwack",2,1
+33,2021,5,"Chilliwack",18,1
+33,2021,6,"Chilliwack",38,1
+33,2021,7,"Chilliwack",31982,9
+33,2021,8,"Chilliwack",93,1
+33,2021,9,"Chilliwack",0,0
+33,2022,5,"Chilliwack",0,0
+33,2022,6,"Chilliwack",0,0
+33,2022,7,"Chilliwack",0,0
+33,2022,8,"Chilliwack",5990,9
+33,2022,9,"Chilliwack",1044,4
+33,2023,5,"Chilliwack",20,2
+33,2023,6,"Chilliwack",843,2
+33,2023,7,"Chilliwack",13939,6
+33,2023,8,"Chilliwack",1048,4
+33,2023,9,"Chilliwack",0,0
+33,2024,5,"Chilliwack",10,1
+33,2024,6,"Chilliwack",0,0
+33,2024,7,"Chilliwack",4552,5
+33,2024,8,"Chilliwack",2,1
+33,2024,9,"Chilliwack",0,0
+34,2017,5,"Abbotsford",0,0
+34,2017,6,"Abbotsford",0,0
+34,2017,7,"Abbotsford",184,3
+34,2017,8,"Abbotsford",3,1
+34,2017,9,"Abbotsford",1,1
+34,2018,5,"Abbotsford",106,1
+34,2018,6,"Abbotsford",19,2
+34,2018,7,"Abbotsford",14,2
+34,2018,8,"Abbotsford",6189,4
+34,2018,9,"Abbotsford",0,0
+34,2019,5,"Abbotsford",0,0
+34,2019,6,"Abbotsford",4,1
+34,2019,7,"Abbotsford",0,0
+34,2019,8,"Abbotsford",0,0
+34,2019,9,"Abbotsford",5,1
+34,2020,5,"Abbotsford",0,0
+34,2020,6,"Abbotsford",0,0
+34,2020,7,"Abbotsford",1,1
+34,2020,8,"Abbotsford",15,1
+34,2020,9,"Abbotsford",2,1
+34,2021,5,"Abbotsford",18,1
+34,2021,6,"Abbotsford",38,1
+34,2021,7,"Abbotsford",694,3
+34,2021,8,"Abbotsford",0,0
+34,2021,9,"Abbotsford",0,0
+34,2022,5,"Abbotsford",0,0
+34,2022,6,"Abbotsford",0,0
+34,2022,7,"Abbotsford",0,0
+34,2022,8,"Abbotsford",364,4
+34,2022,9,"Abbotsford",580,2
+34,2023,5,"Abbotsford",20,2
+34,2023,6,"Abbotsford",843,2
+34,2023,7,"Abbotsford",454,4
+34,2023,8,"Abbotsford",1032,3
+34,2023,9,"Abbotsford",0,0
+34,2024,5,"Abbotsford",10,1
+34,2024,6,"Abbotsford",0,0
+34,2024,7,"Abbotsford",1,2
+34,2024,8,"Abbotsford",2,1
+34,2024,9,"Abbotsford",0,0
+35,2017,5,"Langley",0,0
+35,2017,6,"Langley",0,0
+35,2017,7,"Langley",184,3
+35,2017,8,"Langley",3,1
+35,2017,9,"Langley",1,1
+35,2018,5,"Langley",106,1
+35,2018,6,"Langley",1,1
+35,2018,7,"Langley",14,2
+35,2018,8,"Langley",434,3
+35,2018,9,"Langley",0,0
+35,2019,5,"Langley",0,0
+35,2019,6,"Langley",8,2
+35,2019,7,"Langley",0,0
+35,2019,8,"Langley",0,0
+35,2019,9,"Langley",5,1
+35,2020,5,"Langley",0,0
+35,2020,6,"Langley",0,0
+35,2020,7,"Langley",1,1
+35,2020,8,"Langley",15,1
+35,2020,9,"Langley",2,1
+35,2021,5,"Langley",18,1
+35,2021,6,"Langley",0,0
+35,2021,7,"Langley",674,2
+35,2021,8,"Langley",0,0
+35,2021,9,"Langley",0,0
+35,2022,5,"Langley",0,0
+35,2022,6,"Langley",0,0
+35,2022,7,"Langley",0,0
+35,2022,8,"Langley",6,1
+35,2022,9,"Langley",580,2
+35,2023,5,"Langley",20,2
+35,2023,6,"Langley",843,2
+35,2023,7,"Langley",195,3
+35,2023,8,"Langley",50,2
+35,2023,9,"Langley",0,0
+35,2024,5,"Langley",10,1
+35,2024,6,"Langley",0,0
+35,2024,7,"Langley",1,2
+35,2024,8,"Langley",2,1
+35,2024,9,"Langley",2,1
+36,2017,5,"Surrey",0,0
+36,2017,6,"Surrey",0,0
+36,2017,7,"Surrey",184,3
+36,2017,8,"Surrey",3,1
+36,2017,9,"Surrey",0,0
+36,2018,5,"Surrey",106,1
+36,2018,6,"Surrey",1,1
+36,2018,7,"Surrey",14,2
+36,2018,8,"Surrey",434,3
+36,2018,9,"Surrey",0,0
+36,2019,5,"Surrey",0,0
+36,2019,6,"Surrey",8,2
+36,2019,7,"Surrey",0,0
+36,2019,8,"Surrey",0,0
+36,2019,9,"Surrey",5,1
+36,2020,5,"Surrey",0,0
+36,2020,6,"Surrey",0,0
+36,2020,7,"Surrey",3,2
+36,2020,8,"Surrey",18,3
+36,2020,9,"Surrey",2,1
+36,2021,5,"Surrey",0,0
+36,2021,6,"Surrey",0,0
+36,2021,7,"Surrey",223,1
+36,2021,8,"Surrey",91,2
+36,2021,9,"Surrey",0,0
+36,2022,5,"Surrey",0,0
+36,2022,6,"Surrey",0,0
+36,2022,7,"Surrey",0,0
+36,2022,8,"Surrey",6,1
+36,2022,9,"Surrey",5,1
+36,2023,5,"Surrey",20,2
+36,2023,6,"Surrey",843,2
+36,2023,7,"Surrey",195,2
+36,2023,8,"Surrey",229,3
+36,2023,9,"Surrey",0,0
+36,2024,5,"Surrey",10,1
+36,2024,6,"Surrey",0,0
+36,2024,7,"Surrey",8,3
+36,2024,8,"Surrey",4,2
+36,2024,9,"Surrey",2,1
+37,2017,5,"Delta",0,0
+37,2017,6,"Delta",2,1
+37,2017,7,"Delta",1,2
+37,2017,8,"Delta",3,1
+37,2017,9,"Delta",0,0
+37,2018,5,"Delta",106,1
+37,2018,6,"Delta",3,2
+37,2018,7,"Delta",112,4
+37,2018,8,"Delta",194,3
+37,2018,9,"Delta",0,0
+37,2019,5,"Delta",0,0
+37,2019,6,"Delta",8,2
+37,2019,7,"Delta",0,0
+37,2019,8,"Delta",0,0
+37,2019,9,"Delta",5,1
+37,2020,5,"Delta",0,0
+37,2020,6,"Delta",0,0
+37,2020,7,"Delta",19,2
+37,2020,8,"Delta",15,5
+37,2020,9,"Delta",2,1
+37,2021,5,"Delta",2,1
+37,2021,6,"Delta",0,0
+37,2021,7,"Delta",0,0
+37,2021,8,"Delta",91,2
+37,2021,9,"Delta",0,0
+37,2022,5,"Delta",0,0
+37,2022,6,"Delta",0,0
+37,2022,7,"Delta",0,0
+37,2022,8,"Delta",6,1
+37,2022,9,"Delta",5,1
+37,2023,5,"Delta",19,1
+37,2023,6,"Delta",843,2
+37,2023,7,"Delta",195,2
+37,2023,8,"Delta",227,2
+37,2023,9,"Delta",0,0
+37,2024,5,"Delta",0,0
+37,2024,6,"Delta",0,0
+37,2024,7,"Delta",165,2
+37,2024,8,"Delta",4,2
+37,2024,9,"Delta",2,1
+38,2017,5,"Richmond",0,0
+38,2017,6,"Richmond",2,1
+38,2017,7,"Richmond",1,1
+38,2017,8,"Richmond",3,1
+38,2017,9,"Richmond",0,0
+38,2018,5,"Richmond",106,1
+38,2018,6,"Richmond",3,2
+38,2018,7,"Richmond",110,3
+38,2018,8,"Richmond",194,3
+38,2018,9,"Richmond",0,0
+38,2019,5,"Richmond",0,0
+38,2019,6,"Richmond",21,4
+38,2019,7,"Richmond",0,0
+38,2019,8,"Richmond",4,1
+38,2019,9,"Richmond",5,1
+38,2020,5,"Richmond",0,0
+38,2020,6,"Richmond",0,0
+38,2020,7,"Richmond",19,2
+38,2020,8,"Richmond",15,5
+38,2020,9,"Richmond",2,1
+38,2021,5,"Richmond",2,1
+38,2021,6,"Richmond",0,0
+38,2021,7,"Richmond",0,0
+38,2021,8,"Richmond",91,2
+38,2021,9,"Richmond",0,0
+38,2022,5,"Richmond",0,0
+38,2022,6,"Richmond",0,0
+38,2022,7,"Richmond",2,1
+38,2022,8,"Richmond",6,1
+38,2022,9,"Richmond",5,1
+38,2023,5,"Richmond",19,1
+38,2023,6,"Richmond",102,1
+38,2023,7,"Richmond",195,2
+38,2023,8,"Richmond",179,1
+38,2023,9,"Richmond",0,0
+38,2024,5,"Richmond",0,0
+38,2024,6,"Richmond",0,0
+38,2024,7,"Richmond",165,2
+38,2024,8,"Richmond",4,2
+38,2024,9,"Richmond",4,3
+39,2017,5,"Vancouver",0,0
+39,2017,6,"Vancouver",17,2
+39,2017,7,"Vancouver",0,0
+39,2017,8,"Vancouver",4,2
+39,2017,9,"Vancouver",0,0
+39,2018,5,"Vancouver",106,1
+39,2018,6,"Vancouver",1,1
+39,2018,7,"Vancouver",27,2
+39,2018,8,"Vancouver",194,3
+39,2018,9,"Vancouver",0,0
+39,2019,5,"Vancouver",0,0
+39,2019,6,"Vancouver",21,4
+39,2019,7,"Vancouver",0,0
+39,2019,8,"Vancouver",7,2
+39,2019,9,"Vancouver",5,1
+39,2020,5,"Vancouver",0,0
+39,2020,6,"Vancouver",0,0
+39,2020,7,"Vancouver",17,1
+39,2020,8,"Vancouver",9,3
+39,2020,9,"Vancouver",2,1
+39,2021,5,"Vancouver",2,1
+39,2021,6,"Vancouver",0,0
+39,2021,7,"Vancouver",0,0
+39,2021,8,"Vancouver",100,3
+39,2021,9,"Vancouver",0,0
+39,2022,5,"Vancouver",0,0
+39,2022,6,"Vancouver",0,0
+39,2022,7,"Vancouver",2,1
+39,2022,8,"Vancouver",6,1
+39,2022,9,"Vancouver",5,1
+39,2023,5,"Vancouver",19,1
+39,2023,6,"Vancouver",303,2
+39,2023,7,"Vancouver",195,2
+39,2023,8,"Vancouver",298,3
+39,2023,9,"Vancouver",0,0
+39,2024,5,"Vancouver",0,0
+39,2024,6,"Vancouver",0,0
+39,2024,7,"Vancouver",7,1
+39,2024,8,"Vancouver",4,2
+39,2024,9,"Vancouver",4,3
+40,2017,5,"New Westminster",0,0
+40,2017,6,"New Westminster",0,0
+40,2017,7,"New Westminster",0,1
+40,2017,8,"New Westminster",3,1
+40,2017,9,"New Westminster",0,0
+40,2018,5,"New Westminster",106,1
+40,2018,6,"New Westminster",1,1
+40,2018,7,"New Westminster",14,2
+40,2018,8,"New Westminster",9,2
+40,2018,9,"New Westminster",0,0
+40,2019,5,"New Westminster",0,0
+40,2019,6,"New Westminster",8,2
+40,2019,7,"New Westminster",0,0
+40,2019,8,"New Westminster",0,0
+40,2019,9,"New Westminster",5,1
+40,2020,5,"New Westminster",0,0
+40,2020,6,"New Westminster",0,0
+40,2020,7,"New Westminster",0,0
+40,2020,8,"New Westminster",0,0
+40,2020,9,"New Westminster",2,1
+40,2021,5,"New Westminster",0,0
+40,2021,6,"New Westminster",0,0
+40,2021,7,"New Westminster",0,0
+40,2021,8,"New Westminster",91,2
+40,2021,9,"New Westminster",0,0
+40,2022,5,"New Westminster",0,0
+40,2022,6,"New Westminster",0,0
+40,2022,7,"New Westminster",0,0
+40,2022,8,"New Westminster",6,1
+40,2022,9,"New Westminster",5,1
+40,2023,5,"New Westminster",19,1
+40,2023,6,"New Westminster",843,2
+40,2023,7,"New Westminster",195,2
+40,2023,8,"New Westminster",227,2
+40,2023,9,"New Westminster",0,0
+40,2024,5,"New Westminster",0,0
+40,2024,6,"New Westminster",0,0
+40,2024,7,"New Westminster",7,1
+40,2024,8,"New Westminster",4,2
+40,2024,9,"New Westminster",2,1
+41,2017,5,"Burnaby",0,0
+41,2017,6,"Burnaby",0,0
+41,2017,7,"Burnaby",0,1
+41,2017,8,"Burnaby",3,1
+41,2017,9,"Burnaby",0,0
+41,2018,5,"Burnaby",106,1
+41,2018,6,"Burnaby",1,1
+41,2018,7,"Burnaby",14,2
+41,2018,8,"Burnaby",9,2
+41,2018,9,"Burnaby",0,0
+41,2019,5,"Burnaby",0,0
+41,2019,6,"Burnaby",8,2
+41,2019,7,"Burnaby",0,0
+41,2019,8,"Burnaby",0,0
+41,2019,9,"Burnaby",5,1
+41,2020,5,"Burnaby",0,0
+41,2020,6,"Burnaby",0,0
+41,2020,7,"Burnaby",0,0
+41,2020,8,"Burnaby",1,1
+41,2020,9,"Burnaby",2,1
+41,2021,5,"Burnaby",0,0
+41,2021,6,"Burnaby",0,0
+41,2021,7,"Burnaby",0,0
+41,2021,8,"Burnaby",100,3
+41,2021,9,"Burnaby",0,0
+41,2022,5,"Burnaby",0,0
+41,2022,6,"Burnaby",0,0
+41,2022,7,"Burnaby",0,0
+41,2022,8,"Burnaby",6,1
+41,2022,9,"Burnaby",5,1
+41,2023,5,"Burnaby",19,1
+41,2023,6,"Burnaby",843,2
+41,2023,7,"Burnaby",195,2
+41,2023,8,"Burnaby",227,2
+41,2023,9,"Burnaby",0,0
+41,2024,5,"Burnaby",0,0
+41,2024,6,"Burnaby",0,0
+41,2024,7,"Burnaby",7,1
+41,2024,8,"Burnaby",4,2
+41,2024,9,"Burnaby",2,1
+42,2017,5,"Maple-Ridge Pitt-Meadows",0,0
+42,2017,6,"Maple-Ridge Pitt-Meadows",3,1
+42,2017,7,"Maple-Ridge Pitt-Meadows",184,3
+42,2017,8,"Maple-Ridge Pitt-Meadows",3,1
+42,2017,9,"Maple-Ridge Pitt-Meadows",1,1
+42,2018,5,"Maple-Ridge Pitt-Meadows",1397,4
+42,2018,6,"Maple-Ridge Pitt-Meadows",6,4
+42,2018,7,"Maple-Ridge Pitt-Meadows",14,2
+42,2018,8,"Maple-Ridge Pitt-Meadows",838,3
+42,2018,9,"Maple-Ridge Pitt-Meadows",0,0
+42,2019,5,"Maple-Ridge Pitt-Meadows",0,0
+42,2019,6,"Maple-Ridge Pitt-Meadows",8,2
+42,2019,7,"Maple-Ridge Pitt-Meadows",0,0
+42,2019,8,"Maple-Ridge Pitt-Meadows",4,1
+42,2019,9,"Maple-Ridge Pitt-Meadows",6,2
+42,2020,5,"Maple-Ridge Pitt-Meadows",0,0
+42,2020,6,"Maple-Ridge Pitt-Meadows",0,0
+42,2020,7,"Maple-Ridge Pitt-Meadows",1,1
+42,2020,8,"Maple-Ridge Pitt-Meadows",492,6
+42,2020,9,"Maple-Ridge Pitt-Meadows",2,1
+42,2021,5,"Maple-Ridge Pitt-Meadows",20,2
+42,2021,6,"Maple-Ridge Pitt-Meadows",0,0
+42,2021,7,"Maple-Ridge Pitt-Meadows",1234,5
+42,2021,8,"Maple-Ridge Pitt-Meadows",102,2
+42,2021,9,"Maple-Ridge Pitt-Meadows",0,0
+42,2022,5,"Maple-Ridge Pitt-Meadows",0,0
+42,2022,6,"Maple-Ridge Pitt-Meadows",0,0
+42,2022,7,"Maple-Ridge Pitt-Meadows",4387,2
+42,2022,8,"Maple-Ridge Pitt-Meadows",4635,6
+42,2022,9,"Maple-Ridge Pitt-Meadows",584,4
+42,2023,5,"Maple-Ridge Pitt-Meadows",39,3
+42,2023,6,"Maple-Ridge Pitt-Meadows",843,2
+42,2023,7,"Maple-Ridge Pitt-Meadows",21147,11
+42,2023,8,"Maple-Ridge Pitt-Meadows",2845,10
+42,2023,9,"Maple-Ridge Pitt-Meadows",1,1
+42,2024,5,"Maple-Ridge Pitt-Meadows",14,2
+42,2024,6,"Maple-Ridge Pitt-Meadows",0,0
+42,2024,7,"Maple-Ridge Pitt-Meadows",4,3
+42,2024,8,"Maple-Ridge Pitt-Meadows",1860,9
+42,2024,9,"Maple-Ridge Pitt-Meadows",2,1
+43,2017,5,"Coquitlam",0,0
+43,2017,6,"Coquitlam",0,0
+43,2017,7,"Coquitlam",184,3
+43,2017,8,"Coquitlam",3,1
+43,2017,9,"Coquitlam",0,0
+43,2018,5,"Coquitlam",108,2
+43,2018,6,"Coquitlam",4,3
+43,2018,7,"Coquitlam",14,2
+43,2018,8,"Coquitlam",844,4
+43,2018,9,"Coquitlam",0,0
+43,2019,5,"Coquitlam",0,0
+43,2019,6,"Coquitlam",8,2
+43,2019,7,"Coquitlam",0,0
+43,2019,8,"Coquitlam",4,1
+43,2019,9,"Coquitlam",5,1
+43,2020,5,"Coquitlam",0,0
+43,2020,6,"Coquitlam",0,0
+43,2020,7,"Coquitlam",1,1
+43,2020,8,"Coquitlam",399,3
+43,2020,9,"Coquitlam",2,1
+43,2021,5,"Coquitlam",18,1
+43,2021,6,"Coquitlam",0,0
+43,2021,7,"Coquitlam",847,4
+43,2021,8,"Coquitlam",102,2
+43,2021,9,"Coquitlam",0,0
+43,2022,5,"Coquitlam",0,0
+43,2022,6,"Coquitlam",0,0
+43,2022,7,"Coquitlam",2,1
+43,2022,8,"Coquitlam",4217,4
+43,2022,9,"Coquitlam",582,3
+43,2023,5,"Coquitlam",39,3
+43,2023,6,"Coquitlam",843,2
+43,2023,7,"Coquitlam",196,4
+43,2023,8,"Coquitlam",346,4
+43,2023,9,"Coquitlam",1,1
+43,2024,5,"Coquitlam",10,1
+43,2024,6,"Coquitlam",0,0
+43,2024,7,"Coquitlam",11,4
+43,2024,8,"Coquitlam",650,5
+43,2024,9,"Coquitlam",2,1
+44,2017,5,"North Vancouver",0,0
+44,2017,6,"North Vancouver",0,0
+44,2017,7,"North Vancouver",0,1
+44,2017,8,"North Vancouver",3,1
+44,2017,9,"North Vancouver",0,0
+44,2018,5,"North Vancouver",108,2
+44,2018,6,"North Vancouver",4,3
+44,2018,7,"North Vancouver",14,2
+44,2018,8,"North Vancouver",194,3
+44,2018,9,"North Vancouver",0,0
+44,2019,5,"North Vancouver",0,0
+44,2019,6,"North Vancouver",21,4
+44,2019,7,"North Vancouver",0,0
+44,2019,8,"North Vancouver",4,1
+44,2019,9,"North Vancouver",5,1
+44,2020,5,"North Vancouver",0,0
+44,2020,6,"North Vancouver",0,0
+44,2020,7,"North Vancouver",1,1
+44,2020,8,"North Vancouver",13,2
+44,2020,9,"North Vancouver",2,1
+44,2021,5,"North Vancouver",2,1
+44,2021,6,"North Vancouver",0,0
+44,2021,7,"North Vancouver",223,1
+44,2021,8,"North Vancouver",100,3
+44,2021,9,"North Vancouver",0,0
+44,2022,5,"North Vancouver",0,0
+44,2022,6,"North Vancouver",0,0
+44,2022,7,"North Vancouver",2,1
+44,2022,8,"North Vancouver",6,1
+44,2022,9,"North Vancouver",5,1
+44,2023,5,"North Vancouver",38,2
+44,2023,6,"North Vancouver",843,2
+44,2023,7,"North Vancouver",196,3
+44,2023,8,"North Vancouver",346,4
+44,2023,9,"North Vancouver",1,1
+44,2024,5,"North Vancouver",0,0
+44,2024,6,"North Vancouver",0,0
+44,2024,7,"North Vancouver",7,1
+44,2024,8,"North Vancouver",652,6
+44,2024,9,"North Vancouver",2,1
+45,2017,5,"West Vancouver",0,0
+45,2017,6,"West Vancouver",0,0
+45,2017,7,"West Vancouver",0,0
+45,2017,8,"West Vancouver",3,1
+45,2017,9,"West Vancouver",0,0
+45,2018,5,"West Vancouver",106,1
+45,2018,6,"West Vancouver",0,0
+45,2018,7,"West Vancouver",27,2
+45,2018,8,"West Vancouver",194,3
+45,2018,9,"West Vancouver",0,0
+45,2019,5,"West Vancouver",0,0
+45,2019,6,"West Vancouver",21,4
+45,2019,7,"West Vancouver",0,0
+45,2019,8,"West Vancouver",4,1
+45,2019,9,"West Vancouver",0,0
+45,2020,5,"West Vancouver",0,0
+45,2020,6,"West Vancouver",0,0
+45,2020,7,"West Vancouver",17,1
+45,2020,8,"West Vancouver",7,2
+45,2020,9,"West Vancouver",2,1
+45,2021,5,"West Vancouver",2,1
+45,2021,6,"West Vancouver",0,0
+45,2021,7,"West Vancouver",0,0
+45,2021,8,"West Vancouver",100,3
+45,2021,9,"West Vancouver",0,0
+45,2022,5,"West Vancouver",0,0
+45,2022,6,"West Vancouver",0,0
+45,2022,7,"West Vancouver",2,1
+45,2022,8,"West Vancouver",6,1
+45,2022,9,"West Vancouver",5,1
+45,2023,5,"West Vancouver",38,2
+45,2023,6,"West Vancouver",0,0
+45,2023,7,"West Vancouver",195,2
+45,2023,8,"West Vancouver",298,3
+45,2023,9,"West Vancouver",1,1
+45,2024,5,"West Vancouver",0,0
+45,2024,6,"West Vancouver",0,0
+45,2024,7,"West Vancouver",7,1
+45,2024,8,"West Vancouver",8,3
+45,2024,9,"West Vancouver",2,1
+46,2017,5,"Sunshine Coast",1,1
+46,2017,6,"Sunshine Coast",19,3
+46,2017,7,"Sunshine Coast",0,1
+46,2017,8,"Sunshine Coast",5,3
+46,2017,9,"Sunshine Coast",0,0
+46,2018,5,"Sunshine Coast",125,4
+46,2018,6,"Sunshine Coast",5,3
+46,2018,7,"Sunshine Coast",28,3
+46,2018,8,"Sunshine Coast",4982,13
+46,2018,9,"Sunshine Coast",0,0
+46,2019,5,"Sunshine Coast",0,0
+46,2019,6,"Sunshine Coast",39,5
+46,2019,7,"Sunshine Coast",0,0
+46,2019,8,"Sunshine Coast",7,2
+46,2019,9,"Sunshine Coast",1,1
+46,2020,5,"Sunshine Coast",0,0
+46,2020,6,"Sunshine Coast",0,0
+46,2020,7,"Sunshine Coast",20,2
+46,2020,8,"Sunshine Coast",852,8
+46,2020,9,"Sunshine Coast",18,1
+46,2021,5,"Sunshine Coast",4,2
+46,2021,6,"Sunshine Coast",9,2
+46,2021,7,"Sunshine Coast",0,0
+46,2021,8,"Sunshine Coast",100,3
+46,2021,9,"Sunshine Coast",0,0
+46,2022,5,"Sunshine Coast",0,0
+46,2022,6,"Sunshine Coast",230,1
+46,2022,7,"Sunshine Coast",92,2
+46,2022,8,"Sunshine Coast",12,2
+46,2022,9,"Sunshine Coast",43,6
+46,2023,5,"Sunshine Coast",20,2
+46,2023,6,"Sunshine Coast",364,2
+46,2023,7,"Sunshine Coast",1763,6
+46,2023,8,"Sunshine Coast",1079,10
+46,2023,9,"Sunshine Coast",46,2
+46,2024,5,"Sunshine Coast",5,1
+46,2024,6,"Sunshine Coast",0,1
+46,2024,7,"Sunshine Coast",10,2
+46,2024,8,"Sunshine Coast",1765,11
+46,2024,9,"Sunshine Coast",4,3
+47,2017,5,"Powell RIver",1,1
+47,2017,6,"Powell RIver",20,4
+47,2017,7,"Powell RIver",0,1
+47,2017,8,"Powell RIver",2,2
+47,2017,9,"Powell RIver",0,0
+47,2018,5,"Powell RIver",42,2
+47,2018,6,"Powell RIver",1,1
+47,2018,7,"Powell RIver",28,3
+47,2018,8,"Powell RIver",6169,16
+47,2018,9,"Powell RIver",0,0
+47,2019,5,"Powell RIver",3,1
+47,2019,6,"Powell RIver",40,6
+47,2019,7,"Powell RIver",0,0
+47,2019,8,"Powell RIver",7,2
+47,2019,9,"Powell RIver",1,1
+47,2020,5,"Powell RIver",0,0
+47,2020,6,"Powell RIver",0,0
+47,2020,7,"Powell RIver",20,2
+47,2020,8,"Powell RIver",468,6
+47,2020,9,"Powell RIver",18,1
+47,2021,5,"Powell RIver",2,1
+47,2021,6,"Powell RIver",9,2
+47,2021,7,"Powell RIver",0,0
+47,2021,8,"Powell RIver",112,4
+47,2021,9,"Powell RIver",0,0
+47,2022,5,"Powell RIver",92,1
+47,2022,6,"Powell RIver",230,1
+47,2022,7,"Powell RIver",92,2
+47,2022,8,"Powell RIver",519,4
+47,2022,9,"Powell RIver",569,7
+47,2023,5,"Powell RIver",24,3
+47,2023,6,"Powell RIver",365,3
+47,2023,7,"Powell RIver",2189,8
+47,2023,8,"Powell RIver",3018,17
+47,2023,9,"Powell RIver",260,4
+47,2024,5,"Powell RIver",5,1
+47,2024,6,"Powell RIver",0,1
+47,2024,7,"Powell RIver",7,1
+47,2024,8,"Powell RIver",1240,7
+47,2024,9,"Powell RIver",4,3
+48,2017,5,"Sea to Sky",37,3
+48,2017,6,"Sea to Sky",3,1
+48,2017,7,"Sea to Sky",180992,5
+48,2017,8,"Sea to Sky",14,3
+48,2017,9,"Sea to Sky",0,1
+48,2018,5,"Sea to Sky",1421,7
+48,2018,6,"Sea to Sky",11,6
+48,2018,7,"Sea to Sky",90,3
+48,2018,8,"Sea to Sky",5433,13
+48,2018,9,"Sea to Sky",0,0
+48,2019,5,"Sea to Sky",0,0
+48,2019,6,"Sea to Sky",21,4
+48,2019,7,"Sea to Sky",0,0
+48,2019,8,"Sea to Sky",19,4
+48,2019,9,"Sea to Sky",6,2
+48,2020,5,"Sea to Sky",3,1
+48,2020,6,"Sea to Sky",2,1
+48,2020,7,"Sea to Sky",4,2
+48,2020,8,"Sea to Sky",911,10
+48,2020,9,"Sea to Sky",20,2
+48,2021,5,"Sea to Sky",29,4
+48,2021,6,"Sea to Sky",119621,7
+48,2021,7,"Sea to Sky",5084,7
+48,2021,8,"Sea to Sky",175,4
+48,2021,9,"Sea to Sky",0,0
+48,2022,5,"Sea to Sky",92,1
+48,2022,6,"Sea to Sky",230,1
+48,2022,7,"Sea to Sky",5311,7
+48,2022,8,"Sea to Sky",10179,15
+48,2022,9,"Sea to Sky",68,8
+48,2023,5,"Sea to Sky",39,3
+48,2023,6,"Sea to Sky",1007,3
+48,2023,7,"Sea to Sky",32491,16
+48,2023,8,"Sea to Sky",3261,13
+48,2023,9,"Sea to Sky",247,4
+48,2024,5,"Sea to Sky",198,3
+48,2024,6,"Sea to Sky",143,1
+48,2024,7,"Sea to Sky",22520,7
+48,2024,8,"Sea to Sky",1899,13
+48,2024,9,"Sea to Sky",2,1
+49,2017,5,"Central Coast",0,0
+49,2017,6,"Central Coast",0,0
+49,2017,7,"Central Coast",441729,7
+49,2017,8,"Central Coast",0,0
+49,2017,9,"Central Coast",0,0
+49,2018,5,"Central Coast",1,1
+49,2018,6,"Central Coast",91,1
+49,2018,7,"Central Coast",169474,9
+49,2018,8,"Central Coast",140939,12
+49,2018,9,"Central Coast",0,0
+49,2019,5,"Central Coast",84,3
+49,2019,6,"Central Coast",0,0
+49,2019,7,"Central Coast",40,3
+49,2019,8,"Central Coast",0,1
+49,2019,9,"Central Coast",0,0
+49,2020,5,"Central Coast",0,0
+49,2020,6,"Central Coast",0,0
+49,2020,7,"Central Coast",0,0
+49,2020,8,"Central Coast",0,0
+49,2020,9,"Central Coast",0,0
+49,2021,5,"Central Coast",12,1
+49,2021,6,"Central Coast",0,0
+49,2021,7,"Central Coast",29541,6
+49,2021,8,"Central Coast",13,3
+49,2021,9,"Central Coast",0,0
+49,2022,5,"Central Coast",0,0
+49,2022,6,"Central Coast",0,0
+49,2022,7,"Central Coast",0,0
+49,2022,8,"Central Coast",461,8
+49,2022,9,"Central Coast",4,1
+49,2023,5,"Central Coast",147,2
+49,2023,6,"Central Coast",10,3
+49,2023,7,"Central Coast",108065,30
+49,2023,8,"Central Coast",16401,10
+49,2023,9,"Central Coast",10,1
+49,2024,5,"Central Coast",66,3
+49,2024,6,"Central Coast",5,1
+49,2024,7,"Central Coast",86453,3
+49,2024,8,"Central Coast",1292,4
+49,2024,9,"Central Coast",0,0
+50,2017,5,"Haida Gwaii",0,0
+50,2017,6,"Haida Gwaii",0,0
+50,2017,7,"Haida Gwaii",0,0
+50,2017,8,"Haida Gwaii",0,0
+50,2017,9,"Haida Gwaii",0,0
+50,2018,5,"Haida Gwaii",0,0
+50,2018,6,"Haida Gwaii",0,0
+50,2018,7,"Haida Gwaii",0,0
+50,2018,8,"Haida Gwaii",0,0
+50,2018,9,"Haida Gwaii",0,0
+50,2019,5,"Haida Gwaii",0,0
+50,2019,6,"Haida Gwaii",0,0
+50,2019,7,"Haida Gwaii",0,0
+50,2019,8,"Haida Gwaii",0,0
+50,2019,9,"Haida Gwaii",0,0
+50,2020,5,"Haida Gwaii",0,0
+50,2020,6,"Haida Gwaii",0,0
+50,2020,7,"Haida Gwaii",0,0
+50,2020,8,"Haida Gwaii",0,0
+50,2020,9,"Haida Gwaii",0,0
+50,2021,5,"Haida Gwaii",0,0
+50,2021,6,"Haida Gwaii",0,0
+50,2021,7,"Haida Gwaii",2,1
+50,2021,8,"Haida Gwaii",0,0
+50,2021,9,"Haida Gwaii",0,0
+50,2022,5,"Haida Gwaii",0,0
+50,2022,6,"Haida Gwaii",0,0
+50,2022,7,"Haida Gwaii",0,0
+50,2022,8,"Haida Gwaii",0,0
+50,2022,9,"Haida Gwaii",0,0
+50,2023,5,"Haida Gwaii",0,0
+50,2023,6,"Haida Gwaii",0,0
+50,2023,7,"Haida Gwaii",0,0
+50,2023,8,"Haida Gwaii",0,0
+50,2023,9,"Haida Gwaii",0,0
+50,2024,5,"Haida Gwaii",0,0
+50,2024,6,"Haida Gwaii",0,0
+50,2024,7,"Haida Gwaii",0,0
+50,2024,8,"Haida Gwaii",0,0
+50,2024,9,"Haida Gwaii",0,0
+51,2017,5,"Boundary",8,3
+51,2017,6,"Boundary",189,6
+51,2017,7,"Boundary",10891,10
+51,2017,8,"Boundary",3163,14
+51,2017,9,"Boundary",2189,4
+51,2018,5,"Boundary",11,3
+51,2018,6,"Boundary",13,2
+51,2018,7,"Boundary",42239,39
+51,2018,8,"Boundary",15604,41
+51,2018,9,"Boundary",4,2
+51,2019,5,"Boundary",870,2
+51,2019,6,"Boundary",13,2
+51,2019,7,"Boundary",0,0
+51,2019,8,"Boundary",2451,2
+51,2019,9,"Boundary",13,2
+51,2020,5,"Boundary",2,1
+51,2020,6,"Boundary",18,1
+51,2020,7,"Boundary",0,0
+51,2020,8,"Boundary",3340,11
+51,2020,9,"Boundary",27,1
+51,2021,5,"Boundary",11,4
+51,2021,6,"Boundary",1179,8
+51,2021,7,"Boundary",142896,30
+51,2021,8,"Boundary",1410,7
+51,2021,9,"Boundary",167,2
+51,2022,5,"Boundary",0,0
+51,2022,6,"Boundary",0,0
+51,2022,7,"Boundary",6439,8
+51,2022,8,"Boundary",2221,14
+51,2022,9,"Boundary",99,3
+51,2023,5,"Boundary",11,3
+51,2023,6,"Boundary",34,1
+51,2023,7,"Boundary",55997,12
+51,2023,8,"Boundary",1502,10
+51,2023,9,"Boundary",616,2
+51,2024,5,"Boundary",0,0
+51,2024,6,"Boundary",1,1
+51,2024,7,"Boundary",13558,26
+51,2024,8,"Boundary",107,12
+51,2024,9,"Boundary",2,2
+52,2017,5,"Prince Rupert",0,0
+52,2017,6,"Prince Rupert",0,0
+52,2017,7,"Prince Rupert",0,0
+52,2017,8,"Prince Rupert",0,0
+52,2017,9,"Prince Rupert",0,0
+52,2018,5,"Prince Rupert",0,0
+52,2018,6,"Prince Rupert",0,0
+52,2018,7,"Prince Rupert",0,0
+52,2018,8,"Prince Rupert",0,0
+52,2018,9,"Prince Rupert",0,0
+52,2019,5,"Prince Rupert",2,1
+52,2019,6,"Prince Rupert",1,1
+52,2019,7,"Prince Rupert",0,0
+52,2019,8,"Prince Rupert",0,0
+52,2019,9,"Prince Rupert",0,0
+52,2020,5,"Prince Rupert",40,1
+52,2020,6,"Prince Rupert",0,0
+52,2020,7,"Prince Rupert",0,0
+52,2020,8,"Prince Rupert",0,0
+52,2020,9,"Prince Rupert",0,0
+52,2021,5,"Prince Rupert",4,1
+52,2021,6,"Prince Rupert",0,0
+52,2021,7,"Prince Rupert",2,1
+52,2021,8,"Prince Rupert",0,0
+52,2021,9,"Prince Rupert",0,0
+52,2022,5,"Prince Rupert",0,0
+52,2022,6,"Prince Rupert",0,0
+52,2022,7,"Prince Rupert",8,1
+52,2022,8,"Prince Rupert",54,1
+52,2022,9,"Prince Rupert",0,0
+52,2023,5,"Prince Rupert",0,0
+52,2023,6,"Prince Rupert",1,1
+52,2023,7,"Prince Rupert",659,7
+52,2023,8,"Prince Rupert",10,1
+52,2023,9,"Prince Rupert",0,0
+52,2024,5,"Prince Rupert",0,0
+52,2024,6,"Prince Rupert",1,1
+52,2024,7,"Prince Rupert",123,2
+52,2024,8,"Prince Rupert",2,1
+52,2024,9,"Prince Rupert",0,0
+53,2017,5,"Okanagan-Similkameen",0,0
+53,2017,6,"Okanagan-Similkameen",147,2
+53,2017,7,"Okanagan-Similkameen",13920,7
+53,2017,8,"Okanagan-Similkameen",2660,7
+53,2017,9,"Okanagan-Similkameen",2189,4
+53,2018,5,"Okanagan-Similkameen",13,3
+53,2018,6,"Okanagan-Similkameen",31,3
+53,2018,7,"Okanagan-Similkameen",36650,18
+53,2018,8,"Okanagan-Similkameen",10944,21
+53,2018,9,"Okanagan-Similkameen",2,1
+53,2019,5,"Okanagan-Similkameen",871,3
+53,2019,6,"Okanagan-Similkameen",11,1
+53,2019,7,"Okanagan-Similkameen",0,0
+53,2019,8,"Okanagan-Similkameen",2451,2
+53,2019,9,"Okanagan-Similkameen",29,6
+53,2020,5,"Okanagan-Similkameen",0,0
+53,2020,6,"Okanagan-Similkameen",18,1
+53,2020,7,"Okanagan-Similkameen",7,1
+53,2020,8,"Okanagan-Similkameen",2140,9
+53,2020,9,"Okanagan-Similkameen",0,0
+53,2021,5,"Okanagan-Similkameen",5,3
+53,2021,6,"Okanagan-Similkameen",1200,8
+53,2021,7,"Okanagan-Similkameen",139095,19
+53,2021,8,"Okanagan-Similkameen",1370,5
+53,2021,9,"Okanagan-Similkameen",167,2
+53,2022,5,"Okanagan-Similkameen",0,0
+53,2022,6,"Okanagan-Similkameen",4,1
+53,2022,7,"Okanagan-Similkameen",6434,4
+53,2022,8,"Okanagan-Similkameen",5993,9
+53,2022,9,"Okanagan-Similkameen",563,5
+53,2023,5,"Okanagan-Similkameen",3,1
+53,2023,6,"Okanagan-Similkameen",41,2
+53,2023,7,"Okanagan-Similkameen",56263,14
+53,2023,8,"Okanagan-Similkameen",2360,6
+53,2023,9,"Okanagan-Similkameen",616,2
+53,2024,5,"Okanagan-Similkameen",16,2
+53,2024,6,"Okanagan-Similkameen",1,1
+53,2024,7,"Okanagan-Similkameen",4804,9
+53,2024,8,"Okanagan-Similkameen",71,9
+53,2024,9,"Okanagan-Similkameen",1,1
+54,2017,5,"Bulkley Valley",3,1
+54,2017,6,"Bulkley Valley",64,2
+54,2017,7,"Bulkley Valley",143,4
+54,2017,8,"Bulkley Valley",0,0
+54,2017,9,"Bulkley Valley",0,0
+54,2018,5,"Bulkley Valley",7,3
+54,2018,6,"Bulkley Valley",252,5
+54,2018,7,"Bulkley Valley",197637,9
+54,2018,8,"Bulkley Valley",78728,11
+54,2018,9,"Bulkley Valley",0,0
+54,2019,5,"Bulkley Valley",14,2
+54,2019,6,"Bulkley Valley",3,2
+54,2019,7,"Bulkley Valley",0,0
+54,2019,8,"Bulkley Valley",0,0
+54,2019,9,"Bulkley Valley",0,0
+54,2020,5,"Bulkley Valley",40,1
+54,2020,6,"Bulkley Valley",0,0
+54,2020,7,"Bulkley Valley",0,0
+54,2020,8,"Bulkley Valley",6,1
+54,2020,9,"Bulkley Valley",0,0
+54,2021,5,"Bulkley Valley",4,1
+54,2021,6,"Bulkley Valley",4,1
+54,2021,7,"Bulkley Valley",20119,3
+54,2021,8,"Bulkley Valley",1,1
+54,2021,9,"Bulkley Valley",0,0
+54,2022,5,"Bulkley Valley",2,1
+54,2022,6,"Bulkley Valley",0,0
+54,2022,7,"Bulkley Valley",8,1
+54,2022,8,"Bulkley Valley",467,7
+54,2022,9,"Bulkley Valley",0,0
+54,2023,5,"Bulkley Valley",132,6
+54,2023,6,"Bulkley Valley",4,2
+54,2023,7,"Bulkley Valley",101032,49
+54,2023,8,"Bulkley Valley",2175,10
+54,2023,9,"Bulkley Valley",12,1
+54,2024,5,"Bulkley Valley",6,1
+54,2024,6,"Bulkley Valley",4,3
+54,2024,7,"Bulkley Valley",83867,6
+54,2024,8,"Bulkley Valley",3100,8
+54,2024,9,"Bulkley Valley",0,0
+57,2017,5,"Prince George",696,3
+57,2017,6,"Prince George",2283,6
+57,2017,7,"Prince George",449826,45
+57,2017,8,"Prince George",1017,14
+57,2017,9,"Prince George",148,4
+57,2018,5,"Prince George",369,7
+57,2018,6,"Prince George",3470,24
+57,2018,7,"Prince George",104382,56
+57,2018,8,"Prince George",38144,35
+57,2018,9,"Prince George",118,5
+57,2019,5,"Prince George",270,6
+57,2019,6,"Prince George",78,4
+57,2019,7,"Prince George",2,1
+57,2019,8,"Prince George",0,0
+57,2019,9,"Prince George",0,0
+57,2020,5,"Prince George",32,6
+57,2020,6,"Prince George",0,0
+57,2020,7,"Prince George",0,0
+57,2020,8,"Prince George",7,1
+57,2020,9,"Prince George",0,0
+57,2021,5,"Prince George",252,3
+57,2021,6,"Prince George",57918,18
+57,2021,7,"Prince George",23627,53
+57,2021,8,"Prince George",9911,21
+57,2021,9,"Prince George",0,0
+57,2022,5,"Prince George",0,0
+57,2022,6,"Prince George",1581,4
+57,2022,7,"Prince George",15,3
+57,2022,8,"Prince George",36496,25
+57,2022,9,"Prince George",1484,7
+57,2023,5,"Prince George",5116,21
+57,2023,6,"Prince George",198357,19
+57,2023,7,"Prince George",122184,89
+57,2023,8,"Prince George",303,8
+57,2023,9,"Prince George",1270,7
+57,2024,5,"Prince George",492,3
+57,2024,6,"Prince George",466,3
+57,2024,7,"Prince George",36764,81
+57,2024,8,"Prince George",1176,15
+57,2024,9,"Prince George",95,2
+58,2017,5,"Nicola-Similkameen",42,4
+58,2017,6,"Nicola-Similkameen",306,4
+58,2017,7,"Nicola-Similkameen",195249,19
+58,2017,8,"Nicola-Similkameen",519,7
+58,2017,9,"Nicola-Similkameen",2192,6
+58,2018,5,"Nicola-Similkameen",420,10
+58,2018,6,"Nicola-Similkameen",96,10
+58,2018,7,"Nicola-Similkameen",39664,32
+58,2018,8,"Nicola-Similkameen",10516,22
+58,2018,9,"Nicola-Similkameen",0,0
+58,2019,5,"Nicola-Similkameen",1088,6
+58,2019,6,"Nicola-Similkameen",18,4
+58,2019,7,"Nicola-Similkameen",0,0
+58,2019,8,"Nicola-Similkameen",2505,4
+58,2019,9,"Nicola-Similkameen",40,8
+58,2020,5,"Nicola-Similkameen",6,3
+58,2020,6,"Nicola-Similkameen",20,2
+58,2020,7,"Nicola-Similkameen",40,4
+58,2020,8,"Nicola-Similkameen",2183,16
+58,2020,9,"Nicola-Similkameen",27,1
+58,2021,5,"Nicola-Similkameen",30,5
+58,2021,6,"Nicola-Similkameen",169144,17
+58,2021,7,"Nicola-Similkameen",187448,44
+58,2021,8,"Nicola-Similkameen",1288,9
+58,2021,9,"Nicola-Similkameen",177,4
+58,2022,5,"Nicola-Similkameen",27,4
+58,2022,6,"Nicola-Similkameen",4,1
+58,2022,7,"Nicola-Similkameen",11937,16
+58,2022,8,"Nicola-Similkameen",12028,31
+58,2022,9,"Nicola-Similkameen",1189,8
+58,2023,5,"Nicola-Similkameen",6,2
+58,2023,6,"Nicola-Similkameen",889,6
+58,2023,7,"Nicola-Similkameen",121748,31
+58,2023,8,"Nicola-Similkameen",3878,14
+58,2023,9,"Nicola-Similkameen",616,2
+58,2024,5,"Nicola-Similkameen",77,4
+58,2024,6,"Nicola-Similkameen",1,1
+58,2024,7,"Nicola-Similkameen",27752,28
+58,2024,8,"Nicola-Similkameen",1232,11
+58,2024,9,"Nicola-Similkameen",0,0
+59,2017,5,"Peace River South",6,1
+59,2017,6,"Peace River South",30,2
+59,2017,7,"Peace River South",73,3
+59,2017,8,"Peace River South",414,7
+59,2017,9,"Peace River South",58,1
+59,2018,5,"Peace River South",364,12
+59,2018,6,"Peace River South",123,10
+59,2018,7,"Peace River South",1,1
+59,2018,8,"Peace River South",138,2
+59,2018,9,"Peace River South",115,2
+59,2019,5,"Peace River South",318,4
+59,2019,6,"Peace River South",3,1
+59,2019,7,"Peace River South",10,1
+59,2019,8,"Peace River South",0,0
+59,2019,9,"Peace River South",0,0
+59,2020,5,"Peace River South",17,4
+59,2020,6,"Peace River South",0,0
+59,2020,7,"Peace River South",0,0
+59,2020,8,"Peace River South",44,1
+59,2020,9,"Peace River South",0,0
+59,2021,5,"Peace River South",45,5
+59,2021,6,"Peace River South",4901,11
+59,2021,7,"Peace River South",409,7
+59,2021,8,"Peace River South",9278,6
+59,2021,9,"Peace River South",0,0
+59,2022,5,"Peace River South",108,3
+59,2022,6,"Peace River South",1580,4
+59,2022,7,"Peace River South",17,3
+59,2022,8,"Peace River South",36283,15
+59,2022,9,"Peace River South",1491,7
+59,2023,5,"Peace River South",34173,21
+59,2023,6,"Peace River South",56272,16
+59,2023,7,"Peace River South",1672,16
+59,2023,8,"Peace River South",302,2
+59,2023,9,"Peace River South",1263,6
+59,2024,5,"Peace River South",1047,8
+59,2024,6,"Peace River South",108,6
+59,2024,7,"Peace River South",1448,21
+59,2024,8,"Peace River South",47,4
+59,2024,9,"Peace River South",78,2
+60,2017,5,"Peace River North",19,5
+60,2017,6,"Peace River North",9,1
+60,2017,7,"Peace River North",46,2
+60,2017,8,"Peace River North",164,6
+60,2017,9,"Peace River North",232,2
+60,2018,5,"Peace River North",25242,30
+60,2018,6,"Peace River North",912,21
+60,2018,7,"Peace River North",13013,17
+60,2018,8,"Peace River North",22276,14
+60,2018,9,"Peace River North",0,0
+60,2019,5,"Peace River North",1029,11
+60,2019,6,"Peace River North",8,2
+60,2019,7,"Peace River North",13,2
+60,2019,8,"Peace River North",0,0
+60,2019,9,"Peace River North",0,0
+60,2020,5,"Peace River North",14,3
+60,2020,6,"Peace River North",0,0
+60,2020,7,"Peace River North",0,0
+60,2020,8,"Peace River North",44,1
+60,2020,9,"Peace River North",0,0
+60,2021,5,"Peace River North",45,5
+60,2021,6,"Peace River North",56964,15
+60,2021,7,"Peace River North",7826,5
+60,2021,8,"Peace River North",2078,4
+60,2021,9,"Peace River North",6,1
+60,2022,5,"Peace River North",119,4
+60,2022,6,"Peace River North",2156,7
+60,2022,7,"Peace River North",744,5
+60,2022,8,"Peace River North",29823,15
+60,2022,9,"Peace River North",2646,9
+60,2023,5,"Peace River North",891725,23
+60,2023,6,"Peace River North",733130,36
+60,2023,7,"Peace River North",10372,23
+60,2023,8,"Peace River North",504,6
+60,2023,9,"Peace River North",1940,8
+60,2024,5,"Peace River North",29279,16
+60,2024,6,"Peace River North",1891,11
+60,2024,7,"Peace River North",8024,16
+60,2024,8,"Peace River North",1060,6
+60,2024,9,"Peace River North",8,1
+61,2017,5,"Victoria",0,0
+61,2017,6,"Victoria",2,1
+61,2017,7,"Victoria",1,1
+61,2017,8,"Victoria",0,0
+61,2017,9,"Victoria",0,0
+61,2018,5,"Victoria",0,0
+61,2018,6,"Victoria",2,1
+61,2018,7,"Victoria",96,2
+61,2018,8,"Victoria",6,1
+61,2018,9,"Victoria",0,0
+61,2019,5,"Victoria",3,1
+61,2019,6,"Victoria",0,0
+61,2019,7,"Victoria",0,0
+61,2019,8,"Victoria",0,0
+61,2019,9,"Victoria",0,0
+61,2020,5,"Victoria",0,0
+61,2020,6,"Victoria",0,0
+61,2020,7,"Victoria",2,1
+61,2020,8,"Victoria",17,6
+61,2020,9,"Victoria",0,0
+61,2021,5,"Victoria",0,0
+61,2021,6,"Victoria",0,0
+61,2021,7,"Victoria",0,0
+61,2021,8,"Victoria",91,2
+61,2021,9,"Victoria",0,0
+61,2022,5,"Victoria",0,0
+61,2022,6,"Victoria",0,0
+61,2022,7,"Victoria",0,0
+61,2022,8,"Victoria",0,0
+61,2022,9,"Victoria",0,0
+61,2023,5,"Victoria",0,0
+61,2023,6,"Victoria",0,0
+61,2023,7,"Victoria",0,0
+61,2023,8,"Victoria",2,1
+61,2023,9,"Victoria",0,0
+61,2024,5,"Victoria",0,0
+61,2024,6,"Victoria",0,0
+61,2024,7,"Victoria",165,2
+61,2024,8,"Victoria",2,1
+61,2024,9,"Victoria",0,0
+62,2017,5,"Sooke",0,0
+62,2017,6,"Sooke",17,2
+62,2017,7,"Sooke",1,1
+62,2017,8,"Sooke",1,1
+62,2017,9,"Sooke",0,0
+62,2018,5,"Sooke",0,0
+62,2018,6,"Sooke",2,1
+62,2018,7,"Sooke",110,3
+62,2018,8,"Sooke",233,4
+62,2018,9,"Sooke",0,0
+62,2019,5,"Sooke",19,2
+62,2019,6,"Sooke",0,0
+62,2019,7,"Sooke",0,0
+62,2019,8,"Sooke",3,1
+62,2019,9,"Sooke",0,0
+62,2020,5,"Sooke",0,0
+62,2020,6,"Sooke",0,0
+62,2020,7,"Sooke",19,2
+62,2020,8,"Sooke",17,6
+62,2020,9,"Sooke",0,0
+62,2021,5,"Sooke",0,0
+62,2021,6,"Sooke",2,1
+62,2021,7,"Sooke",0,0
+62,2021,8,"Sooke",91,2
+62,2021,9,"Sooke",0,0
+62,2022,5,"Sooke",0,0
+62,2022,6,"Sooke",0,0
+62,2022,7,"Sooke",0,0
+62,2022,8,"Sooke",0,0
+62,2022,9,"Sooke",0,0
+62,2023,5,"Sooke",0,0
+62,2023,6,"Sooke",200,1
+62,2023,7,"Sooke",17,1
+62,2023,8,"Sooke",14,2
+62,2023,9,"Sooke",0,0
+62,2024,5,"Sooke",0,0
+62,2024,6,"Sooke",0,1
+62,2024,7,"Sooke",165,2
+62,2024,8,"Sooke",2,1
+62,2024,9,"Sooke",3,2
+63,2017,5,"Saanich",0,0
+63,2017,6,"Saanich",2,1
+63,2017,7,"Saanich",1,1
+63,2017,8,"Saanich",0,0
+63,2017,9,"Saanich",0,0
+63,2018,5,"Saanich",0,0
+63,2018,6,"Saanich",2,1
+63,2018,7,"Saanich",110,3
+63,2018,8,"Saanich",194,3
+63,2018,9,"Saanich",0,0
+63,2019,5,"Saanich",3,1
+63,2019,6,"Saanich",0,0
+63,2019,7,"Saanich",0,0
+63,2019,8,"Saanich",0,0
+63,2019,9,"Saanich",0,0
+63,2020,5,"Saanich",0,0
+63,2020,6,"Saanich",0,0
+63,2020,7,"Saanich",19,2
+63,2020,8,"Saanich",17,6
+63,2020,9,"Saanich",0,0
+63,2021,5,"Saanich",0,0
+63,2021,6,"Saanich",0,0
+63,2021,7,"Saanich",0,0
+63,2021,8,"Saanich",91,2
+63,2021,9,"Saanich",0,0
+63,2022,5,"Saanich",0,0
+63,2022,6,"Saanich",0,0
+63,2022,7,"Saanich",0,0
+63,2022,8,"Saanich",0,0
+63,2022,9,"Saanich",0,0
+63,2023,5,"Saanich",0,0
+63,2023,6,"Saanich",0,0
+63,2023,7,"Saanich",0,0
+63,2023,8,"Saanich",2,1
+63,2023,9,"Saanich",0,0
+63,2024,5,"Saanich",0,0
+63,2024,6,"Saanich",0,0
+63,2024,7,"Saanich",165,2
+63,2024,8,"Saanich",2,1
+63,2024,9,"Saanich",0,0
+64,2017,5,"Gulf Islands",0,0
+64,2017,6,"Gulf Islands",17,2
+64,2017,7,"Gulf Islands",1,1
+64,2017,8,"Gulf Islands",0,0
+64,2017,9,"Gulf Islands",0,0
+64,2018,5,"Gulf Islands",0,0
+64,2018,6,"Gulf Islands",2,1
+64,2018,7,"Gulf Islands",110,3
+64,2018,8,"Gulf Islands",194,3
+64,2018,9,"Gulf Islands",0,0
+64,2019,5,"Gulf Islands",3,1
+64,2019,6,"Gulf Islands",17,3
+64,2019,7,"Gulf Islands",0,0
+64,2019,8,"Gulf Islands",0,0
+64,2019,9,"Gulf Islands",0,0
+64,2020,5,"Gulf Islands",0,0
+64,2020,6,"Gulf Islands",0,0
+64,2020,7,"Gulf Islands",19,2
+64,2020,8,"Gulf Islands",17,6
+64,2020,9,"Gulf Islands",0,0
+64,2021,5,"Gulf Islands",2,1
+64,2021,6,"Gulf Islands",0,0
+64,2021,7,"Gulf Islands",0,0
+64,2021,8,"Gulf Islands",91,2
+64,2021,9,"Gulf Islands",0,0
+64,2022,5,"Gulf Islands",0,0
+64,2022,6,"Gulf Islands",0,0
+64,2022,7,"Gulf Islands",0,0
+64,2022,8,"Gulf Islands",0,0
+64,2022,9,"Gulf Islands",0,0
+64,2023,5,"Gulf Islands",0,0
+64,2023,6,"Gulf Islands",0,0
+64,2023,7,"Gulf Islands",0,0
+64,2023,8,"Gulf Islands",2,1
+64,2023,9,"Gulf Islands",0,0
+64,2024,5,"Gulf Islands",0,0
+64,2024,6,"Gulf Islands",0,0
+64,2024,7,"Gulf Islands",165,2
+64,2024,8,"Gulf Islands",2,1
+64,2024,9,"Gulf Islands",4,3
+67,2017,5,"Okanagan-Skaha",6,2
+67,2017,6,"Okanagan-Skaha",147,2
+67,2017,7,"Okanagan-Skaha",13920,7
+67,2017,8,"Okanagan-Skaha",2666,8
+67,2017,9,"Okanagan-Skaha",2189,4
+67,2018,5,"Okanagan-Skaha",13,3
+67,2018,6,"Okanagan-Skaha",13,2
+67,2018,7,"Okanagan-Skaha",37736,26
+67,2018,8,"Okanagan-Skaha",6505,21
+67,2018,9,"Okanagan-Skaha",2,1
+67,2019,5,"Okanagan-Skaha",871,3
+67,2019,6,"Okanagan-Skaha",15,3
+67,2019,7,"Okanagan-Skaha",0,0
+67,2019,8,"Okanagan-Skaha",2451,2
+67,2019,9,"Okanagan-Skaha",29,6
+67,2020,5,"Okanagan-Skaha",2,1
+67,2020,6,"Okanagan-Skaha",18,1
+67,2020,7,"Okanagan-Skaha",7,1
+67,2020,8,"Okanagan-Skaha",2145,11
+67,2020,9,"Okanagan-Skaha",27,1
+67,2021,5,"Okanagan-Skaha",5,3
+67,2021,6,"Okanagan-Skaha",1167,8
+67,2021,7,"Okanagan-Skaha",159598,27
+67,2021,8,"Okanagan-Skaha",1370,5
+67,2021,9,"Okanagan-Skaha",167,2
+67,2022,5,"Okanagan-Skaha",0,0
+67,2022,6,"Okanagan-Skaha",4,1
+67,2022,7,"Okanagan-Skaha",6451,8
+67,2022,8,"Okanagan-Skaha",5638,8
+67,2022,9,"Okanagan-Skaha",281,4
+67,2023,5,"Okanagan-Skaha",8,2
+67,2023,6,"Okanagan-Skaha",41,2
+67,2023,7,"Okanagan-Skaha",56013,15
+67,2023,8,"Okanagan-Skaha",1380,6
+67,2023,9,"Okanagan-Skaha",616,2
+67,2024,5,"Okanagan-Skaha",16,2
+67,2024,6,"Okanagan-Skaha",1,1
+67,2024,7,"Okanagan-Skaha",4817,11
+67,2024,8,"Okanagan-Skaha",878,9
+67,2024,9,"Okanagan-Skaha",1,1
+68,2017,5,"Nanaimo-Ladysmith",0,0
+68,2017,6,"Nanaimo-Ladysmith",17,2
+68,2017,7,"Nanaimo-Ladysmith",2,2
+68,2017,8,"Nanaimo-Ladysmith",5,3
+68,2017,9,"Nanaimo-Ladysmith",0,0
+68,2018,5,"Nanaimo-Ladysmith",0,0
+68,2018,6,"Nanaimo-Ladysmith",2,1
+68,2018,7,"Nanaimo-Ladysmith",111,4
+68,2018,8,"Nanaimo-Ladysmith",240,6
+68,2018,9,"Nanaimo-Ladysmith",0,0
+68,2019,5,"Nanaimo-Ladysmith",19,2
+68,2019,6,"Nanaimo-Ladysmith",23,5
+68,2019,7,"Nanaimo-Ladysmith",0,0
+68,2019,8,"Nanaimo-Ladysmith",7,2
+68,2019,9,"Nanaimo-Ladysmith",0,0
+68,2020,5,"Nanaimo-Ladysmith",0,0
+68,2020,6,"Nanaimo-Ladysmith",0,0
+68,2020,7,"Nanaimo-Ladysmith",19,2
+68,2020,8,"Nanaimo-Ladysmith",17,6
+68,2020,9,"Nanaimo-Ladysmith",0,0
+68,2021,5,"Nanaimo-Ladysmith",2,1
+68,2021,6,"Nanaimo-Ladysmith",2,1
+68,2021,7,"Nanaimo-Ladysmith",0,0
+68,2021,8,"Nanaimo-Ladysmith",91,2
+68,2021,9,"Nanaimo-Ladysmith",0,0
+68,2022,5,"Nanaimo-Ladysmith",0,0
+68,2022,6,"Nanaimo-Ladysmith",0,0
+68,2022,7,"Nanaimo-Ladysmith",2,1
+68,2022,8,"Nanaimo-Ladysmith",6,1
+68,2022,9,"Nanaimo-Ladysmith",0,0
+68,2023,5,"Nanaimo-Ladysmith",1,1
+68,2023,6,"Nanaimo-Ladysmith",200,1
+68,2023,7,"Nanaimo-Ladysmith",37,2
+68,2023,8,"Nanaimo-Ladysmith",312,5
+68,2023,9,"Nanaimo-Ladysmith",14,1
+68,2024,5,"Nanaimo-Ladysmith",0,0
+68,2024,6,"Nanaimo-Ladysmith",0,1
+68,2024,7,"Nanaimo-Ladysmith",165,2
+68,2024,8,"Nanaimo-Ladysmith",2,1
+68,2024,9,"Nanaimo-Ladysmith",4,3
+69,2017,5,"Qualicum",1,1
+69,2017,6,"Qualicum",18,3
+69,2017,7,"Qualicum",0,1
+69,2017,8,"Qualicum",5,3
+69,2017,9,"Qualicum",0,0
+69,2018,5,"Qualicum",34,1
+69,2018,6,"Qualicum",0,0
+69,2018,7,"Qualicum",28,3
+69,2018,8,"Qualicum",240,6
+69,2018,9,"Qualicum",0,0
+69,2019,5,"Qualicum",18,2
+69,2019,6,"Qualicum",23,5
+69,2019,7,"Qualicum",0,0
+69,2019,8,"Qualicum",7,2
+69,2019,9,"Qualicum",0,0
+69,2020,5,"Qualicum",0,0
+69,2020,6,"Qualicum",0,0
+69,2020,7,"Qualicum",17,1
+69,2020,8,"Qualicum",7,2
+69,2020,9,"Qualicum",0,0
+69,2021,5,"Qualicum",2,1
+69,2021,6,"Qualicum",2,1
+69,2021,7,"Qualicum",0,0
+69,2021,8,"Qualicum",91,2
+69,2021,9,"Qualicum",0,0
+69,2022,5,"Qualicum",0,0
+69,2022,6,"Qualicum",0,0
+69,2022,7,"Qualicum",2,1
+69,2022,8,"Qualicum",519,4
+69,2022,9,"Qualicum",0,0
+69,2023,5,"Qualicum",1,1
+69,2023,6,"Qualicum",200,1
+69,2023,7,"Qualicum",37,2
+69,2023,8,"Qualicum",1623,7
+69,2023,9,"Qualicum",14,1
+69,2024,5,"Qualicum",0,0
+69,2024,6,"Qualicum",0,1
+69,2024,7,"Qualicum",7,1
+69,2024,8,"Qualicum",2,1
+69,2024,9,"Qualicum",4,3
+70,2017,5,"Pacific Rim",1,1
+70,2017,6,"Pacific Rim",18,3
+70,2017,7,"Pacific Rim",0,1
+70,2017,8,"Pacific Rim",2,2
+70,2017,9,"Pacific Rim",0,0
+70,2018,5,"Pacific Rim",42,2
+70,2018,6,"Pacific Rim",3,1
+70,2018,7,"Pacific Rim",99,3
+70,2018,8,"Pacific Rim",3588,20
+70,2018,9,"Pacific Rim",0,0
+70,2019,5,"Pacific Rim",21,3
+70,2019,6,"Pacific Rim",33,4
+70,2019,7,"Pacific Rim",0,0
+70,2019,8,"Pacific Rim",7,2
+70,2019,9,"Pacific Rim",0,0
+70,2020,5,"Pacific Rim",0,0
+70,2020,6,"Pacific Rim",0,0
+70,2020,7,"Pacific Rim",17,1
+70,2020,8,"Pacific Rim",16,5
+70,2020,9,"Pacific Rim",0,0
+70,2021,5,"Pacific Rim",2,1
+70,2021,6,"Pacific Rim",2,1
+70,2021,7,"Pacific Rim",0,0
+70,2021,8,"Pacific Rim",91,2
+70,2021,9,"Pacific Rim",0,0
+70,2022,5,"Pacific Rim",0,0
+70,2022,6,"Pacific Rim",0,0
+70,2022,7,"Pacific Rim",0,0
+70,2022,8,"Pacific Rim",547,5
+70,2022,9,"Pacific Rim",450,3
+70,2023,5,"Pacific Rim",1,1
+70,2023,6,"Pacific Rim",200,1
+70,2023,7,"Pacific Rim",138,2
+70,2023,8,"Pacific Rim",1964,11
+70,2023,9,"Pacific Rim",14,1
+70,2024,5,"Pacific Rim",0,0
+70,2024,6,"Pacific Rim",0,1
+70,2024,7,"Pacific Rim",7,1
+70,2024,8,"Pacific Rim",2,1
+70,2024,9,"Pacific Rim",3,2
+71,2017,5,"Comox Valley",1,1
+71,2017,6,"Comox Valley",16,2
+71,2017,7,"Comox Valley",0,1
+71,2017,8,"Comox Valley",2,2
+71,2017,9,"Comox Valley",0,0
+71,2018,5,"Comox Valley",42,2
+71,2018,6,"Comox Valley",3,1
+71,2018,7,"Comox Valley",15,2
+71,2018,8,"Comox Valley",1781,8
+71,2018,9,"Comox Valley",0,0
+71,2019,5,"Comox Valley",39,3
+71,2019,6,"Comox Valley",36,5
+71,2019,7,"Comox Valley",0,0
+71,2019,8,"Comox Valley",7,2
+71,2019,9,"Comox Valley",0,0
+71,2020,5,"Comox Valley",0,0
+71,2020,6,"Comox Valley",0,0
+71,2020,7,"Comox Valley",17,1
+71,2020,8,"Comox Valley",7,2
+71,2020,9,"Comox Valley",0,0
+71,2021,5,"Comox Valley",2,1
+71,2021,6,"Comox Valley",9,2
+71,2021,7,"Comox Valley",0,0
+71,2021,8,"Comox Valley",61,1
+71,2021,9,"Comox Valley",0,0
+71,2022,5,"Comox Valley",0,0
+71,2022,6,"Comox Valley",0,0
+71,2022,7,"Comox Valley",2,1
+71,2022,8,"Comox Valley",547,5
+71,2022,9,"Comox Valley",456,4
+71,2023,5,"Comox Valley",229,2
+71,2023,6,"Comox Valley",202,2
+71,2023,7,"Comox Valley",225,4
+71,2023,8,"Comox Valley",2262,14
+71,2023,9,"Comox Valley",59,2
+71,2024,5,"Comox Valley",0,0
+71,2024,6,"Comox Valley",0,1
+71,2024,7,"Comox Valley",7,1
+71,2024,8,"Comox Valley",2,1
+71,2024,9,"Comox Valley",3,2
+72,2017,5,"Campbell River",1,1
+72,2017,6,"Campbell River",16,2
+72,2017,7,"Campbell River",24763,3
+72,2017,8,"Campbell River",113,4
+72,2017,9,"Campbell River",0,0
+72,2018,5,"Campbell River",43,3
+72,2018,6,"Campbell River",4,2
+72,2018,7,"Campbell River",8888,2
+72,2018,8,"Campbell River",29910,41
+72,2018,9,"Campbell River",0,0
+72,2019,5,"Campbell River",24,2
+72,2019,6,"Campbell River",33,4
+72,2019,7,"Campbell River",7,2
+72,2019,8,"Campbell River",7,3
+72,2019,9,"Campbell River",1,1
+72,2020,5,"Campbell River",0,0
+72,2020,6,"Campbell River",0,0
+72,2020,7,"Campbell River",3,1
+72,2020,8,"Campbell River",461,4
+72,2020,9,"Campbell River",18,1
+72,2021,5,"Campbell River",14,2
+72,2021,6,"Campbell River",9,2
+72,2021,7,"Campbell River",0,0
+72,2021,8,"Campbell River",12,1
+72,2021,9,"Campbell River",0,0
+72,2022,5,"Campbell River",92,1
+72,2022,6,"Campbell River",230,1
+72,2022,7,"Campbell River",92,2
+72,2022,8,"Campbell River",551,6
+72,2022,9,"Campbell River",657,7
+72,2023,5,"Campbell River",237,4
+72,2023,6,"Campbell River",373,4
+72,2023,7,"Campbell River",2314,11
+72,2023,8,"Campbell River",18346,22
+72,2023,9,"Campbell River",260,4
+72,2024,5,"Campbell River",146,2
+72,2024,6,"Campbell River",0,1
+72,2024,7,"Campbell River",0,0
+72,2024,8,"Campbell River",549,4
+72,2024,9,"Campbell River",1,1
+73,2017,5,"Kamloops-Thompson",582,5
+73,2017,6,"Kamloops-Thompson",2364,4
+73,2017,7,"Kamloops-Thompson",202425,42
+73,2017,8,"Kamloops-Thompson",1420,14
+73,2017,9,"Kamloops-Thompson",2240,6
+73,2018,5,"Kamloops-Thompson",2719,12
+73,2018,6,"Kamloops-Thompson",119,9
+73,2018,7,"Kamloops-Thompson",19814,75
+73,2018,8,"Kamloops-Thompson",21941,61
+73,2018,9,"Kamloops-Thompson",0,0
+73,2019,5,"Kamloops-Thompson",237,7
+73,2019,6,"Kamloops-Thompson",80,7
+73,2019,7,"Kamloops-Thompson",0,0
+73,2019,8,"Kamloops-Thompson",55,3
+73,2019,9,"Kamloops-Thompson",33,6
+73,2020,5,"Kamloops-Thompson",6,3
+73,2020,6,"Kamloops-Thompson",2,1
+73,2020,7,"Kamloops-Thompson",39,3
+73,2020,8,"Kamloops-Thompson",130,15
+73,2020,9,"Kamloops-Thompson",27,1
+73,2021,5,"Kamloops-Thompson",247,3
+73,2021,6,"Kamloops-Thompson",214048,36
+73,2021,7,"Kamloops-Thompson",271926,95
+73,2021,8,"Kamloops-Thompson",1664,20
+73,2021,9,"Kamloops-Thompson",9,2
+73,2022,5,"Kamloops-Thompson",30,5
+73,2022,6,"Kamloops-Thompson",4,1
+73,2022,7,"Kamloops-Thompson",5863,20
+73,2022,8,"Kamloops-Thompson",7536,49
+73,2022,9,"Kamloops-Thompson",106,6
+73,2023,5,"Kamloops-Thompson",4868,14
+73,2023,6,"Kamloops-Thompson",304,8
+73,2023,7,"Kamloops-Thompson",110315,63
+73,2023,8,"Kamloops-Thompson",1524,18
+73,2023,9,"Kamloops-Thompson",618,3
+73,2024,5,"Kamloops-Thompson",68,3
+73,2024,6,"Kamloops-Thompson",615,3
+73,2024,7,"Kamloops-Thompson",57606,99
+73,2024,8,"Kamloops-Thompson",1156,19
+73,2024,9,"Kamloops-Thompson",25,1
+74,2017,5,"Gold Trail",41,3
+74,2017,6,"Gold Trail",199,6
+74,2017,7,"Gold Trail",427969,20
+74,2017,8,"Gold Trail",264,9
+74,2017,9,"Gold Trail",3,2
+74,2018,5,"Gold Trail",4105,13
+74,2018,6,"Gold Trail",93,12
+74,2018,7,"Gold Trail",7971,21
+74,2018,8,"Gold Trail",9815,27
+74,2018,9,"Gold Trail",2,1
+74,2019,5,"Gold Trail",237,7
+74,2019,6,"Gold Trail",12,5
+74,2019,7,"Gold Trail",0,0
+74,2019,8,"Gold Trail",56,4
+74,2019,9,"Gold Trail",17,5
+74,2020,5,"Gold Trail",4,2
+74,2020,6,"Gold Trail",2,1
+74,2020,7,"Gold Trail",43,5
+74,2020,8,"Gold Trail",993,16
+74,2020,9,"Gold Trail",18,1
+74,2021,5,"Gold Trail",29,4
+74,2021,6,"Gold Trail",222392,27
+74,2021,7,"Gold Trail",224685,47
+74,2021,8,"Gold Trail",182,6
+74,2021,9,"Gold Trail",9,2
+74,2022,5,"Gold Trail",122,5
+74,2022,6,"Gold Trail",235,3
+74,2022,7,"Gold Trail",5947,16
+74,2022,8,"Gold Trail",10682,38
+74,2022,9,"Gold Trail",252,11
+74,2023,5,"Gold Trail",551,5
+74,2023,6,"Gold Trail",1021,7
+74,2023,7,"Gold Trail",78269,39
+74,2023,8,"Gold Trail",2989,16
+74,2023,9,"Gold Trail",247,4
+74,2024,5,"Gold Trail",224,6
+74,2024,6,"Gold Trail",153,2
+74,2024,7,"Gold Trail",24984,35
+74,2024,8,"Gold Trail",1936,19
+74,2024,9,"Gold Trail",0,0
+75,2017,5,"Mission",0,0
+75,2017,6,"Mission",3,1
+75,2017,7,"Mission",184,3
+75,2017,8,"Mission",4,2
+75,2017,9,"Mission",1,2
+75,2018,5,"Mission",135,5
+75,2018,6,"Mission",22,4
+75,2018,7,"Mission",14,2
+75,2018,8,"Mission",8470,6
+75,2018,9,"Mission",0,0
+75,2019,5,"Mission",0,0
+75,2019,6,"Mission",8,2
+75,2019,7,"Mission",0,0
+75,2019,8,"Mission",8,1
+75,2019,9,"Mission",5,1
+75,2020,5,"Mission",0,0
+75,2020,6,"Mission",2,1
+75,2020,7,"Mission",1,1
+75,2020,8,"Mission",492,6
+75,2020,9,"Mission",2,1
+75,2021,5,"Mission",20,2
+75,2021,6,"Mission",81114,2
+75,2021,7,"Mission",21674,8
+75,2021,8,"Mission",102,2
+75,2021,9,"Mission",0,0
+75,2022,5,"Mission",0,0
+75,2022,6,"Mission",0,0
+75,2022,7,"Mission",0,0
+75,2022,8,"Mission",5096,12
+75,2022,9,"Mission",866,5
+75,2023,5,"Mission",39,3
+75,2023,6,"Mission",843,2
+75,2023,7,"Mission",21249,11
+75,2023,8,"Mission",3011,7
+75,2023,9,"Mission",1,1
+75,2024,5,"Mission",10,1
+75,2024,6,"Mission",0,0
+75,2024,7,"Mission",7,4
+75,2024,8,"Mission",726,7
+75,2024,9,"Mission",2,1
+78,2017,5,"Fraser-Cascade",36,2
+78,2017,6,"Fraser-Cascade",3,1
+78,2017,7,"Fraser-Cascade",194947,10
+78,2017,8,"Fraser-Cascade",10,3
+78,2017,9,"Fraser-Cascade",1,2
+78,2018,5,"Fraser-Cascade",1635,9
+78,2018,6,"Fraser-Cascade",64,10
+78,2018,7,"Fraser-Cascade",33747,10
+78,2018,8,"Fraser-Cascade",9880,13
+78,2018,9,"Fraser-Cascade",0,0
+78,2019,5,"Fraser-Cascade",2,1
+78,2019,6,"Fraser-Cascade",8,2
+78,2019,7,"Fraser-Cascade",0,0
+78,2019,8,"Fraser-Cascade",14,2
+78,2019,9,"Fraser-Cascade",36,8
+78,2020,5,"Fraser-Cascade",3,1
+78,2020,6,"Fraser-Cascade",2,1
+78,2020,7,"Fraser-Cascade",37,3
+78,2020,8,"Fraser-Cascade",588,14
+78,2020,9,"Fraser-Cascade",2,1
+78,2021,5,"Fraser-Cascade",30,4
+78,2021,6,"Fraser-Cascade",119659,7
+78,2021,7,"Fraser-Cascade",94994,19
+78,2021,8,"Fraser-Cascade",102,3
+78,2021,9,"Fraser-Cascade",0,0
+78,2022,5,"Fraser-Cascade",24,2
+78,2022,6,"Fraser-Cascade",4,1
+78,2022,7,"Fraser-Cascade",10850,7
+78,2022,8,"Fraser-Cascade",11926,22
+78,2022,9,"Fraser-Cascade",1073,8
+78,2023,5,"Fraser-Cascade",39,3
+78,2023,6,"Fraser-Cascade",1014,4
+78,2023,7,"Fraser-Cascade",78142,28
+78,2023,8,"Fraser-Cascade",3916,14
+78,2023,9,"Fraser-Cascade",639,3
+78,2024,5,"Fraser-Cascade",82,5
+78,2024,6,"Fraser-Cascade",0,0
+78,2024,7,"Fraser-Cascade",27074,13
+78,2024,8,"Fraser-Cascade",1887,12
+78,2024,9,"Fraser-Cascade",2,1
+79,2017,5,"Cowichan",0,0
+79,2017,6,"Cowichan",17,2
+79,2017,7,"Cowichan",2,2
+79,2017,8,"Cowichan",2,2
+79,2017,9,"Cowichan",0,0
+79,2018,5,"Cowichan",0,0
+79,2018,6,"Cowichan",2,1
+79,2018,7,"Cowichan",111,4
+79,2018,8,"Cowichan",240,6
+79,2018,9,"Cowichan",0,0
+79,2019,5,"Cowichan",19,2
+79,2019,6,"Cowichan",23,5
+79,2019,7,"Cowichan",0,0
+79,2019,8,"Cowichan",7,2
+79,2019,9,"Cowichan",0,0
+79,2020,5,"Cowichan",0,0
+79,2020,6,"Cowichan",0,0
+79,2020,7,"Cowichan",19,2
+79,2020,8,"Cowichan",17,6
+79,2020,9,"Cowichan",0,0
+79,2021,5,"Cowichan",2,1
+79,2021,6,"Cowichan",2,1
+79,2021,7,"Cowichan",0,0
+79,2021,8,"Cowichan",91,2
+79,2021,9,"Cowichan",0,0
+79,2022,5,"Cowichan",0,0
+79,2022,6,"Cowichan",0,0
+79,2022,7,"Cowichan",0,0
+79,2022,8,"Cowichan",6,1
+79,2022,9,"Cowichan",0,0
+79,2023,5,"Cowichan",0,0
+79,2023,6,"Cowichan",200,1
+79,2023,7,"Cowichan",17,1
+79,2023,8,"Cowichan",193,3
+79,2023,9,"Cowichan",0,0
+79,2024,5,"Cowichan",0,0
+79,2024,6,"Cowichan",0,1
+79,2024,7,"Cowichan",165,2
+79,2024,8,"Cowichan",2,1
+79,2024,9,"Cowichan",4,3
+81,2017,5,"Fort Nelson",61,7
+81,2017,6,"Fort Nelson",4,2
+81,2017,7,"Fort Nelson",0,0
+81,2017,8,"Fort Nelson",3183,3
+81,2017,9,"Fort Nelson",531,5
+81,2018,5,"Fort Nelson",7658,12
+81,2018,6,"Fort Nelson",6165,21
+81,2018,7,"Fort Nelson",62224,13
+81,2018,8,"Fort Nelson",134125,16
+81,2018,9,"Fort Nelson",0,0
+81,2019,5,"Fort Nelson",7553,10
+81,2019,6,"Fort Nelson",53,5
+81,2019,7,"Fort Nelson",21,4
+81,2019,8,"Fort Nelson",0,0
+81,2019,9,"Fort Nelson",0,0
+81,2020,5,"Fort Nelson",0,0
+81,2020,6,"Fort Nelson",8,2
+81,2020,7,"Fort Nelson",0,0
+81,2020,8,"Fort Nelson",0,0
+81,2020,9,"Fort Nelson",0,0
+81,2021,5,"Fort Nelson",0,0
+81,2021,6,"Fort Nelson",8863,13
+81,2021,7,"Fort Nelson",434,1
+81,2021,8,"Fort Nelson",848,5
+81,2021,9,"Fort Nelson",6,1
+81,2022,5,"Fort Nelson",249,1
+81,2022,6,"Fort Nelson",2130,7
+81,2022,7,"Fort Nelson",1046,14
+81,2022,8,"Fort Nelson",0,0
+81,2022,9,"Fort Nelson",2592,2
+81,2023,5,"Fort Nelson",1124346,7
+81,2023,6,"Fort Nelson",609869,22
+81,2023,7,"Fort Nelson",250434,15
+81,2023,8,"Fort Nelson",65854,7
+81,2023,9,"Fort Nelson",4814,6
+81,2024,5,"Fort Nelson",37839,7
+81,2024,6,"Fort Nelson",1728,3
+81,2024,7,"Fort Nelson",19920,18
+81,2024,8,"Fort Nelson",0,0
+81,2024,9,"Fort Nelson",0,0
+82,2017,5,"Coast Mountains",0,0
+82,2017,6,"Coast Mountains",59,1
+82,2017,7,"Coast Mountains",173,3
+82,2017,8,"Coast Mountains",0,0
+82,2017,9,"Coast Mountains",0,0
+82,2018,5,"Coast Mountains",85,4
+82,2018,6,"Coast Mountains",55,4
+82,2018,7,"Coast Mountains",164365,10
+82,2018,8,"Coast Mountains",127996,17
+82,2018,9,"Coast Mountains",0,0
+82,2019,5,"Coast Mountains",27,5
+82,2019,6,"Coast Mountains",1,1
+82,2019,7,"Coast Mountains",438,5
+82,2019,8,"Coast Mountains",44,1
+82,2019,9,"Coast Mountains",0,0
+82,2020,5,"Coast Mountains",40,1
+82,2020,6,"Coast Mountains",0,0
+82,2020,7,"Coast Mountains",0,0
+82,2020,8,"Coast Mountains",6,1
+82,2020,9,"Coast Mountains",0,0
+82,2021,5,"Coast Mountains",4,1
+82,2021,6,"Coast Mountains",0,0
+82,2021,7,"Coast Mountains",85,1
+82,2021,8,"Coast Mountains",0,0
+82,2021,9,"Coast Mountains",0,0
+82,2022,5,"Coast Mountains",0,0
+82,2022,6,"Coast Mountains",9,2
+82,2022,7,"Coast Mountains",9,2
+82,2022,8,"Coast Mountains",459,9
+82,2022,9,"Coast Mountains",0,0
+82,2023,5,"Coast Mountains",19,3
+82,2023,6,"Coast Mountains",19130,7
+82,2023,7,"Coast Mountains",70182,43
+82,2023,8,"Coast Mountains",2456,9
+82,2023,9,"Coast Mountains",12,1
+82,2024,5,"Coast Mountains",0,0
+82,2024,6,"Coast Mountains",32,4
+82,2024,7,"Coast Mountains",83960,7
+82,2024,8,"Coast Mountains",3935,9
+82,2024,9,"Coast Mountains",0,0
+83,2017,5,"Okanagan-Shuswap",6,2
+83,2017,6,"Okanagan-Shuswap",773,4
+83,2017,7,"Okanagan-Shuswap",5091,26
+83,2017,8,"Okanagan-Shuswap",783,11
+83,2017,9,"Okanagan-Shuswap",2188,4
+83,2018,5,"Okanagan-Shuswap",11,3
+83,2018,6,"Okanagan-Shuswap",25,1
+83,2018,7,"Okanagan-Shuswap",9632,51
+83,2018,8,"Okanagan-Shuswap",5871,58
+83,2018,9,"Okanagan-Shuswap",0,0
+83,2019,5,"Okanagan-Shuswap",22,2
+83,2019,6,"Okanagan-Shuswap",8,4
+83,2019,7,"Okanagan-Shuswap",0,0
+83,2019,8,"Okanagan-Shuswap",0,0
+83,2019,9,"Okanagan-Shuswap",5,1
+83,2020,5,"Okanagan-Shuswap",4,2
+83,2020,6,"Okanagan-Shuswap",0,0
+83,2020,7,"Okanagan-Shuswap",3,1
+83,2020,8,"Okanagan-Shuswap",144,12
+83,2020,9,"Okanagan-Shuswap",27,1
+83,2021,5,"Okanagan-Shuswap",1,1
+83,2021,6,"Okanagan-Shuswap",87941,8
+83,2021,7,"Okanagan-Shuswap",181817,84
+83,2021,8,"Okanagan-Shuswap",1405,16
+83,2021,9,"Okanagan-Shuswap",9,2
+83,2022,5,"Okanagan-Shuswap",4,2
+83,2022,6,"Okanagan-Shuswap",69,1
+83,2022,7,"Okanagan-Shuswap",879,17
+83,2022,8,"Okanagan-Shuswap",2165,38
+83,2022,9,"Okanagan-Shuswap",437,6
+83,2023,5,"Okanagan-Shuswap",2526,7
+83,2023,6,"Okanagan-Shuswap",46,4
+83,2023,7,"Okanagan-Shuswap",82684,43
+83,2023,8,"Okanagan-Shuswap",560,16
+83,2023,9,"Okanagan-Shuswap",614,2
+83,2024,5,"Okanagan-Shuswap",14,1
+83,2024,6,"Okanagan-Shuswap",463,1
+83,2024,7,"Okanagan-Shuswap",12090,72
+83,2024,8,"Okanagan-Shuswap",1169,18
+83,2024,9,"Okanagan-Shuswap",0,0
+84,2017,5,"Vancouver Island West",0,0
+84,2017,6,"Vancouver Island West",1,1
+84,2017,7,"Vancouver Island West",9,3
+84,2017,8,"Vancouver Island West",86,2
+84,2017,9,"Vancouver Island West",0,0
+84,2018,5,"Vancouver Island West",43,3
+84,2018,6,"Vancouver Island West",3,1
+84,2018,7,"Vancouver Island West",1,1
+84,2018,8,"Vancouver Island West",5222,32
+84,2018,9,"Vancouver Island West",0,0
+84,2019,5,"Vancouver Island West",24,2
+84,2019,6,"Vancouver Island West",19,2
+84,2019,7,"Vancouver Island West",0,0
+84,2019,8,"Vancouver Island West",0,1
+84,2019,9,"Vancouver Island West",0,0
+84,2020,5,"Vancouver Island West",0,0
+84,2020,6,"Vancouver Island West",0,0
+84,2020,7,"Vancouver Island West",0,0
+84,2020,8,"Vancouver Island West",0,0
+84,2020,9,"Vancouver Island West",0,0
+84,2021,5,"Vancouver Island West",0,0
+84,2021,6,"Vancouver Island West",2,1
+84,2021,7,"Vancouver Island West",0,0
+84,2021,8,"Vancouver Island West",0,0
+84,2021,9,"Vancouver Island West",0,0
+84,2022,5,"Vancouver Island West",0,0
+84,2022,6,"Vancouver Island West",0,0
+84,2022,7,"Vancouver Island West",0,0
+84,2022,8,"Vancouver Island West",547,5
+84,2022,9,"Vancouver Island West",450,3
+84,2023,5,"Vancouver Island West",236,3
+84,2023,6,"Vancouver Island West",12,3
+84,2023,7,"Vancouver Island West",208,3
+84,2023,8,"Vancouver Island West",2006,12
+84,2023,9,"Vancouver Island West",14,1
+84,2024,5,"Vancouver Island West",0,0
+84,2024,6,"Vancouver Island West",0,1
+84,2024,7,"Vancouver Island West",0,0
+84,2024,8,"Vancouver Island West",0,0
+84,2024,9,"Vancouver Island West",0,0
+85,2017,5,"Vancouver Island North",0,0
+85,2017,6,"Vancouver Island North",1,1
+85,2017,7,"Vancouver Island North",31380,5
+85,2017,8,"Vancouver Island North",85,1
+85,2017,9,"Vancouver Island North",0,0
+85,2018,5,"Vancouver Island North",43,3
+85,2018,6,"Vancouver Island North",95,2
+85,2018,7,"Vancouver Island North",42812,3
+85,2018,8,"Vancouver Island North",27815,40
+85,2018,9,"Vancouver Island North",0,0
+85,2019,5,"Vancouver Island North",30,3
+85,2019,6,"Vancouver Island North",17,1
+85,2019,7,"Vancouver Island North",7,2
+85,2019,8,"Vancouver Island North",0,1
+85,2019,9,"Vancouver Island North",0,0
+85,2020,5,"Vancouver Island North",0,0
+85,2020,6,"Vancouver Island North",0,0
+85,2020,7,"Vancouver Island North",3,1
+85,2020,8,"Vancouver Island North",381,1
+85,2020,9,"Vancouver Island North",0,0
+85,2021,5,"Vancouver Island North",12,1
+85,2021,6,"Vancouver Island North",0,0
+85,2021,7,"Vancouver Island North",9456,4
+85,2021,8,"Vancouver Island North",20,2
+85,2021,9,"Vancouver Island North",0,0
+85,2022,5,"Vancouver Island North",0,0
+85,2022,6,"Vancouver Island North",230,1
+85,2022,7,"Vancouver Island North",90,1
+85,2022,8,"Vancouver Island North",658,7
+85,2022,9,"Vancouver Island North",631,6
+85,2023,5,"Vancouver Island North",382,5
+85,2023,6,"Vancouver Island North",16,4
+85,2023,7,"Vancouver Island North",8819,15
+85,2023,8,"Vancouver Island North",17453,17
+85,2023,9,"Vancouver Island North",59,2
+85,2024,5,"Vancouver Island North",0,0
+85,2024,6,"Vancouver Island North",5,1
+85,2024,7,"Vancouver Island North",0,0
+85,2024,8,"Vancouver Island North",15,1
+85,2024,9,"Vancouver Island North",0,0
+87,2017,5,"Stikine",0,0
+87,2017,6,"Stikine",0,0
+87,2017,7,"Stikine",0,0
+87,2017,8,"Stikine",19,3
+87,2017,9,"Stikine",185,2
+87,2018,5,"Stikine",2660,10
+87,2018,6,"Stikine",45,2
+87,2018,7,"Stikine",66959,10
+87,2018,8,"Stikine",214098,17
+87,2018,9,"Stikine",0,0
+87,2019,5,"Stikine",2201,4
+87,2019,6,"Stikine",0,0
+87,2019,7,"Stikine",1836,9
+87,2019,8,"Stikine",4959,2
+87,2019,9,"Stikine",0,0
+87,2020,5,"Stikine",0,0
+87,2020,6,"Stikine",0,0
+87,2020,7,"Stikine",0,0
+87,2020,8,"Stikine",0,0
+87,2020,9,"Stikine",0,0
+87,2021,5,"Stikine",0,0
+87,2021,6,"Stikine",15298,3
+87,2021,7,"Stikine",15168,3
+87,2021,8,"Stikine",253,1
+87,2021,9,"Stikine",6,1
+87,2022,5,"Stikine",0,0
+87,2022,6,"Stikine",12940,9
+87,2022,7,"Stikine",2037,14
+87,2022,8,"Stikine",8,2
+87,2022,9,"Stikine",2592,2
+87,2023,5,"Stikine",503038,4
+87,2023,6,"Stikine",182315,12
+87,2023,7,"Stikine",51931,8
+87,2023,8,"Stikine",11211,4
+87,2023,9,"Stikine",1260,2
+87,2024,5,"Stikine",0,0
+87,2024,6,"Stikine",5,1
+87,2024,7,"Stikine",17961,10
+87,2024,8,"Stikine",0,0
+87,2024,9,"Stikine",0,0
+91,2017,5,"Nechako Lakes",158,3
+91,2017,6,"Nechako Lakes",121,6
+91,2017,7,"Nechako Lakes",452650,33
+91,2017,8,"Nechako Lakes",108,7
+91,2017,9,"Nechako Lakes",58,1
+91,2018,5,"Nechako Lakes",438,9
+91,2018,6,"Nechako Lakes",3705,29
+91,2018,7,"Nechako Lakes",324237,39
+91,2018,8,"Nechako Lakes",182484,29
+91,2018,9,"Nechako Lakes",27,4
+91,2019,5,"Nechako Lakes",365,11
+91,2019,6,"Nechako Lakes",14,4
+91,2019,7,"Nechako Lakes",35,2
+91,2019,8,"Nechako Lakes",0,0
+91,2019,9,"Nechako Lakes",0,0
+91,2020,5,"Nechako Lakes",56,4
+91,2020,6,"Nechako Lakes",0,0
+91,2020,7,"Nechako Lakes",0,0
+91,2020,8,"Nechako Lakes",6,1
+91,2020,9,"Nechako Lakes",0,0
+91,2021,5,"Nechako Lakes",4,1
+91,2021,6,"Nechako Lakes",75264,18
+91,2021,7,"Nechako Lakes",42831,24
+91,2021,8,"Nechako Lakes",2098,13
+91,2021,9,"Nechako Lakes",0,0
+91,2022,5,"Nechako Lakes",2,1
+91,2022,6,"Nechako Lakes",37,5
+91,2022,7,"Nechako Lakes",712,3
+91,2022,8,"Nechako Lakes",2443,24
+91,2022,9,"Nechako Lakes",39,4
+91,2023,5,"Nechako Lakes",436,16
+91,2023,6,"Nechako Lakes",196050,23
+91,2023,7,"Nechako Lakes",274811,126
+91,2023,8,"Nechako Lakes",2762,18
+91,2023,9,"Nechako Lakes",35,3
+91,2024,5,"Nechako Lakes",72,4
+91,2024,6,"Nechako Lakes",45,6
+91,2024,7,"Nechako Lakes",95644,20
+91,2024,8,"Nechako Lakes",5486,20
+91,2024,9,"Nechako Lakes",0,0
+92,2017,5,"Nisgaa",0,0
+92,2017,6,"Nisgaa",0,0
+92,2017,7,"Nisgaa",0,0
+92,2017,8,"Nisgaa",0,0
+92,2017,9,"Nisgaa",0,0
+92,2018,5,"Nisgaa",80,3
+92,2018,6,"Nisgaa",2,1
+92,2018,7,"Nisgaa",854,2
+92,2018,8,"Nisgaa",3031,2
+92,2018,9,"Nisgaa",0,0
+92,2019,5,"Nisgaa",11,1
+92,2019,6,"Nisgaa",1,1
+92,2019,7,"Nisgaa",0,0
+92,2019,8,"Nisgaa",0,0
+92,2019,9,"Nisgaa",0,0
+92,2020,5,"Nisgaa",0,0
+92,2020,6,"Nisgaa",0,0
+92,2020,7,"Nisgaa",0,0
+92,2020,8,"Nisgaa",0,0
+92,2020,9,"Nisgaa",0,0
+92,2021,5,"Nisgaa",4,1
+92,2021,6,"Nisgaa",0,0
+92,2021,7,"Nisgaa",0,0
+92,2021,8,"Nisgaa",0,0
+92,2021,9,"Nisgaa",0,0
+92,2022,5,"Nisgaa",0,0
+92,2022,6,"Nisgaa",0,0
+92,2022,7,"Nisgaa",8,1
+92,2022,8,"Nisgaa",55,2
+92,2022,9,"Nisgaa",0,0
+92,2023,5,"Nisgaa",0,0
+92,2023,6,"Nisgaa",1,1
+92,2023,7,"Nisgaa",494,9
+92,2023,8,"Nisgaa",10,1
+92,2023,9,"Nisgaa",0,0
+92,2024,5,"Nisgaa",0,0
+92,2024,6,"Nisgaa",4,3
+92,2024,7,"Nisgaa",228,2
+92,2024,8,"Nisgaa",0,0
+92,2024,9,"Nisgaa",0,0

@@ -1,5 +1,4 @@
-library(dplyr)
-library(readxl)
+source("programs/config.R")
 
 # ------------------------------------------------------------
 # 1. Load main datasets

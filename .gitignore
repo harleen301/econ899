@@ -22,10 +22,6 @@ data/raw_data/PM2.5/*.nc
 data/raw_data/FSA/*.xlsx
 data/raw_data/Wildfire
 
-# Analysis Data 
-data/data_for_analysis/*.csv
-data/data_for_analysis/*.rds
-
 
 # These lines tell Git to ignore all text and PNG files in the 
 # results folder

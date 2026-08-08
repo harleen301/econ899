@@ -1,7 +1,4 @@
-library(readxl)
-library(dplyr)
-library(stringr)
-library(purrr)
+source("programs/config.R")
 
 fsa_folder <- "data/raw_data/FSA"
 

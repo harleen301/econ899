@@ -1,43 +1,74 @@
-# Load final panel
-panel <- readRDS("data/data_for_analysis/final_panel.rds")
+source("programs/config.R")
+
+# ------------------------------------------------------------
+# 1. Load 75 km robustness panel
+# ------------------------------------------------------------
+
+panel_75km <- readRDS(
+  "data/data_for_analysis/final_panel_75km.rds"
+)
 
 # Check data
-stopifnot(nrow(panel) == 944)
+stopifnot(nrow(panel_75km) == 944)
 
-panel_no_covid <- panel %>%
-  filter(!year %in% c(2020, 2021)) %>%
+# ------------------------------------------------------------
+# 2. Rescale burned area
+# ------------------------------------------------------------
+
+panel_75km <- panel_75km %>%
   mutate(
-    burned_ha_100k = burned_ha / 100000)
+    burned_ha_75km_100k = burned_ha_75km / 100000)
 
-panel_no_covid_g4 <- panel_no_covid %>%
+# ------------------------------------------------------------
+# 3. Create grade-specific samples
+# ------------------------------------------------------------
+
+panel_75km_g4 <- panel_75km %>%
   filter(GRADE == "04")
 
-panel_no_covid_g7 <- panel_no_covid %>%
+panel_75km_g7 <- panel_75km %>%
   filter(GRADE == "07")
 
-iv_g4_no_covid <- feols(
-  AVG_SCORE ~ 1 |
-    SCHOOL_DISTRICT_NUMBER + year |
-    pm25 ~ burned_ha_100k,
-  cluster = ~ SCHOOL_DISTRICT_NUMBER,
-  data = panel_no_covid_g4)
+# ------------------------------------------------------------
+# 4. IV model: Grade 4
+# ------------------------------------------------------------
 
-iv_g7_no_covid <- feols(
-  AVG_SCORE ~ 1 |
+iv_g4_75km <- feols(
+  AVG_SCORE_Z ~ 1 |
     SCHOOL_DISTRICT_NUMBER + year |
-    pm25 ~ burned_ha_100k,
-  cluster = ~ SCHOOL_DISTRICT_NUMBER,
-  data = panel_no_covid_g7)
+    pm25 ~ burned_ha_75km_100k,
+  cluster = ~SCHOOL_DISTRICT_NUMBER,
+  data = panel_75km_g4
+)
 
-# Save Appendix Table A2: IV results excluding 2020 and 2021
+# ------------------------------------------------------------
+# 5. IV model: Grade 7
+# ------------------------------------------------------------
+
+iv_g7_75km <- feols(
+  AVG_SCORE_Z ~ 1 |
+    SCHOOL_DISTRICT_NUMBER + year |
+    pm25 ~ burned_ha_75km_100k,
+  cluster = ~SCHOOL_DISTRICT_NUMBER,
+  data = panel_75km_g7
+)
+
+# ------------------------------------------------------------
+# 6. Save Appendix Table A3
+# ------------------------------------------------------------
+
 capture.output(
   etable(
-    iv_g4_no_covid,
-    iv_g7_no_covid,
-    digits = 3,
+    iv_g4_75km,
+    iv_g7_75km,
+    digits = 5,
     dict = c(
       pm25 = "PM2.5"
     )
   ),
-  file = "results/tableA2_covid_robustness.txt"
+  file = "results/tableA3_buffer75km.txt"
 )
+
+# First-stage diagnostics
+summary(iv_g4_75km, stage = 1)
+summary(iv_g7_75km, stage = 1)

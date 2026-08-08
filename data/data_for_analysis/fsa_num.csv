@@ -1,0 +1,945 @@
+"year","DISTRICT_NUMBER","DISTRICT_NAME","SUB_POPULATION","GRADE","FSA_SKILL_CODE","NUMBER_WRITERS","AVG_SCORE","MEDIAN_SCORE","STDEV_SCORE"
+2017,5,"Southeast Kootenay","All Students","04","Numeracy","396",420.9338,446,137.5929
+2017,6,"Rocky Mountain","All Students","04","Numeracy","268",453.2482,468,121.3503
+2017,8,"Kootenay Lake","All Students","04","Numeracy","301",360.7241,426,204.1835
+2017,10,"Arrow Lakes","All Students","04","Numeracy","Msk",387.4815,488,225.9837
+2017,19,"Revelstoke","All Students","04","Numeracy","50",379.2857,455,210.1921
+2017,20,"Kootenay-Columbia","All Students","04","Numeracy","132",216.3659,0,240.956
+2017,22,"Vernon","All Students","04","Numeracy","578",398.7214,433,178.5222
+2017,23,"Central Okanagan","All Students","04","Numeracy","1245",332.7934,416,226.5752
+2017,27,"Cariboo-Chilcotin","All Students","04","Numeracy","323",399.3207,412,129.0022
+2017,28,"Quesnel","All Students","04","Numeracy","181",294.1102,347,195.1203
+2017,33,"Chilliwack","All Students","04","Numeracy","927",416.3516,451,169.3069
+2017,34,"Abbotsford","All Students","04","Numeracy","1365",438.9781,460,148.5628
+2017,35,"Langley","All Students","04","Numeracy","1269",401.4256,463,200.6304
+2017,36,"Surrey","All Students","04","Numeracy","3589",298.6037,384,232.0323
+2017,37,"Delta","All Students","04","Numeracy","828",352.4995,430,221.3538
+2017,38,"Richmond","All Students","04","Numeracy","873",334.8769,450,262.4874
+2017,39,"Vancouver","All Students","04","Numeracy","2025",276.5051,356,259.0575
+2017,40,"New Westminster","All Students","04","Numeracy","404",386.2851,447,213.0177
+2017,41,"Burnaby","All Students","04","Numeracy","1239",349.1842,440,242.1269
+2017,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","414",163.2766,0,223.3596
+2017,43,"Coquitlam","All Students","04","Numeracy","1810",385.0761,447,205.1653
+2017,44,"North Vancouver","All Students","04","Numeracy","1122",470.5467,497,152.0433
+2017,45,"West Vancouver","All Students","04","Numeracy","424",525.8095,597,213.9574
+2017,46,"Sunshine Coast","All Students","04","Numeracy","225",419.0264,479,192.3499
+2017,47,"qathet","All Students","04","Numeracy","118",326.7032,398,196.1057
+2017,48,"Sea to Sky","All Students","04","Numeracy","363",404.7665,459,183.9551
+2017,49,"Central Coast","All Students","04","Numeracy","23",381.1923,394,177.5525
+2017,50,"Haida Gwaii","All Students","04","Numeracy","28",381.1212,430,175.9749
+2017,51,"Boundary","All Students","04","Numeracy","53",287.881,393.5,232.3528
+2017,52,"Prince Rupert","All Students","04","Numeracy","137",401,400,119.7767
+2017,53,"Okanagan Similkameen","All Students","04","Numeracy","181",442.0923,468,151.4596
+2017,54,"Bulkley Valley","All Students","04","Numeracy","133",467.087,472,128.2136
+2017,57,"Prince George","All Students","04","Numeracy","936",410.3009,423,141.0195
+2017,58,"Nicola-Similkameen","All Students","04","Numeracy","129",428.7483,453,171.5936
+2017,59,"Peace River South","All Students","04","Numeracy","261",450.5091,467,137.3313
+2017,60,"Peace River North","All Students","04","Numeracy","473",457.5178,470,152.1689
+2017,61,"Greater Victoria","All Students","04","Numeracy","997",307.302,396,235.3798
+2017,62,"Sooke","All Students","04","Numeracy","319",175.3034,0,228.6431
+2017,63,"Saanich","All Students","04","Numeracy","360",383.0022,458,219.7258
+2017,64,"Gulf Islands","All Students","04","Numeracy","65",243.6176,0,262.3848
+2017,67,"Okanagan Skaha","All Students","04","Numeracy","387",453.2948,469,135.1002
+2017,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","742",293.5357,370,221.1089
+2017,69,"Qualicum","All Students","04","Numeracy","296",404.5368,435,155.3162
+2017,70,"Pacific Rim","All Students","04","Numeracy","263",438.75,437.5,143.9757
+2017,71,"Comox Valley","All Students","04","Numeracy","545",392.6092,447,189.083
+2017,72,"Campbell River","All Students","04","Numeracy","401",382.2495,416,165.7871
+2017,73,"Kamloops-Thompson","All Students","04","Numeracy","1005",429.4825,457,154.7586
+2017,74,"Gold Trail","All Students","04","Numeracy","86",367.4659,363.5,108.816
+2017,75,"Mission","All Students","04","Numeracy","356",328.0907,395,211.9319
+2017,78,"Fraser-Cascade","All Students","04","Numeracy","113",332.366,380,215.9159
+2017,79,"Cowichan Valley","All Students","04","Numeracy","336",252.0051,338.5,227.2695
+2017,81,"Fort Nelson","All Students","04","Numeracy","57",574.3898,598,128.0403
+2017,82,"Coast Mountains","All Students","04","Numeracy","265",362.2045,399,171.7794
+2017,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","445",422.8093,443,132.7808
+2017,84,"Vancouver Island West","All Students","04","Numeracy","26",283.2353,304,193.3018
+2017,85,"Vancouver Island North","All Students","04","Numeracy","94",427.7333,459,172.6304
+2017,87,"Stikine","All Students","04","Numeracy","Msk",165.8182,0,232.9394
+2017,91,"Nechako Lakes","All Students","04","Numeracy","243",362.8357,393,183.1484
+2017,92,"Nisga'a","All Students","04","Numeracy","34",356.5278,356.5,121.829
+2017,5,"Southeast Kootenay","All Students","07","Numeracy","407",398.3034,415,138.8085
+2017,6,"Rocky Mountain","All Students","07","Numeracy","234",436.7976,468,143.0477
+2017,8,"Kootenay Lake","All Students","07","Numeracy","270",349.8125,411.5,193.1341
+2017,10,"Arrow Lakes","All Students","07","Numeracy","Msk",297.2,329,232.3532
+2017,19,"Revelstoke","All Students","07","Numeracy","63",398.6494,462,216.6968
+2017,20,"Kootenay-Columbia","All Students","07","Numeracy","150",245.1474,261,244.9145
+2017,22,"Vernon","All Students","07","Numeracy","587",411.705,440,157.181
+2017,23,"Central Okanagan","All Students","07","Numeracy","1048",286.1175,377,228.1123
+2017,27,"Cariboo-Chilcotin","All Students","07","Numeracy","310",385.1015,404,140.4909
+2017,28,"Quesnel","All Students","07","Numeracy","100",177.7661,0,205.8576
+2017,33,"Chilliwack","All Students","07","Numeracy","795",365.5584,420.5,192.529
+2017,34,"Abbotsford","All Students","07","Numeracy","1296",441.9279,458,138.3764
+2017,35,"Langley","All Students","07","Numeracy","1208",376.0404,445,213.2923
+2017,36,"Surrey","All Students","07","Numeracy","3702",325.8893,412,233.615
+2017,37,"Delta","All Students","07","Numeracy","772",331.052,418,229.2676
+2017,38,"Richmond","All Students","07","Numeracy","941",356.285,470,264.8873
+2017,39,"Vancouver","All Students","07","Numeracy","1957",282.1475,364.5,269.5104
+2017,40,"New Westminster","All Students","07","Numeracy","410",401.5198,448,191.6052
+2017,41,"Burnaby","All Students","07","Numeracy","1204",367.9535,461,244.7525
+2017,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","257",121.6411,0,210.4702
+2017,43,"Coquitlam","All Students","07","Numeracy","1879",392.6883,449,206.3805
+2017,44,"North Vancouver","All Students","07","Numeracy","1119",473.7913,500,147.7303
+2017,45,"West Vancouver","All Students","07","Numeracy","474",527.4646,571,186.0091
+2017,46,"Sunshine Coast","All Students","07","Numeracy","220",450.3429,488,175.3877
+2017,47,"qathet","All Students","07","Numeracy","108",349.6547,428,204.1713
+2017,48,"Sea to Sky","All Students","07","Numeracy","312",425.0427,435,134.5353
+2017,49,"Central Coast","All Students","07","Numeracy","21",304.5185,350,196.6892
+2017,50,"Haida Gwaii","All Students","07","Numeracy","38",359.9333,412,170.4753
+2017,51,"Boundary","All Students","07","Numeracy","78",362.396,430,212.6129
+2017,52,"Prince Rupert","All Students","07","Numeracy","102",344.552,395,181.5676
+2017,53,"Okanagan Similkameen","All Students","07","Numeracy","144",421.6564,454,174.5803
+2017,54,"Bulkley Valley","All Students","07","Numeracy","123",456.7923,465.5,145.0845
+2017,57,"Prince George","All Students","07","Numeracy","873",404.2996,416,137.9422
+2017,58,"Nicola-Similkameen","All Students","07","Numeracy","156",417.7485,441,157.0484
+2017,59,"Peace River South","All Students","07","Numeracy","252",436.4701,456.5,138.3859
+2017,60,"Peace River North","All Students","07","Numeracy","386",425.7242,448,152.354
+2017,61,"Greater Victoria","All Students","07","Numeracy","892",301.7981,391,234.9946
+2017,62,"Sooke","All Students","07","Numeracy","212",116.1841,0,198.545
+2017,63,"Saanich","All Students","07","Numeracy","345",303.5387,408,248.6767
+2017,64,"Gulf Islands","All Students","07","Numeracy","54",215.8158,0,235.6717
+2017,67,"Okanagan Skaha","All Students","07","Numeracy","427",430.6826,436.5,107.1576
+2017,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","649",274.8464,344,231.5579
+2017,69,"Qualicum","All Students","07","Numeracy","286",402.2384,443,166.09
+2017,70,"Pacific Rim","All Students","07","Numeracy","261",430.6509,449,138.0235
+2017,71,"Comox Valley","All Students","07","Numeracy","497",377.6459,427,198.2775
+2017,72,"Campbell River","All Students","07","Numeracy","250",285.314,355,207.8311
+2017,73,"Kamloops-Thompson","All Students","07","Numeracy","970",425.2294,447,153.3592
+2017,74,"Gold Trail","All Students","07","Numeracy","96",371.2358,388.5,144.2799
+2017,75,"Mission","All Students","07","Numeracy","382",364.4051,395,156.0146
+2017,78,"Fraser-Cascade","All Students","07","Numeracy","96",270.9643,336.5,201.0177
+2017,79,"Cowichan Valley","All Students","07","Numeracy","320",252.9231,327,230.8996
+2017,81,"Fort Nelson","All Students","07","Numeracy","48",484.8214,556.5,207.1062
+2017,82,"Coast Mountains","All Students","07","Numeracy","202",235.8216,311,209.6747
+2017,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","437",390.4062,418,154.1623
+2017,84,"Vancouver Island West","All Students","07","Numeracy","Msk",273.88,345,167.9879
+2017,85,"Vancouver Island North","All Students","07","Numeracy","90",390.7129,427,161.2596
+2017,87,"Stikine","All Students","07","Numeracy","Msk",226.0909,343,185.777
+2017,91,"Nechako Lakes","All Students","07","Numeracy","219",330.5842,388,191.1106
+2017,92,"Nisga'a","All Students","07","Numeracy","32",307.8,314,116.8541
+2018,5,"Southeast Kootenay","All Students","04","Numeracy","388",397.5348,440,175.1103
+2018,6,"Rocky Mountain","All Students","04","Numeracy","272",451.1601,460,124.1724
+2018,8,"Kootenay Lake","All Students","04","Numeracy","307",358.6796,427,204.0386
+2018,10,"Arrow Lakes","All Students","04","Numeracy","28",369.9444,455,226.3976
+2018,19,"Revelstoke","All Students","04","Numeracy","76",444.4512,476,154.3991
+2018,20,"Kootenay-Columbia","All Students","04","Numeracy","136",226.7722,0,243.6712
+2018,22,"Vernon","All Students","04","Numeracy","598",399.428,451,181.6904
+2018,23,"Central Okanagan","All Students","04","Numeracy","1350",361.9404,445,222.6969
+2018,27,"Cariboo-Chilcotin","All Students","04","Numeracy","336",405.9368,431,151.377
+2018,28,"Quesnel","All Students","04","Numeracy","151",219.9486,241,198.9039
+2018,33,"Chilliwack","All Students","04","Numeracy","997",424.0081,454,168.9602
+2018,34,"Abbotsford","All Students","04","Numeracy","1425",441.7021,461,142.2186
+2018,35,"Langley","All Students","04","Numeracy","1480",425.8438,464,169.5468
+2018,36,"Surrey","All Students","04","Numeracy","3425",285.7478,365,234.6624
+2018,37,"Delta","All Students","04","Numeracy","890",380.6993,451,206.8469
+2018,38,"Richmond","All Students","04","Numeracy","833",313.5968,420,274.2494
+2018,39,"Vancouver","All Students","04","Numeracy","1944",265.7451,316.5,260.0563
+2018,40,"New Westminster","All Students","04","Numeracy","367",331.2464,437,252.6588
+2018,41,"Burnaby","All Students","04","Numeracy","1127",327.7866,446,259.2241
+2018,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","330",134.3735,0,213.6147
+2018,43,"Coquitlam","All Students","04","Numeracy","1791",356.658,436,221.7337
+2018,44,"North Vancouver","All Students","04","Numeracy","991",424.286,474,187.8261
+2018,45,"West Vancouver","All Students","04","Numeracy","466",501.6654,564,211.9371
+2018,46,"Sunshine Coast","All Students","04","Numeracy","226",391.5824,448,199.8279
+2018,47,"qathet","All Students","04","Numeracy","127",327.8659,373,202.1571
+2018,48,"Sea to Sky","All Students","04","Numeracy","358",414.6558,445.5,164.7073
+2018,49,"Central Coast","All Students","04","Numeracy","Msk",233.381,302,181.7824
+2018,50,"Haida Gwaii","All Students","04","Numeracy","26",376.2258,425,187.0302
+2018,51,"Boundary","All Students","04","Numeracy","66",361.3596,454,227.1927
+2018,52,"Prince Rupert","All Students","04","Numeracy","131",382.9034,413,154.7972
+2018,53,"Okanagan Similkameen","All Students","04","Numeracy","138",420.5232,452,154.7956
+2018,54,"Bulkley Valley","All Students","04","Numeracy","146",407.1392,421.5,158.7078
+2018,57,"Prince George","All Students","04","Numeracy","970",394.2733,424,156.0446
+2018,58,"Nicola-Similkameen","All Students","04","Numeracy","132",378.1333,408,171.2035
+2018,59,"Peace River South","All Students","04","Numeracy","244",419.7556,444,158.7981
+2018,60,"Peace River North","All Students","04","Numeracy","476",418.2539,437,140.5726
+2018,61,"Greater Victoria","All Students","04","Numeracy","799",257.9489,318.5,253.5494
+2018,62,"Sooke","All Students","04","Numeracy","314",172.4994,0,229.4617
+2018,63,"Saanich","All Students","04","Numeracy","350",360.8917,450,227.2838
+2018,64,"Gulf Islands","All Students","04","Numeracy","56",228.6935,0,261.3746
+2018,67,"Okanagan Skaha","All Students","04","Numeracy","425",456.4717,477,126.5759
+2018,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","753",297.6785,372,225.9251
+2018,69,"Qualicum","All Students","04","Numeracy","268",377.1175,425,178.9346
+2018,70,"Pacific Rim","All Students","04","Numeracy","295",428.7418,443,125.6859
+2018,71,"Comox Valley","All Students","04","Numeracy","424",316.5016,410.5,234.7148
+2018,72,"Campbell River","All Students","04","Numeracy","367",379.7512,423,185.1064
+2018,73,"Kamloops-Thompson","All Students","04","Numeracy","1154",447.316,466,136.4456
+2018,74,"Gold Trail","All Students","04","Numeracy","75",381.6627,421,145.9889
+2018,75,"Mission","All Students","04","Numeracy","375",364.9814,436,213.2306
+2018,78,"Fraser-Cascade","All Students","04","Numeracy","82",257.9209,320,226.8483
+2018,79,"Cowichan Valley","All Students","04","Numeracy","307",223.9354,240.5,226.5825
+2018,81,"Fort Nelson","All Students","04","Numeracy","55",554.8525,603,195.231
+2018,82,"Coast Mountains","All Students","04","Numeracy","262",350.2539,405,186.2686
+2018,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","458",403.5787,435,159.5802
+2018,84,"Vancouver Island West","All Students","04","Numeracy","17",330.5714,341,206.1258
+2018,85,"Vancouver Island North","All Students","04","Numeracy","84",426.1935,464,165.2111
+2018,87,"Stikine","All Students","04","Numeracy","Msk",220.9231,251,230.8129
+2018,91,"Nechako Lakes","All Students","04","Numeracy","206",360.0315,400.5,198.2035
+2018,92,"Nisga'a","All Students","04","Numeracy","30",301.3429,311,143.9593
+2018,5,"Southeast Kootenay","All Students","07","Numeracy","396",385.0852,416,160.7237
+2018,6,"Rocky Mountain","All Students","07","Numeracy","230",465.6639,484,129.6993
+2018,8,"Kootenay Lake","All Students","07","Numeracy","313",352.2088,406.5,193.9333
+2018,10,"Arrow Lakes","All Students","07","Numeracy","31",397.1053,477,209.2674
+2018,19,"Revelstoke","All Students","07","Numeracy","73",397.5,440.5,177.1198
+2018,20,"Kootenay-Columbia","All Students","07","Numeracy","144",220.6041,0,234.0114
+2018,22,"Vernon","All Students","07","Numeracy","568",410.6698,452,167.0276
+2018,23,"Central Okanagan","All Students","07","Numeracy","1012",264.3178,350,228.6274
+2018,27,"Cariboo-Chilcotin","All Students","07","Numeracy","334",390.9496,409,134.8234
+2018,28,"Quesnel","All Students","07","Numeracy","106",159.5472,0,200.2312
+2018,33,"Chilliwack","All Students","07","Numeracy","825",349.2171,410,200.7567
+2018,34,"Abbotsford","All Students","07","Numeracy","1347",443.5942,466,147.0181
+2018,35,"Langley","All Students","07","Numeracy","1324",404.2332,442.5,181.6455
+2018,36,"Surrey","All Students","07","Numeracy","3404",297.7103,387,246.9884
+2018,37,"Delta","All Students","07","Numeracy","877",362.6455,441,216.1498
+2018,38,"Richmond","All Students","07","Numeracy","956",348.2885,470,273.25
+2018,39,"Vancouver","All Students","07","Numeracy","1866",270.9087,334,269.479
+2018,40,"New Westminster","All Students","07","Numeracy","374",363.913,431,215.8324
+2018,41,"Burnaby","All Students","07","Numeracy","1110",351.4848,459.5,256.6534
+2018,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","310",128.0862,0,212.8299
+2018,43,"Coquitlam","All Students","07","Numeracy","1758",369.6603,434,217.8828
+2018,44,"North Vancouver","All Students","07","Numeracy","1016",433.8834,481.5,185.8186
+2018,45,"West Vancouver","All Students","07","Numeracy","480",519.8843,568,196.0762
+2018,46,"Sunshine Coast","All Students","07","Numeracy","223",416.3487,469,196.1808
+2018,47,"qathet","All Students","07","Numeracy","145",348.8889,394.5,193.7748
+2018,48,"Sea to Sky","All Students","07","Numeracy","349",425.8783,454,154.3877
+2018,49,"Central Coast","All Students","07","Numeracy","14",236.7727,310,194.553
+2018,50,"Haida Gwaii","All Students","07","Numeracy","34",375.9744,414,163.0624
+2018,51,"Boundary","All Students","07","Numeracy","98",397.9167,419.5,151.2139
+2018,52,"Prince Rupert","All Students","07","Numeracy","133",378.6067,414.5,158.6695
+2018,53,"Okanagan Similkameen","All Students","07","Numeracy","181",434.1762,452,141.4091
+2018,54,"Bulkley Valley","All Students","07","Numeracy","137",455.8699,485.5,158.9903
+2018,57,"Prince George","All Students","07","Numeracy","870",408.5365,441,147.7587
+2018,58,"Nicola-Similkameen","All Students","07","Numeracy","149",417.3625,442.5,143.5012
+2018,59,"Peace River South","All Students","07","Numeracy","217",428.9079,451,135.7024
+2018,60,"Peace River North","All Students","07","Numeracy","383",410.6024,422.5,145.5152
+2018,61,"Greater Victoria","All Students","07","Numeracy","726",240.7015,286,244.2521
+2018,62,"Sooke","All Students","07","Numeracy","217",119.376,0,200.4657
+2018,63,"Saanich","All Students","07","Numeracy","351",296.8252,390,239.0781
+2018,64,"Gulf Islands","All Students","07","Numeracy","70",246.3681,0,261.1928
+2018,67,"Okanagan Skaha","All Students","07","Numeracy","422",431.6849,448,115.771
+2018,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","719",308.3933,390,222.0837
+2018,69,"Qualicum","All Students","07","Numeracy","276",426.3642,453.5,155.3031
+2018,70,"Pacific Rim","All Students","07","Numeracy","265",416.1828,430,131.7699
+2018,71,"Comox Valley","All Students","07","Numeracy","407",307.15,389,226.3486
+2018,72,"Campbell River","All Students","07","Numeracy","319",346.645,402.5,194.7031
+2018,73,"Kamloops-Thompson","All Students","07","Numeracy","1021",441.6841,462,143.6968
+2018,74,"Gold Trail","All Students","07","Numeracy","71",420.3467,418,132.8662
+2018,75,"Mission","All Students","07","Numeracy","400",372.1892,397,148.9223
+2018,78,"Fraser-Cascade","All Students","07","Numeracy","83",273.843,340,201.8178
+2018,79,"Cowichan Valley","All Students","07","Numeracy","302",217.5164,0,230.1649
+2018,81,"Fort Nelson","All Students","07","Numeracy","43",513.2826,543,150.8952
+2018,82,"Coast Mountains","All Students","07","Numeracy","231",322.0888,388.5,199.3436
+2018,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","451",411.9245,431,145.7763
+2018,84,"Vancouver Island West","All Students","07","Numeracy","20",289.3448,369,214.1981
+2018,85,"Vancouver Island North","All Students","07","Numeracy","95",399.6,442,183.7851
+2018,87,"Stikine","All Students","07","Numeracy","10",192.75,232.5,170.6773
+2018,91,"Nechako Lakes","All Students","07","Numeracy","196",332.3294,380,196.7647
+2018,92,"Nisga'a","All Students","07","Numeracy","20",250.6296,303,162.5021
+2019,5,"Southeast Kootenay","All Students","04","Numeracy","393",382.6047,434,186.1208
+2019,6,"Rocky Mountain","All Students","04","Numeracy","284",458.0653,473,112.1745
+2019,8,"Kootenay Lake","All Students","04","Numeracy","279",395.2917,454.5,202.501
+2019,10,"Arrow Lakes","All Students","04","Numeracy","30",417.7143,486,189.5061
+2019,19,"Revelstoke","All Students","04","Numeracy","63",440.9855,455,163.4776
+2019,20,"Kootenay-Columbia","All Students","04","Numeracy","124",207.8582,0,244.8783
+2019,22,"Vernon","All Students","04","Numeracy","538",400.9406,450,183.2503
+2019,23,"Central Okanagan","All Students","04","Numeracy","1302",361.0569,438,218.5221
+2019,27,"Cariboo-Chilcotin","All Students","04","Numeracy","294",408.5881,435.5,151.3528
+2019,28,"Quesnel","All Students","04","Numeracy","162",268.9307,323,197.1382
+2019,33,"Chilliwack","All Students","04","Numeracy","926",426.939,462,173.1684
+2019,34,"Abbotsford","All Students","04","Numeracy","1428",439.5418,463.5,148.7198
+2019,35,"Langley","All Students","04","Numeracy","1376",429.8997,471,181.5615
+2019,36,"Surrey","All Students","04","Numeracy","3163",267.4775,344,242.5621
+2019,37,"Delta","All Students","04","Numeracy","700",294.9559,388,245.0281
+2019,38,"Richmond","All Students","04","Numeracy","795",310.5619,415,270.5279
+2019,39,"Vancouver","All Students","04","Numeracy","1955",286.6507,381,263.7482
+2019,40,"New Westminster","All Students","04","Numeracy","418",409.3861,475,219.2874
+2019,41,"Burnaby","All Students","04","Numeracy","1098",326.1634,433.5,262.9369
+2019,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","301",120.8736,0,208.3392
+2019,43,"Coquitlam","All Students","04","Numeracy","1691",370.9704,450,227.5025
+2019,44,"North Vancouver","All Students","04","Numeracy","1100",474.5174,502,159.6795
+2019,45,"West Vancouver","All Students","04","Numeracy","430",522.7058,581,205.0063
+2019,46,"Sunshine Coast","All Students","04","Numeracy","190",367.5217,441,228.5966
+2019,47,"qathet","All Students","04","Numeracy","122",281.2421,345,227.7549
+2019,48,"Sea to Sky","All Students","04","Numeracy","375",417.2433,454,158.0908
+2019,49,"Central Coast","All Students","04","Numeracy","22",417.5,488.5,210.5688
+2019,50,"Haida Gwaii","All Students","04","Numeracy","29",379.0968,372,143.9475
+2019,51,"Boundary","All Students","04","Numeracy","79",368.3069,437,214.0509
+2019,52,"Prince Rupert","All Students","04","Numeracy","153",408.0373,431,140.8634
+2019,53,"Okanagan Similkameen","All Students","04","Numeracy","141",449.1974,469,153.8381
+2019,54,"Bulkley Valley","All Students","04","Numeracy","137",422.1486,445.5,151.9039
+2019,57,"Prince George","All Students","04","Numeracy","917",409.4842,431,146.7405
+2019,58,"Nicola-Similkameen","All Students","04","Numeracy","134",446.55,467,135.0568
+2019,59,"Peace River South","All Students","04","Numeracy","255",444.3722,452.5,137.5065
+2019,60,"Peace River North","All Students","04","Numeracy","439",414.8542,442,166.2536
+2019,61,"Greater Victoria","All Students","04","Numeracy","884",280.3772,381,253.5648
+2019,62,"Sooke","All Students","04","Numeracy","312",167.304,0,231.9923
+2019,63,"Saanich","All Students","04","Numeracy","383",368.6069,450.5,221.0322
+2019,64,"Gulf Islands","All Students","04","Numeracy","122",471.7273,513,165.2537
+2019,67,"Okanagan Skaha","All Students","04","Numeracy","373",437.3674,471,166.5278
+2019,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","828",335.2151,411,215.9982
+2019,69,"Qualicum","All Students","04","Numeracy","250",415.4806,451,177.2683
+2019,70,"Pacific Rim","All Students","04","Numeracy","280",435.5,441,162.8258
+2019,71,"Comox Valley","All Students","04","Numeracy","550",356.5944,430,210.0179
+2019,72,"Campbell River","All Students","04","Numeracy","365",406.0347,442,158.5033
+2019,73,"Kamloops-Thompson","All Students","04","Numeracy","1046",439.9571,461.5,145.9517
+2019,74,"Gold Trail","All Students","04","Numeracy","93",393.8526,386,110.1096
+2019,75,"Mission","All Students","04","Numeracy","390",340.3676,410,215.9798
+2019,78,"Fraser-Cascade","All Students","04","Numeracy","80",318.4228,429,247.5414
+2019,79,"Cowichan Valley","All Students","04","Numeracy","330",219.5893,214,223.7081
+2019,81,"Fort Nelson","All Students","04","Numeracy","45",532.24,581.5,186.1472
+2019,82,"Coast Mountains","All Students","04","Numeracy","219",362.0221,413,203.3553
+2019,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","474",398.2224,440,170.2124
+2019,84,"Vancouver Island West","All Students","04","Numeracy","31",378.4,399,170.325
+2019,85,"Vancouver Island North","All Students","04","Numeracy","86",435.2396,469.5,186.7566
+2019,87,"Stikine","All Students","04","Numeracy","11",293.2667,341,203.6069
+2019,91,"Nechako Lakes","All Students","04","Numeracy","211",332.9929,392,215.9074
+2019,92,"Nisga'a","All Students","04","Numeracy","32",342.303,359,84.6111
+2019,5,"Southeast Kootenay","All Students","07","Numeracy","407",390.6504,413.5,158.135
+2019,6,"Rocky Mountain","All Students","07","Numeracy","268",467.1649,469,137.6802
+2019,8,"Kootenay Lake","All Students","07","Numeracy","320",355.15,416.5,199.9366
+2019,10,"Arrow Lakes","All Students","07","Numeracy","38",405.1087,467,206.3008
+2019,19,"Revelstoke","All Students","07","Numeracy","67",448.8,496,179.8963
+2019,20,"Kootenay-Columbia","All Students","07","Numeracy","136",200.5947,0,230.6027
+2019,22,"Vernon","All Students","07","Numeracy","590",419.6262,448,163.444
+2019,23,"Central Okanagan","All Students","07","Numeracy","1164",288.6106,374,227.8355
+2019,27,"Cariboo-Chilcotin","All Students","07","Numeracy","366",384.264,395,144.6466
+2019,28,"Quesnel","All Students","07","Numeracy","87",138.3592,0,195.4161
+2019,33,"Chilliwack","All Students","07","Numeracy","933",389.1696,425,176.522
+2019,34,"Abbotsford","All Students","07","Numeracy","1386",434.7475,454,143.2376
+2019,35,"Langley","All Students","07","Numeracy","1386",398.9739,439,187.3846
+2019,36,"Surrey","All Students","07","Numeracy","3396",281.6229,363,250.8375
+2019,37,"Delta","All Students","07","Numeracy","755",295.1256,384,244.3181
+2019,38,"Richmond","All Students","07","Numeracy","937",318.3089,429.5,273.8831
+2019,39,"Vancouver","All Students","07","Numeracy","2125",296.2631,384,271.87
+2019,40,"New Westminster","All Students","07","Numeracy","431",415.818,462,190.6967
+2019,41,"Burnaby","All Students","07","Numeracy","1173",327.2633,425,265.4039
+2019,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","277",111.2736,0,199.6877
+2019,43,"Coquitlam","All Students","07","Numeracy","1980",375.7765,441,217.711
+2019,44,"North Vancouver","All Students","07","Numeracy","1158",480.7117,508,148.005
+2019,45,"West Vancouver","All Students","07","Numeracy","497",544.2748,585,174.3579
+2019,46,"Sunshine Coast","All Students","07","Numeracy","186",369.5309,438,223.3635
+2019,47,"qathet","All Students","07","Numeracy","114",344.962,428.5,232.5173
+2019,48,"Sea to Sky","All Students","07","Numeracy","296",389.3121,433,182.302
+2019,49,"Central Coast","All Students","07","Numeracy","Msk",NA,NA,NA
+2019,50,"Haida Gwaii","All Students","07","Numeracy","32",359.25,392,165.2113
+2019,51,"Boundary","All Students","07","Numeracy","102",419.9369,452,148.2912
+2019,52,"Prince Rupert","All Students","07","Numeracy","131",375.4414,406,150.5392
+2019,53,"Okanagan Similkameen","All Students","07","Numeracy","172",434.5222,443,135.0792
+2019,54,"Bulkley Valley","All Students","07","Numeracy","124",436.8258,432.5,157.6946
+2019,57,"Prince George","All Students","07","Numeracy","937",402.6956,419,141.9022
+2019,58,"Nicola-Similkameen","All Students","07","Numeracy","153",419.4198,438,137.2277
+2019,59,"Peace River South","All Students","07","Numeracy","274",413.2509,419,130.2747
+2019,60,"Peace River North","All Students","07","Numeracy","450",403.014,425,165.5048
+2019,61,"Greater Victoria","All Students","07","Numeracy","755",246.6853,287,241.4422
+2019,62,"Sooke","All Students","07","Numeracy","251",131.2373,0,203.5083
+2019,63,"Saanich","All Students","07","Numeracy","300",264.0038,342,243.476
+2019,64,"Gulf Islands","All Students","07","Numeracy","124",443.197,467.5,143.0449
+2019,67,"Okanagan Skaha","All Students","07","Numeracy","435",432.5774,447,120.6615
+2019,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","873",329.8029,400,217.9548
+2019,69,"Qualicum","All Students","07","Numeracy","297",413.7424,447,165.8731
+2019,70,"Pacific Rim","All Students","07","Numeracy","276",407.6849,416.5,138.9176
+2019,71,"Comox Valley","All Students","07","Numeracy","553",364.5531,419.5,194.8685
+2019,72,"Campbell River","All Students","07","Numeracy","377",374.6575,405,178.3159
+2019,73,"Kamloops-Thompson","All Students","07","Numeracy","1111",421.7885,449,152.6614
+2019,74,"Gold Trail","All Students","07","Numeracy","88",393.3222,386,98.5297
+2019,75,"Mission","All Students","07","Numeracy","337",308.2341,370,200.4427
+2019,78,"Fraser-Cascade","All Students","07","Numeracy","78",224.3429,290.5,212.0592
+2019,79,"Cowichan Valley","All Students","07","Numeracy","392",235.8613,282,209.5888
+2019,81,"Fort Nelson","All Students","07","Numeracy","54",530.463,523.5,61.9619
+2019,82,"Coast Mountains","All Students","07","Numeracy","226",274.2564,328.5,187.3415
+2019,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","457",384.1566,424.5,173.249
+2019,84,"Vancouver Island West","All Students","07","Numeracy","15",302.6667,335,157.2555
+2019,85,"Vancouver Island North","All Students","07","Numeracy","87",457.3656,475,145.332
+2019,87,"Stikine","All Students","07","Numeracy","Msk",NA,NA,NA
+2019,91,"Nechako Lakes","All Students","07","Numeracy","223",328.75,384,201.7088
+2019,92,"Nisga'a","All Students","07","Numeracy","24",231.0968,270,136.8097
+2020,5,"Southeast Kootenay","All Students","04","Numeracy","335",377.9519,437,202.4505
+2020,6,"Rocky Mountain","All Students","04","Numeracy","227",463.7647,484,132.0698
+2020,8,"Kootenay Lake","All Students","04","Numeracy","249",328.7547,418,248.2504
+2020,10,"Arrow Lakes","All Students","04","Numeracy","24",359.0857,456,263.5844
+2020,19,"Revelstoke","All Students","04","Numeracy","77",453.3176,489,171.8003
+2020,20,"Kootenay-Columbia","All Students","04","Numeracy","309",424.3138,447,171.5709
+2020,22,"Vernon","All Students","04","Numeracy","563",419.1448,474,193.3401
+2020,23,"Central Okanagan","All Students","04","Numeracy","1362",375.101,451,225.3765
+2020,27,"Cariboo-Chilcotin","All Students","04","Numeracy","294",399.7339,439,188.3108
+2020,28,"Quesnel","All Students","04","Numeracy","144",287.4154,342,196.8425
+2020,33,"Chilliwack","All Students","04","Numeracy","881",423.6521,469,200.5242
+2020,34,"Abbotsford","All Students","04","Numeracy","1294",398.3427,447,189.9266
+2020,35,"Langley","All Students","04","Numeracy","1342",392.9239,465,222.6131
+2020,36,"Surrey","All Students","04","Numeracy","2192",188.7853,0,242.2226
+2020,37,"Delta","All Students","04","Numeracy","559",247.3234,200,256.1097
+2020,38,"Richmond","All Students","04","Numeracy","837",316.6612,430,272.7383
+2020,39,"Vancouver","All Students","04","Numeracy","1590",229.4263,0,271.1474
+2020,40,"New Westminster","All Students","04","Numeracy","372",358.5669,458,249.3016
+2020,41,"Burnaby","All Students","04","Numeracy","928",271.6822,275,278.6225
+2020,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","352",150.6423,0,225.5462
+2020,43,"Coquitlam","All Students","04","Numeracy","1509",341.7477,439,249.0795
+2020,44,"North Vancouver","All Students","04","Numeracy","919",409.9974,488,228.0163
+2020,45,"West Vancouver","All Students","04","Numeracy","435",508.6518,593,234.6401
+2020,46,"Sunshine Coast","All Students","04","Numeracy","200",397.7961,470,224.4773
+2020,47,"qathet","All Students","04","Numeracy","130",235.5898,257,249.6271
+2020,48,"Sea to Sky","All Students","04","Numeracy","371",397.7923,454,196.3254
+2020,49,"Central Coast","All Students","04","Numeracy","Msk",NA,NA,NA
+2020,50,"Haida Gwaii","All Students","04","Numeracy","27",343.4857,377,227.5383
+2020,51,"Boundary","All Students","04","Numeracy","53",254.6452,350,231.5486
+2020,52,"Prince Rupert","All Students","04","Numeracy","69",276.4912,336.5,242.0654
+2020,53,"Okanagan Similkameen","All Students","04","Numeracy","185",418.239,445,166.938
+2020,54,"Bulkley Valley","All Students","04","Numeracy","113",392.9259,431,201.7982
+2020,57,"Prince George","All Students","04","Numeracy","808",379.1373,428,191.8916
+2020,58,"Nicola-Similkameen","All Students","04","Numeracy","134",394.0769,436,189.0861
+2020,59,"Peace River South","All Students","04","Numeracy","262",413.3299,454,165.5216
+2020,60,"Peace River North","All Students","04","Numeracy","408",421.0304,465.5,176.8828
+2020,61,"Greater Victoria","All Students","04","Numeracy","816",274.3896,351.5,262.9452
+2020,62,"Sooke","All Students","04","Numeracy","244",148.6529,0,235.5334
+2020,63,"Saanich","All Students","04","Numeracy","319",337.0454,451,256.5121
+2020,64,"Gulf Islands","All Students","04","Numeracy","92",490.9388,519,153.0576
+2020,67,"Okanagan Skaha","All Students","04","Numeracy","329",442.0457,488.5,179.7906
+2020,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","633",254.0267,306.5,244.8778
+2020,69,"Qualicum","All Students","04","Numeracy","169",243.1873,249,250.4127
+2020,70,"Pacific Rim","All Students","04","Numeracy","215",348.2362,406,201.0687
+2020,71,"Comox Valley","All Students","04","Numeracy","566",347.8603,432.5,229.8582
+2020,72,"Campbell River","All Students","04","Numeracy","369",391.2706,436,192.8835
+2020,73,"Kamloops-Thompson","All Students","04","Numeracy","987",417.9798,469,185.4333
+2020,74,"Gold Trail","All Students","04","Numeracy","65",422.1857,439.5,156.5254
+2020,75,"Mission","All Students","04","Numeracy","249",225.4912,0,241.5555
+2020,78,"Fraser-Cascade","All Students","04","Numeracy","50",172.6815,0,235.0985
+2020,79,"Cowichan Valley","All Students","04","Numeracy","481",343.2122,422,215.2337
+2020,81,"Fort Nelson","All Students","04","Numeracy","47",553.4808,596,193.0596
+2020,82,"Coast Mountains","All Students","04","Numeracy","167",278.1513,375,231.9172
+2020,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","434",424.39,456,165.1134
+2020,84,"Vancouver Island West","All Students","04","Numeracy","24",299.2667,347.5,173.6495
+2020,85,"Vancouver Island North","All Students","04","Numeracy","87",464.8889,466,129.1659
+2020,87,"Stikine","All Students","04","Numeracy","Msk",NA,NA,NA
+2020,91,"Nechako Lakes","All Students","04","Numeracy","162",288.0082,352,225.5766
+2020,92,"Nisga'a","All Students","04","Numeracy","Msk",139.2381,0,213.0251
+2020,5,"Southeast Kootenay","All Students","07","Numeracy","359",334.7024,404,199.6314
+2020,6,"Rocky Mountain","All Students","07","Numeracy","283",462.4007,489.5,147.7552
+2020,8,"Kootenay Lake","All Students","07","Numeracy","297",344.5305,413,221.5491
+2020,10,"Arrow Lakes","All Students","07","Numeracy","25",331.5263,443,252.9637
+2020,19,"Revelstoke","All Students","07","Numeracy","57",457.619,490,177.8365
+2020,20,"Kootenay-Columbia","All Students","07","Numeracy","267",408.7492,439,171.1579
+2020,22,"Vernon","All Students","07","Numeracy","586",417.1157,469,187.3899
+2020,23,"Central Okanagan","All Students","07","Numeracy","1276",304.6494,385,223.5066
+2020,27,"Cariboo-Chilcotin","All Students","07","Numeracy","295",353.361,418.5,203.8826
+2020,28,"Quesnel","All Students","07","Numeracy","100",162.6033,0,205.1952
+2020,33,"Chilliwack","All Students","07","Numeracy","838",335.6097,402,207.5783
+2020,34,"Abbotsford","All Students","07","Numeracy","1220",398.1094,448,194.5105
+2020,35,"Langley","All Students","07","Numeracy","1264",370.1187,437,216.9065
+2020,36,"Surrey","All Students","07","Numeracy","2388",193.9284,0,246.868
+2020,37,"Delta","All Students","07","Numeracy","507",207.0763,0,250.8018
+2020,38,"Richmond","All Students","07","Numeracy","994",362.426,470,270.6183
+2020,39,"Vancouver","All Students","07","Numeracy","1426",201.5444,0,265.8623
+2020,40,"New Westminster","All Students","07","Numeracy","298",290.2281,371,249.2743
+2020,41,"Burnaby","All Students","07","Numeracy","981",288.6139,378,277.6875
+2020,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","304",117.2279,0,203.7977
+2020,43,"Coquitlam","All Students","07","Numeracy","1560",314.8195,409,249.8802
+2020,44,"North Vancouver","All Students","07","Numeracy","1031",424.6419,493,218.6448
+2020,45,"West Vancouver","All Students","07","Numeracy","482",538.4831,586.5,195.6021
+2020,46,"Sunshine Coast","All Students","07","Numeracy","214",392.0655,464,225.4118
+2020,47,"qathet","All Students","07","Numeracy","105",217.9692,0,248.1504
+2020,48,"Sea to Sky","All Students","07","Numeracy","368",382.9251,426,178.9692
+2020,49,"Central Coast","All Students","07","Numeracy","Msk",235.2069,312,226.4664
+2020,50,"Haida Gwaii","All Students","07","Numeracy","22",241.4474,242.5,222.6565
+2020,51,"Boundary","All Students","07","Numeracy","68",314.6598,400,215.991
+2020,52,"Prince Rupert","All Students","07","Numeracy","91",275.9868,333,245.4568
+2020,53,"Okanagan Similkameen","All Students","07","Numeracy","177",423.1421,456,168.113
+2020,54,"Bulkley Valley","All Students","07","Numeracy","119",411.1319,464,209.5288
+2020,57,"Prince George","All Students","07","Numeracy","859",368.2069,410.5,180.2828
+2020,58,"Nicola-Similkameen","All Students","07","Numeracy","127",390.5267,424,197.5499
+2020,59,"Peace River South","All Students","07","Numeracy","232",395.0372,436,177.1328
+2020,60,"Peace River North","All Students","07","Numeracy","393",381.0526,429,193.1799
+2020,61,"Greater Victoria","All Students","07","Numeracy","839",269.9135,338,245.7806
+2020,62,"Sooke","All Students","07","Numeracy","211",108.5345,0,198.7285
+2020,63,"Saanich","All Students","07","Numeracy","244",207.9642,0,253.5267
+2020,64,"Gulf Islands","All Students","07","Numeracy","120",465.6614,489,141.2613
+2020,67,"Okanagan Skaha","All Students","07","Numeracy","394",407.1933,447,167.7535
+2020,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","550",214.7444,0,239.1626
+2020,69,"Qualicum","All Students","07","Numeracy","186",257.9577,291,256.3195
+2020,70,"Pacific Rim","All Students","07","Numeracy","215",355.5358,411,191.3295
+2020,71,"Comox Valley","All Students","07","Numeracy","548",343.1649,429,236.4483
+2020,72,"Campbell River","All Students","07","Numeracy","356",338.713,401,201.2819
+2020,73,"Kamloops-Thompson","All Students","07","Numeracy","873",370.9332,450.5,221.6222
+2020,74,"Gold Trail","All Students","07","Numeracy","86",406.4457,430,142.7078
+2020,75,"Mission","All Students","07","Numeracy","199",177.7614,0,218.6122
+2020,78,"Fraser-Cascade","All Students","07","Numeracy","65",189.517,0,223.0345
+2020,79,"Cowichan Valley","All Students","07","Numeracy","461",313.6783,376,209.7195
+2020,81,"Fort Nelson","All Students","07","Numeracy","55",491.6333,530,160.713
+2020,82,"Coast Mountains","All Students","07","Numeracy","150",199.6187,234,209.1853
+2020,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","447",398.4739,444,175.5683
+2020,84,"Vancouver Island West","All Students","07","Numeracy","19",300.4583,339.5,188.9955
+2020,85,"Vancouver Island North","All Students","07","Numeracy","86",405.8454,445,166.6469
+2020,87,"Stikine","All Students","07","Numeracy","Msk",183.4167,113,213.4962
+2020,91,"Nechako Lakes","All Students","07","Numeracy","190",272.4395,347,235.0759
+2020,92,"Nisga'a","All Students","07","Numeracy","22",223.9143,291,183.5971
+2021,5,"Southeast Kootenay","All Students","04","Numeracy","324",435.2463,428.1828,96.2244
+2021,6,"Rocky Mountain","All Students","04","Numeracy","270",463.0957,462.1443,89.6347
+2021,8,"Kootenay Lake","All Students","04","Numeracy","254",466.8597,475.6148,102.9993
+2021,10,"Arrow Lakes","All Students","04","Numeracy","24",465.0215,468.8816,90.1754
+2021,19,"Revelstoke","All Students","04","Numeracy","72",470.855,469.0495,101.0485
+2021,20,"Kootenay-Columbia","All Students","04","Numeracy","295",462.7544,454.1222,90.2479
+2021,22,"Vernon","All Students","04","Numeracy","593",467.2585,466.5616,96.5564
+2021,23,"Central Okanagan","All Students","04","Numeracy","1345",479.1913,478.3028,97.4213
+2021,27,"Cariboo-Chilcotin","All Students","04","Numeracy","337",434.4568,432.6137,95.2162
+2021,28,"Quesnel","All Students","04","Numeracy","137",368.9325,358.4071,98.0787
+2021,33,"Chilliwack","All Students","04","Numeracy","941",462.3749,452.6023,98.4667
+2021,34,"Abbotsford","All Students","04","Numeracy","1387",437.4286,433.7257,95.6946
+2021,35,"Langley","All Students","04","Numeracy","1504",479.9947,478.4736,100.1689
+2021,36,"Surrey","All Students","04","Numeracy","2457",468.2902,465.4126,113.7482
+2021,37,"Delta","All Students","04","Numeracy","664",476.4079,476.6128,107.9499
+2021,38,"Richmond","All Students","04","Numeracy","1313",514.0877,522.0552,103.8051
+2021,39,"Vancouver","All Students","04","Numeracy","1677",507.8076,519.2368,109.9715
+2021,40,"New Westminster","All Students","04","Numeracy","395",493.6009,494.8534,98.4209
+2021,41,"Burnaby","All Students","04","Numeracy","1036",517.2111,524.4843,110.0445
+2021,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","340",447.2774,452.7311,91.6267
+2021,43,"Coquitlam","All Students","04","Numeracy","1700",489.4091,486.5691,102.1352
+2021,44,"North Vancouver","All Students","04","Numeracy","1119",494.7839,508.8632,113.5573
+2021,45,"West Vancouver","All Students","04","Numeracy","437",574.6272,583.563,90.4433
+2021,46,"Sunshine Coast","All Students","04","Numeracy","234",494.1204,492.3165,82.9684
+2021,47,"qathet","All Students","04","Numeracy","145",496.7918,489.0144,128.3093
+2021,48,"Sea to Sky","All Students","04","Numeracy","367",484.9804,489.3962,104.2563
+2021,49,"Central Coast","All Students","04","Numeracy","Msk",438.908,376.2628,145.1411
+2021,50,"Haida Gwaii","All Students","04","Numeracy","27",407.7019,380.3944,109.0389
+2021,51,"Boundary","All Students","04","Numeracy","93",466.6545,461.0207,92.1313
+2021,52,"Prince Rupert","All Students","04","Numeracy","107",409.2819,394.2437,118.5587
+2021,53,"Okanagan Similkameen","All Students","04","Numeracy","158",459.15,446.2524,86.3511
+2021,54,"Bulkley Valley","All Students","04","Numeracy","127",480.1448,481.6485,99.2461
+2021,57,"Prince George","All Students","04","Numeracy","879",440.016,437.2239,100.5037
+2021,58,"Nicola-Similkameen","All Students","04","Numeracy","140",397.3262,397.96,85.5753
+2021,59,"Peace River South","All Students","04","Numeracy","244",437.4967,427.0513,99.9394
+2021,60,"Peace River North","All Students","04","Numeracy","442",472.8611,470.8335,101.2167
+2021,61,"Greater Victoria","All Students","04","Numeracy","900",498.769,505.2581,100.4935
+2021,62,"Sooke","All Students","04","Numeracy","374",452.0505,456.4667,97.9944
+2021,63,"Saanich","All Students","04","Numeracy","381",495.5902,500.5765,104.6559
+2021,64,"Gulf Islands","All Students","04","Numeracy","88",526.4129,518.7283,92.2188
+2021,67,"Okanagan Skaha","All Students","04","Numeracy","347",479.6617,480.6551,92.7786
+2021,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","702",454.8173,457.6329,108.6085
+2021,69,"Qualicum","All Students","04","Numeracy","248",455.4787,453.4449,100.7461
+2021,70,"Pacific Rim","All Students","04","Numeracy","233",446.2295,440.3286,99.0561
+2021,71,"Comox Valley","All Students","04","Numeracy","589",472.2783,472.5229,99.9308
+2021,72,"Campbell River","All Students","04","Numeracy","369",456.2591,454.1166,95.8534
+2021,73,"Kamloops-Thompson","All Students","04","Numeracy","1076",472.7219,467.3592,96.6656
+2021,74,"Gold Trail","All Students","04","Numeracy","83",399.7283,374.8282,103.4272
+2021,75,"Mission","All Students","04","Numeracy","268",454.2327,451.0375,98.8477
+2021,78,"Fraser-Cascade","All Students","04","Numeracy","43",406.1482,405.0783,98.7128
+2021,79,"Cowichan Valley","All Students","04","Numeracy","509",419.3724,419.4019,106.1395
+2021,81,"Fort Nelson","All Students","04","Numeracy","39",555.0006,543.0588,86.1735
+2021,82,"Coast Mountains","All Students","04","Numeracy","233",415.7547,404.6223,107.3241
+2021,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","465",460.116,458.5943,95.3248
+2021,84,"Vancouver Island West","All Students","04","Numeracy","15",455.8585,482.3551,102.8185
+2021,85,"Vancouver Island North","All Students","04","Numeracy","63",441.1116,419.3809,88.2664
+2021,87,"Stikine","All Students","04","Numeracy","Msk",425.679,426.4647,107.4486
+2021,91,"Nechako Lakes","All Students","04","Numeracy","168",436.2736,432.0053,89.6612
+2021,92,"Nisga'a","All Students","04","Numeracy","23",355.8194,363.7825,72.1352
+2021,5,"Southeast Kootenay","All Students","07","Numeracy","356",412.8137,420.5778,102.6439
+2021,6,"Rocky Mountain","All Students","07","Numeracy","284",461.8496,455.4678,99.1298
+2021,8,"Kootenay Lake","All Students","07","Numeracy","329",419.4993,424.1544,107.492
+2021,10,"Arrow Lakes","All Students","07","Numeracy","30",472.2428,491.5051,88.2193
+2021,19,"Revelstoke","All Students","07","Numeracy","71",507.8901,515.9012,113.6899
+2021,20,"Kootenay-Columbia","All Students","07","Numeracy","252",457.7374,466.291,106.7016
+2021,22,"Vernon","All Students","07","Numeracy","649",452.986,449.0674,98.9329
+2021,23,"Central Okanagan","All Students","07","Numeracy","1473",425.2182,432.9135,110.3477
+2021,27,"Cariboo-Chilcotin","All Students","07","Numeracy","382",429.8149,426.0136,107.8806
+2021,28,"Quesnel","All Students","07","Numeracy","89",318.9146,284.848,119.957
+2021,33,"Chilliwack","All Students","07","Numeracy","1010",438.032,439.6537,98.5211
+2021,34,"Abbotsford","All Students","07","Numeracy","1375",447.7546,450.4482,102.7584
+2021,35,"Langley","All Students","07","Numeracy","1627",457.5554,456.4769,110.1524
+2021,36,"Surrey","All Students","07","Numeracy","2514",467.4481,470.7868,116.5568
+2021,37,"Delta","All Students","07","Numeracy","770",455.0918,461.1319,113.6102
+2021,38,"Richmond","All Students","07","Numeracy","1251",524.8271,531.8899,113.6188
+2021,39,"Vancouver","All Students","07","Numeracy","1662",515.2969,522.4444,113.5969
+2021,40,"New Westminster","All Students","07","Numeracy","380",488.509,495.6247,107.4063
+2021,41,"Burnaby","All Students","07","Numeracy","951",516.573,517.4585,110.8634
+2021,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","239",440.8821,444.304,100.0497
+2021,43,"Coquitlam","All Students","07","Numeracy","1691",466.4711,473.4463,118.2273
+2021,44,"North Vancouver","All Students","07","Numeracy","1081",506.7024,514.3216,111.5332
+2021,45,"West Vancouver","All Students","07","Numeracy","532",572.2924,575.7967,91.3827
+2021,46,"Sunshine Coast","All Students","07","Numeracy","221",466.4164,471.7237,99.5557
+2021,47,"qathet","All Students","07","Numeracy","154",459.609,464.512,132.3589
+2021,48,"Sea to Sky","All Students","07","Numeracy","367",442.3429,443.7657,99.8961
+2021,49,"Central Coast","All Students","07","Numeracy","Msk",294.6407,288.1078,82.5637
+2021,50,"Haida Gwaii","All Students","07","Numeracy","22",448.7439,434.5057,131.563
+2021,51,"Boundary","All Students","07","Numeracy","86",457.9996,444.7834,100.8501
+2021,52,"Prince Rupert","All Students","07","Numeracy","126",428.0458,420.7291,115.7186
+2021,53,"Okanagan Similkameen","All Students","07","Numeracy","176",450.0991,442.068,95.9238
+2021,54,"Bulkley Valley","All Students","07","Numeracy","149",442.5767,434.0551,125.2968
+2021,57,"Prince George","All Students","07","Numeracy","940",432.4653,434.1701,101.0731
+2021,58,"Nicola-Similkameen","All Students","07","Numeracy","129",405.797,399.0149,95.48
+2021,59,"Peace River South","All Students","07","Numeracy","231",440.171,446.7264,99.2878
+2021,60,"Peace River North","All Students","07","Numeracy","448",430.1755,428.4184,108.5098
+2021,61,"Greater Victoria","All Students","07","Numeracy","782",451.5631,460.1279,116.0761
+2021,62,"Sooke","All Students","07","Numeracy","249",437.0128,438.4975,115.9364
+2021,63,"Saanich","All Students","07","Numeracy","278",467.0862,467.4083,104.4821
+2021,64,"Gulf Islands","All Students","07","Numeracy","111",482.0021,476.3346,77.852
+2021,67,"Okanagan Skaha","All Students","07","Numeracy","443",426.1553,424.9822,92.5567
+2021,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","700",441.5673,450.1607,112.0968
+2021,69,"Qualicum","All Students","07","Numeracy","254",457.5602,464.8899,108.2404
+2021,70,"Pacific Rim","All Students","07","Numeracy","264",434.4407,432.451,111.9325
+2021,71,"Comox Valley","All Students","07","Numeracy","564",459.1865,464.9951,109.719
+2021,72,"Campbell River","All Students","07","Numeracy","398",446.514,446.567,102.9243
+2021,73,"Kamloops-Thompson","All Students","07","Numeracy","1129",450.4449,449.9639,104.997
+2021,74,"Gold Trail","All Students","07","Numeracy","75",450.3843,451.9272,99.4939
+2021,75,"Mission","All Students","07","Numeracy","352",389.3972,390.3834,95.1431
+2021,78,"Fraser-Cascade","All Students","07","Numeracy","85",393.9168,379.5831,95.4892
+2021,79,"Cowichan Valley","All Students","07","Numeracy","516",415.0634,420.2875,108.2706
+2021,81,"Fort Nelson","All Students","07","Numeracy","67",547.1405,542.7165,65.1127
+2021,82,"Coast Mountains","All Students","07","Numeracy","245",372.9776,373.154,97.0861
+2021,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","502",443.7163,447.5903,99.2723
+2021,84,"Vancouver Island West","All Students","07","Numeracy","11",367.1544,363.927,71.3023
+2021,85,"Vancouver Island North","All Students","07","Numeracy","76",433.6252,454.8242,111.6567
+2021,87,"Stikine","All Students","07","Numeracy","Msk",327.0144,318.7346,55.977
+2021,91,"Nechako Lakes","All Students","07","Numeracy","208",415.0225,420.2903,99.5422
+2021,92,"Nisga'a","All Students","07","Numeracy","32",297.1264,292.6332,62.2084
+2022,5,"Southeast Kootenay","All Students","04","Numeracy","347",433.5294,429.92,99.159
+2022,6,"Rocky Mountain","All Students","04","Numeracy","260",457.9122,460.2238,84.5463
+2022,8,"Kootenay Lake","All Students","04","Numeracy","322",446.5595,455.4572,101.3357
+2022,10,"Arrow Lakes","All Students","04","Numeracy","41",482.9377,472.6257,90.9027
+2022,19,"Revelstoke","All Students","04","Numeracy","99",511.5918,522.108,91.8424
+2022,20,"Kootenay-Columbia","All Students","04","Numeracy","314",470.9272,470.0215,92.8618
+2022,22,"Vernon","All Students","04","Numeracy","625",460.4236,458.9813,95.0518
+2022,23,"Central Okanagan","All Students","04","Numeracy","1510",476.4939,475.8366,93.995
+2022,27,"Cariboo-Chilcotin","All Students","04","Numeracy","339",405.6849,406.1399,83.0357
+2022,28,"Quesnel","All Students","04","Numeracy","134",374.5083,377.0356,101.353
+2022,33,"Chilliwack","All Students","04","Numeracy","967",459.3219,458.7295,97.6838
+2022,34,"Abbotsford","All Students","04","Numeracy","1386",452.1144,452.6562,93.7301
+2022,35,"Langley","All Students","04","Numeracy","1520",472.7244,474.5737,101.211
+2022,36,"Surrey","All Students","04","Numeracy","2524",441.2285,443.8935,115.7468
+2022,37,"Delta","All Students","04","Numeracy","682",462.7131,462.6052,104.6574
+2022,38,"Richmond","All Students","04","Numeracy","1268",514.1071,515.0594,104.9265
+2022,39,"Vancouver","All Students","04","Numeracy","1766",492.3352,498.7326,107.5773
+2022,40,"New Westminster","All Students","04","Numeracy","472",473.5178,477.2498,96.324
+2022,41,"Burnaby","All Students","04","Numeracy","1062",508.8934,514.8069,110.2709
+2022,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","420",436.0912,439.2593,97.3934
+2022,43,"Coquitlam","All Students","04","Numeracy","1604",474.7349,475.4837,103.263
+2022,44,"North Vancouver","All Students","04","Numeracy","1052",485.6146,491.1443,99.4424
+2022,45,"West Vancouver","All Students","04","Numeracy","443",575.9812,579.9597,89.6737
+2022,46,"Sunshine Coast","All Students","04","Numeracy","223",491.4886,494.9388,83.8516
+2022,47,"qathet","All Students","04","Numeracy","187",446.0355,433.0909,133.1871
+2022,48,"Sea to Sky","All Students","04","Numeracy","414",456.2183,463.093,103.6588
+2022,49,"Central Coast","All Students","04","Numeracy","Msk",481.5713,505.8349,94.4227
+2022,50,"Haida Gwaii","All Students","04","Numeracy","17",403.5107,399.4389,93.1082
+2022,51,"Boundary","All Students","04","Numeracy","92",442.4021,437.8969,83.9532
+2022,52,"Prince Rupert","All Students","04","Numeracy","94",383.4797,372.6503,106.648
+2022,53,"Okanagan Similkameen","All Students","04","Numeracy","159",458.366,440.9922,98.0436
+2022,54,"Bulkley Valley","All Students","04","Numeracy","145",450.0602,441.6324,99.3217
+2022,57,"Prince George","All Students","04","Numeracy","906",430.4878,427.2566,93.0653
+2022,58,"Nicola-Similkameen","All Students","04","Numeracy","120",415.8683,419.0114,97.4922
+2022,59,"Peace River South","All Students","04","Numeracy","282",442.9407,442.1117,93.7879
+2022,60,"Peace River North","All Students","04","Numeracy","445",460.3591,454.7094,89.8087
+2022,61,"Greater Victoria","All Students","04","Numeracy","948",485.1918,488.0429,108.372
+2022,62,"Sooke","All Students","04","Numeracy","556",425.1367,427.857,101.6769
+2022,63,"Saanich","All Students","04","Numeracy","347",480.2914,481.1077,101.1922
+2022,64,"Gulf Islands","All Students","04","Numeracy","94",480.9485,484.6896,99.157
+2022,67,"Okanagan Skaha","All Students","04","Numeracy","374",472.6356,481.3376,92.2887
+2022,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","749",431.5852,436.3577,104.8566
+2022,69,"Qualicum","All Students","04","Numeracy","328",480.3497,473.2765,97.1551
+2022,70,"Pacific Rim","All Students","04","Numeracy","266",438.6061,436.3942,100.5804
+2022,71,"Comox Valley","All Students","04","Numeracy","587",461.4471,459.0732,99.7162
+2022,72,"Campbell River","All Students","04","Numeracy","403",428.7993,421.2895,95.3417
+2022,73,"Kamloops-Thompson","All Students","04","Numeracy","1051",464.3843,465.2483,101.0535
+2022,74,"Gold Trail","All Students","04","Numeracy","73",410.439,383.811,100.1418
+2022,75,"Mission","All Students","04","Numeracy","314",416.7602,411.4198,105.4846
+2022,78,"Fraser-Cascade","All Students","04","Numeracy","35",374.4896,370.0252,98.3066
+2022,79,"Cowichan Valley","All Students","04","Numeracy","592",413.6389,412.1529,95.1541
+2022,81,"Fort Nelson","All Students","04","Numeracy","37",568.305,583.8042,65.8082
+2022,82,"Coast Mountains","All Students","04","Numeracy","269",409.4286,406.0136,93.1256
+2022,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","455",460.0751,465.0668,95.0128
+2022,84,"Vancouver Island West","All Students","04","Numeracy","13",486.8479,507.9781,102.203
+2022,85,"Vancouver Island North","All Students","04","Numeracy","82",451.1871,441.8282,94.1105
+2022,87,"Stikine","All Students","04","Numeracy","Msk",422.6112,414.1495,56.4761
+2022,91,"Nechako Lakes","All Students","04","Numeracy","179",414.0657,406.4413,100.9403
+2022,92,"Nisga'a","All Students","04","Numeracy","27",374.8024,382.9724,103.2902
+2022,5,"Southeast Kootenay","All Students","07","Numeracy","446",413.6939,409.4089,91.9227
+2022,6,"Rocky Mountain","All Students","07","Numeracy","289",467.5834,471.9677,95.5232
+2022,8,"Kootenay Lake","All Students","07","Numeracy","294",423.7428,420.3146,95.8154
+2022,10,"Arrow Lakes","All Students","07","Numeracy","34",465.4505,488.2801,90.4296
+2022,19,"Revelstoke","All Students","07","Numeracy","77",512.1172,516.0156,92.1683
+2022,20,"Kootenay-Columbia","All Students","07","Numeracy","269",450.0691,448.5495,100.1828
+2022,22,"Vernon","All Students","07","Numeracy","616",438.5502,438.0007,94.3013
+2022,23,"Central Okanagan","All Students","07","Numeracy","1478",416.3554,415.1827,99.6507
+2022,27,"Cariboo-Chilcotin","All Students","07","Numeracy","323",419.8488,418.5503,101.1378
+2022,28,"Quesnel","All Students","07","Numeracy","94",361.0332,346.1678,106.7251
+2022,33,"Chilliwack","All Students","07","Numeracy","943",416.8798,411.328,92.6541
+2022,34,"Abbotsford","All Students","07","Numeracy","1327",448.0943,446.1232,102.6355
+2022,35,"Langley","All Students","07","Numeracy","1599",451.4387,449.4551,106.7558
+2022,36,"Surrey","All Students","07","Numeracy","2515",454.2553,450.3094,117.2318
+2022,37,"Delta","All Students","07","Numeracy","742",464.8612,462.0621,102.1578
+2022,38,"Richmond","All Students","07","Numeracy","1206",521.6919,529.25,105.3824
+2022,39,"Vancouver","All Students","07","Numeracy","1796",506.0855,509.1732,109.2645
+2022,40,"New Westminster","All Students","07","Numeracy","366",475.0784,480.9613,98.6355
+2022,41,"Burnaby","All Students","07","Numeracy","1013",504.3264,515.4057,110.3847
+2022,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","270",422.9648,407.479,109.6285
+2022,43,"Coquitlam","All Students","07","Numeracy","1619",460.4568,463.1007,106.4825
+2022,44,"North Vancouver","All Students","07","Numeracy","1124",492.0295,500.2533,100.647
+2022,45,"West Vancouver","All Students","07","Numeracy","468",578.09,582.5758,98.6868
+2022,46,"Sunshine Coast","All Students","07","Numeracy","225",457.819,462.4647,99.6921
+2022,47,"qathet","All Students","07","Numeracy","168",463.3092,461.6319,116.3092
+2022,48,"Sea to Sky","All Students","07","Numeracy","367",422.7417,424.7265,96.7422
+2022,49,"Central Coast","All Students","07","Numeracy","17",450.7097,454.0697,150.3104
+2022,50,"Haida Gwaii","All Students","07","Numeracy","39",369.5883,339.0667,97.1818
+2022,51,"Boundary","All Students","07","Numeracy","107",442.5169,434.9296,95.6997
+2022,52,"Prince Rupert","All Students","07","Numeracy","136",367.542,346.1678,96.5308
+2022,53,"Okanagan Similkameen","All Students","07","Numeracy","153",456.0134,454.4437,95.2221
+2022,54,"Bulkley Valley","All Students","07","Numeracy","148",438.5889,425.6384,104.533
+2022,57,"Prince George","All Students","07","Numeracy","932",420.3427,417.843,97.615
+2022,58,"Nicola-Similkameen","All Students","07","Numeracy","126",434.5661,424.3419,106.0141
+2022,59,"Peace River South","All Students","07","Numeracy","252",446.6342,444.9216,98.7311
+2022,60,"Peace River North","All Students","07","Numeracy","397",425.0991,423.4756,99.3685
+2022,61,"Greater Victoria","All Students","07","Numeracy","783",448.0368,446.5239,109.4938
+2022,62,"Sooke","All Students","07","Numeracy","457",404.9559,403.1716,104.9221
+2022,63,"Saanich","All Students","07","Numeracy","312",459.7716,462.086,107.1501
+2022,64,"Gulf Islands","All Students","07","Numeracy","137",477.3722,492.2957,95.422
+2022,67,"Okanagan Skaha","All Students","07","Numeracy","426",433.947,431.2608,89.9863
+2022,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","743",425.6424,420.2224,109.4429
+2022,69,"Qualicum","All Students","07","Numeracy","283",450.879,456.8949,99.076
+2022,70,"Pacific Rim","All Students","07","Numeracy","277",429.1321,428.6588,94.0222
+2022,71,"Comox Valley","All Students","07","Numeracy","599",445.9463,442.5547,101.0389
+2022,72,"Campbell River","All Students","07","Numeracy","362",420.5887,421.9885,101.0458
+2022,73,"Kamloops-Thompson","All Students","07","Numeracy","1066",449.8948,451.3229,94.8663
+2022,74,"Gold Trail","All Students","07","Numeracy","75",424.1921,416.0674,116.0584
+2022,75,"Mission","All Students","07","Numeracy","236",387.4856,376.9593,92.1652
+2022,78,"Fraser-Cascade","All Students","07","Numeracy","63",380.9772,380.4131,96.2541
+2022,79,"Cowichan Valley","All Students","07","Numeracy","549",408.1319,403.0615,103.3487
+2022,81,"Fort Nelson","All Students","07","Numeracy","47",516.1151,501.3053,50.6557
+2022,82,"Coast Mountains","All Students","07","Numeracy","208",365.6418,352.391,91.791
+2022,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","499",436.8484,431.0515,94.6525
+2022,84,"Vancouver Island West","All Students","07","Numeracy","29",331.5917,320.2208,81.8794
+2022,85,"Vancouver Island North","All Students","07","Numeracy","92",449.6271,446.3816,103.9819
+2022,87,"Stikine","All Students","07","Numeracy","13",348.8475,338.3542,86.6159
+2022,91,"Nechako Lakes","All Students","07","Numeracy","232",436.6691,425.4659,99.4605
+2022,92,"Nisga'a","All Students","07","Numeracy","29",355.1004,366.1041,77.6014
+2023,5,"Southeast Kootenay","All Students","04","Numeracy","354",426.5533,428.9039,95.4177
+2023,6,"Rocky Mountain","All Students","04","Numeracy","267",455.1988,460.5193,91.9214
+2023,8,"Kootenay Lake","All Students","04","Numeracy","291",446.2221,449.4353,107.2321
+2023,10,"Arrow Lakes","All Students","04","Numeracy","36",498.1172,494.5229,82.1094
+2023,19,"Revelstoke","All Students","04","Numeracy","92",496.8447,504.0633,103.1459
+2023,20,"Kootenay-Columbia","All Students","04","Numeracy","309",458.8519,459.5878,97.4808
+2023,22,"Vernon","All Students","04","Numeracy","609",465.0255,467.9795,95.0256
+2023,23,"Central Okanagan","All Students","04","Numeracy","1508",469.0367,471.8844,96.6761
+2023,27,"Cariboo-Chilcotin","All Students","04","Numeracy","321",424.5001,417.0416,107.7225
+2023,28,"Quesnel","All Students","04","Numeracy","145",392.5803,398.2256,114.1238
+2023,33,"Chilliwack","All Students","04","Numeracy","968",482.2463,485.8175,100.9763
+2023,34,"Abbotsford","All Students","04","Numeracy","1357",461.5649,461.5606,97.2191
+2023,35,"Langley","All Students","04","Numeracy","1777",471.3492,473.2653,102.8869
+2023,36,"Surrey","All Students","04","Numeracy","4480",439.582,439.6649,109.132
+2023,37,"Delta","All Students","04","Numeracy","794",451.9669,457.9817,103.4961
+2023,38,"Richmond","All Students","04","Numeracy","1472",502.4993,507.87,97.8044
+2023,39,"Vancouver","All Students","04","Numeracy","2182",495.684,503.471,112.4034
+2023,40,"New Westminster","All Students","04","Numeracy","425",483.1274,483.4802,101.2077
+2023,41,"Burnaby","All Students","04","Numeracy","1227",502.4164,509.4403,104.8474
+2023,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","417",450.2153,449.0326,97.2811
+2023,43,"Coquitlam","All Students","04","Numeracy","1766",479.6366,482.2461,106.3507
+2023,44,"North Vancouver","All Students","04","Numeracy","1124",484.8569,490.6568,108.966
+2023,45,"West Vancouver","All Students","04","Numeracy","420",571.873,582.1004,91.1542
+2023,46,"Sunshine Coast","All Students","04","Numeracy","223",482.9021,481.5229,88.1253
+2023,47,"qathet","All Students","04","Numeracy","167",468.3897,467.43,120.3551
+2023,48,"Sea to Sky","All Students","04","Numeracy","322",465.486,470.4254,94.4768
+2023,49,"Central Coast","All Students","04","Numeracy","12",459.7298,483.7964,122.4656
+2023,50,"Haida Gwaii","All Students","04","Numeracy","29",373.725,343.478,114.8645
+2023,51,"Boundary","All Students","04","Numeracy","88",452.334,460.3367,100.6286
+2023,52,"Prince Rupert","All Students","04","Numeracy","76",419.1859,410.9845,121.1566
+2023,53,"Okanagan Similkameen","All Students","04","Numeracy","180",450.3417,453.0082,97.0515
+2023,54,"Bulkley Valley","All Students","04","Numeracy","135",430.138,426.0387,94.9386
+2023,57,"Prince George","All Students","04","Numeracy","873",427.1507,430.9376,100.3544
+2023,58,"Nicola-Similkameen","All Students","04","Numeracy","123",418.1916,418.8259,112.3279
+2023,59,"Peace River South","All Students","04","Numeracy","277",451.6885,452.3185,94.7908
+2023,60,"Peace River North","All Students","04","Numeracy","408",449.3075,446.1891,93.2826
+2023,61,"Greater Victoria","All Students","04","Numeracy","935",483.2132,489.9402,98.8907
+2023,62,"Sooke","All Students","04","Numeracy","659",428.6858,435.4515,106.3956
+2023,63,"Saanich","All Students","04","Numeracy","421",478.6054,481.299,98.1663
+2023,64,"Gulf Islands","All Students","04","Numeracy","88",495.4485,498.851,95.3241
+2023,67,"Okanagan Skaha","All Students","04","Numeracy","366",458.8012,459.6502,98.6583
+2023,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","986",435.8732,438.655,108.8852
+2023,69,"Qualicum","All Students","04","Numeracy","294",476.3114,478.7007,98.4662
+2023,70,"Pacific Rim","All Students","04","Numeracy","273",409.531,412.3534,96.1672
+2023,71,"Comox Valley","All Students","04","Numeracy","616",447.1293,444.874,107.7389
+2023,72,"Campbell River","All Students","04","Numeracy","445",435.3031,441.0729,98.5291
+2023,73,"Kamloops-Thompson","All Students","04","Numeracy","1162",452.7271,454.6869,94.2993
+2023,74,"Gold Trail","All Students","04","Numeracy","67",396.9076,379.9905,105.1727
+2023,75,"Mission","All Students","04","Numeracy","288",419.6222,422.4941,99.5478
+2023,78,"Fraser-Cascade","All Students","04","Numeracy","84",427.0019,436.8473,97.387
+2023,79,"Cowichan Valley","All Students","04","Numeracy","604",413.2018,417.1469,103.3003
+2023,81,"Fort Nelson","All Students","04","Numeracy","57",517.2515,508.0259,76.4375
+2023,82,"Coast Mountains","All Students","04","Numeracy","277",423.9073,428.6407,106.0676
+2023,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","444",452.8416,451.5226,90.6059
+2023,84,"Vancouver Island West","All Students","04","Numeracy","16",460.4927,464.1881,117.2414
+2023,85,"Vancouver Island North","All Students","04","Numeracy","66",474.2105,472.86,77.4531
+2023,87,"Stikine","All Students","04","Numeracy","11",377.5567,382.0052,108.6669
+2023,91,"Nechako Lakes","All Students","04","Numeracy","175",421.3016,425.0979,93.7596
+2023,92,"Nisga'a","All Students","04","Numeracy","23",291.2579,275.8216,74.805
+2023,5,"Southeast Kootenay","All Students","07","Numeracy","400",399.3926,390.5723,97.1669
+2023,6,"Rocky Mountain","All Students","07","Numeracy","255",438.5415,442.5319,90.474
+2023,8,"Kootenay Lake","All Students","07","Numeracy","356",441.7334,454.3759,107.6374
+2023,10,"Arrow Lakes","All Students","07","Numeracy","29",488.0373,520.6046,111.8957
+2023,19,"Revelstoke","All Students","07","Numeracy","91",490.4037,493.8277,100.7997
+2023,20,"Kootenay-Columbia","All Students","07","Numeracy","367",444.5468,441.3577,98.6715
+2023,22,"Vernon","All Students","07","Numeracy","624",444.9858,441.3493,96.2299
+2023,23,"Central Okanagan","All Students","07","Numeracy","1465",419.2567,419.2212,102.6548
+2023,27,"Cariboo-Chilcotin","All Students","07","Numeracy","334",424.346,426.672,105.7494
+2023,28,"Quesnel","All Students","07","Numeracy","117",326.6383,310.2013,95.29
+2023,33,"Chilliwack","All Students","07","Numeracy","974",428.9467,427.0244,99.1861
+2023,34,"Abbotsford","All Students","07","Numeracy","1405",434.2337,432.5758,98.8764
+2023,35,"Langley","All Students","07","Numeracy","1830",444.6379,449.3055,114.481
+2023,36,"Surrey","All Students","07","Numeracy","4874",434.4648,432.3687,113.7892
+2023,37,"Delta","All Students","07","Numeracy","765",450.2614,456.4494,101.1713
+2023,38,"Richmond","All Students","07","Numeracy","1395",516.1446,522.4508,107.2843
+2023,39,"Vancouver","All Students","07","Numeracy","1999",495.5757,504.7308,114.3697
+2023,40,"New Westminster","All Students","07","Numeracy","372",462.3172,455.0259,112.2093
+2023,41,"Burnaby","All Students","07","Numeracy","1141",494.7243,500.6694,111.4638
+2023,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","304",427.5578,428.1407,103.342
+2023,43,"Coquitlam","All Students","07","Numeracy","1746",461.7864,467.6285,110.7819
+2023,44,"North Vancouver","All Students","07","Numeracy","1107",493.3729,495.7971,97.989
+2023,45,"West Vancouver","All Students","07","Numeracy","533",560.4676,564.1585,88.9169
+2023,46,"Sunshine Coast","All Students","07","Numeracy","229",463.4171,453.4956,95.1928
+2023,47,"qathet","All Students","07","Numeracy","160",414.2639,402.4696,98.7991
+2023,48,"Sea to Sky","All Students","07","Numeracy","347",414.5495,413.6112,106.7641
+2023,49,"Central Coast","All Students","07","Numeracy","12",394.161,375.6655,104.9106
+2023,50,"Haida Gwaii","All Students","07","Numeracy","41",378.635,374.3928,86.8741
+2023,51,"Boundary","All Students","07","Numeracy","90",444.6516,435.1479,97.6136
+2023,52,"Prince Rupert","All Students","07","Numeracy","68",360.7867,352.1182,83.1476
+2023,53,"Okanagan Similkameen","All Students","07","Numeracy","202",442.5028,446.3946,100.8772
+2023,54,"Bulkley Valley","All Students","07","Numeracy","141",439.3907,413.2249,131.9556
+2023,57,"Prince George","All Students","07","Numeracy","879",421.3075,414.0032,104.7601
+2023,58,"Nicola-Similkameen","All Students","07","Numeracy","153",430.301,415.3712,128.7842
+2023,59,"Peace River South","All Students","07","Numeracy","301",425.0558,427.1502,91.4204
+2023,60,"Peace River North","All Students","07","Numeracy","408",408.4302,411.7332,101.1263
+2023,61,"Greater Victoria","All Students","07","Numeracy","791",454.367,458.8557,109.8478
+2023,62,"Sooke","All Students","07","Numeracy","614",403.6707,402.5432,102.7121
+2023,63,"Saanich","All Students","07","Numeracy","302",456.9721,459.3015,113.035
+2023,64,"Gulf Islands","All Students","07","Numeracy","99",460.4996,466.6075,102.6034
+2023,67,"Okanagan Skaha","All Students","07","Numeracy","384",432.8942,430.6834,93.8359
+2023,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","1001",420.4656,423.7486,113.3457
+2023,69,"Qualicum","All Students","07","Numeracy","315",466.6329,483.3418,101.205
+2023,70,"Pacific Rim","All Students","07","Numeracy","262",412.8032,414.9376,95.2343
+2023,71,"Comox Valley","All Students","07","Numeracy","664",455.3574,453.2433,103.7552
+2023,72,"Campbell River","All Students","07","Numeracy","418",418.7531,420.2232,104.3173
+2023,73,"Kamloops-Thompson","All Students","07","Numeracy","1148",437.5768,438.7389,97.7744
+2023,74,"Gold Trail","All Students","07","Numeracy","73",411.8846,397.3053,118.8125
+2023,75,"Mission","All Students","07","Numeracy","271",384.5571,391.6217,100.1566
+2023,78,"Fraser-Cascade","All Students","07","Numeracy","89",351.673,344.8542,86.3691
+2023,79,"Cowichan Valley","All Students","07","Numeracy","620",403.9465,398.8948,104.5945
+2023,81,"Fort Nelson","All Students","07","Numeracy","56",492.0403,488.9477,88.6032
+2023,82,"Coast Mountains","All Students","07","Numeracy","270",375.4883,364.599,90.6603
+2023,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","469",424.7502,419.9059,95.5775
+2023,84,"Vancouver Island West","All Students","07","Numeracy","31",437.9958,437.9296,131.9474
+2023,85,"Vancouver Island North","All Students","07","Numeracy","87",430.479,417.5005,104.2948
+2023,87,"Stikine","All Students","07","Numeracy","10",378.6028,356.4207,87.9018
+2023,91,"Nechako Lakes","All Students","07","Numeracy","183",412.1943,406.1074,96.2913
+2023,92,"Nisga'a","All Students","07","Numeracy","13",338.3941,326.8358,77.5169
+2024,5,"Southeast Kootenay","All Students","04","Numeracy","395",421.4889,416.7062,97.1828
+2024,6,"Rocky Mountain","All Students","04","Numeracy","244",459.7221,457.8566,82.2295
+2024,8,"Kootenay Lake","All Students","04","Numeracy","289",459.3902,468.8878,94.2599
+2024,10,"Arrow Lakes","All Students","04","Numeracy","38",464.2687,465.2165,82.7829
+2024,19,"Revelstoke","All Students","04","Numeracy","79",505.6035,506.9646,77.64
+2024,20,"Kootenay-Columbia","All Students","04","Numeracy","302",451.0752,451.7767,101.1168
+2024,22,"Vernon","All Students","04","Numeracy","618",456.7274,464.6976,99.0085
+2024,23,"Central Okanagan","All Students","04","Numeracy","1783",476.1735,479.0753,88.9733
+2024,27,"Cariboo-Chilcotin","All Students","04","Numeracy","306",450.5951,450.136,86.2883
+2024,28,"Quesnel","All Students","04","Numeracy","147",376.7466,357.8009,106.1201
+2024,33,"Chilliwack","All Students","04","Numeracy","1066",489.5731,487.215,98.5974
+2024,34,"Abbotsford","All Students","04","Numeracy","1387",453.2361,454.406,94.204
+2024,35,"Langley","All Students","04","Numeracy","1746",470.4335,473.0947,99.9945
+2024,36,"Surrey","All Students","04","Numeracy","5006",444.1784,444.7055,102.9103
+2024,37,"Delta","All Students","04","Numeracy","972",459.1924,457.5291,100.4013
+2024,38,"Richmond","All Students","04","Numeracy","1419",521.7135,526.5556,95.1601
+2024,39,"Vancouver","All Students","04","Numeracy","2378",493.0764,501.355,107.1895
+2024,40,"New Westminster","All Students","04","Numeracy","502",491.4883,489.0483,95.6008
+2024,41,"Burnaby","All Students","04","Numeracy","1315",503.8222,507.1833,102.9895
+2024,42,"Maple Ridge-Pitt Meadows","All Students","04","Numeracy","496",436.2005,436.121,98.2341
+2024,43,"Coquitlam","All Students","04","Numeracy","2191",480.473,484.9065,101.9517
+2024,44,"North Vancouver","All Students","04","Numeracy","1162",493.8034,499.5214,99.9037
+2024,45,"West Vancouver","All Students","04","Numeracy","464",567.6902,566.3952,85.2185
+2024,46,"Sunshine Coast","All Students","04","Numeracy","243",471.2989,477.4245,81.4967
+2024,47,"qathet","All Students","04","Numeracy","184",469.2062,463.7816,119.7598
+2024,48,"Sea to Sky","All Students","04","Numeracy","362",452.2542,454.7808,91.7169
+2024,49,"Central Coast","All Students","04","Numeracy","Msk",411.5772,412.117,59.9396
+2024,50,"Haida Gwaii","All Students","04","Numeracy","36",403.794,422.8651,103.4057
+2024,51,"Boundary","All Students","04","Numeracy","91",467.684,473.2755,88.4506
+2024,52,"Prince Rupert","All Students","04","Numeracy","103",387.5216,365.651,107.9324
+2024,53,"Okanagan Similkameen","All Students","04","Numeracy","164",468.9566,477.7137,90.316
+2024,54,"Bulkley Valley","All Students","04","Numeracy","124",465.7687,466.1937,103.0755
+2024,57,"Prince George","All Students","04","Numeracy","842",441.7513,453.2565,100.2559
+2024,58,"Nicola-Similkameen","All Students","04","Numeracy","117",450.6352,460.883,101.0537
+2024,59,"Peace River South","All Students","04","Numeracy","275",455.5137,457.9709,91.1361
+2024,60,"Peace River North","All Students","04","Numeracy","433",460.2181,459.1763,87.3981
+2024,61,"Greater Victoria","All Students","04","Numeracy","1290",478.0679,486.8346,100.7669
+2024,62,"Sooke","All Students","04","Numeracy","813",444.9656,450.9937,93.054
+2024,63,"Saanich","All Students","04","Numeracy","430",474.68,484.9823,98.0833
+2024,64,"Gulf Islands","All Students","04","Numeracy","97",475.0226,495.253,90.8901
+2024,67,"Okanagan Skaha","All Students","04","Numeracy","387",472.0885,475.0376,90.9762
+2024,68,"Nanaimo-Ladysmith","All Students","04","Numeracy","1066",431.6865,437.19,104.7456
+2024,69,"Qualicum","All Students","04","Numeracy","320",492.341,501.4199,94.2222
+2024,70,"Pacific Rim","All Students","04","Numeracy","288",456.3192,461.6997,94.2916
+2024,71,"Comox Valley","All Students","04","Numeracy","670",467.4123,467.877,105.2195
+2024,72,"Campbell River","All Students","04","Numeracy","405",424.848,427.1372,94.9895
+2024,73,"Kamloops-Thompson","All Students","04","Numeracy","1174",468.7996,475.9251,90.9678
+2024,74,"Gold Trail","All Students","04","Numeracy","77",426.4777,421.1528,85.2922
+2024,75,"Mission","All Students","04","Numeracy","514",427.9353,430.9463,106.7842
+2024,78,"Fraser-Cascade","All Students","04","Numeracy","129",450.1642,448.0236,94.0219
+2024,79,"Cowichan Valley","All Students","04","Numeracy","599",428.5838,434.2563,104.6464
+2024,81,"Fort Nelson","All Students","04","Numeracy","37",535.5905,532.8791,64.2634
+2024,82,"Coast Mountains","All Students","04","Numeracy","251",427.4575,429.9414,98.1955
+2024,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","04","Numeracy","517",462.8701,467.009,91.5712
+2024,84,"Vancouver Island West","All Students","04","Numeracy","21",471.8756,478.4418,111.4594
+2024,85,"Vancouver Island North","All Students","04","Numeracy","71",448.3224,451.8885,83.4209
+2024,87,"Stikine","All Students","04","Numeracy","Msk",378.1971,346.1253,126.4418
+2024,91,"Nechako Lakes","All Students","04","Numeracy","183",428.8859,428.326,97.9806
+2024,92,"Nisga'a","All Students","04","Numeracy","22",352.1156,356.7444,91.3194
+2024,5,"Southeast Kootenay","All Students","07","Numeracy","443",412.5784,406.3452,89.8207
+2024,6,"Rocky Mountain","All Students","07","Numeracy","280",456.4447,445.8446,90.5411
+2024,8,"Kootenay Lake","All Students","07","Numeracy","300",452.542,444.6737,99.2046
+2024,10,"Arrow Lakes","All Students","07","Numeracy","32",442.1583,419.5234,104.6118
+2024,19,"Revelstoke","All Students","07","Numeracy","82",467.8373,466.0305,90.3843
+2024,20,"Kootenay-Columbia","All Students","07","Numeracy","331",451.5587,451.9804,96.3479
+2024,22,"Vernon","All Students","07","Numeracy","641",460.6319,456.5255,101.2093
+2024,23,"Central Okanagan","All Students","07","Numeracy","1661",424.8076,418.8598,94.5442
+2024,27,"Cariboo-Chilcotin","All Students","07","Numeracy","359",419.5079,424.2588,101.8666
+2024,28,"Quesnel","All Students","07","Numeracy","143",359.0551,345.1951,94.8454
+2024,33,"Chilliwack","All Students","07","Numeracy","1077",440.5544,436.2482,93.5023
+2024,34,"Abbotsford","All Students","07","Numeracy","1389",446.9257,445.1762,103.2092
+2024,35,"Langley","All Students","07","Numeracy","1805",455.9785,452.3109,109.0253
+2024,36,"Surrey","All Students","07","Numeracy","5575",448.4461,442.2536,108.0734
+2024,37,"Delta","All Students","07","Numeracy","1072",461.2445,458.9109,99.8035
+2024,38,"Richmond","All Students","07","Numeracy","1656",527.1132,525.8655,101.2361
+2024,39,"Vancouver","All Students","07","Numeracy","2333",501.8226,507.9165,113.4343
+2024,40,"New Westminster","All Students","07","Numeracy","413",470.645,468.7559,106.9128
+2024,41,"Burnaby","All Students","07","Numeracy","1446",505.5024,509.059,107.9383
+2024,42,"Maple Ridge-Pitt Meadows","All Students","07","Numeracy","359",434.1232,423.5092,99.7193
+2024,43,"Coquitlam","All Students","07","Numeracy","2248",463.2693,460.5389,105.9756
+2024,44,"North Vancouver","All Students","07","Numeracy","1245",495.6049,502.8662,99.2191
+2024,45,"West Vancouver","All Students","07","Numeracy","482",583.6098,590.4432,88.6052
+2024,46,"Sunshine Coast","All Students","07","Numeracy","262",456.6582,452.8648,86.5742
+2024,47,"qathet","All Students","07","Numeracy","163",456.43,445.3176,117.9089
+2024,48,"Sea to Sky","All Students","07","Numeracy","363",427.752,418.5661,99.8089
+2024,49,"Central Coast","All Students","07","Numeracy","Msk",352.525,352.6751,68.2898
+2024,50,"Haida Gwaii","All Students","07","Numeracy","50",376.7467,363.6712,86.6048
+2024,51,"Boundary","All Students","07","Numeracy","100",450.7981,430.1598,100.0365
+2024,52,"Prince Rupert","All Students","07","Numeracy","117",407.685,404.9672,113.1693
+2024,53,"Okanagan Similkameen","All Students","07","Numeracy","174",454.7247,460.4588,91.3959
+2024,54,"Bulkley Valley","All Students","07","Numeracy","119",489.993,475.0591,121.0198
+2024,57,"Prince George","All Students","07","Numeracy","911",430.2487,426.1634,94.807
+2024,58,"Nicola-Similkameen","All Students","07","Numeracy","145",427.5422,408.3437,107.5069
+2024,59,"Peace River South","All Students","07","Numeracy","239",421.8589,430.1219,83.238
+2024,60,"Peace River North","All Students","07","Numeracy","431",422.0935,417.4035,96.8515
+2024,61,"Greater Victoria","All Students","07","Numeracy","1323",450.1673,451.5401,96.5575
+2024,62,"Sooke","All Students","07","Numeracy","781",411.2289,409.8516,103.9846
+2024,63,"Saanich","All Students","07","Numeracy","316",478.8543,484.3491,104.7372
+2024,64,"Gulf Islands","All Students","07","Numeracy","109",481.0504,483.5023,91.0219
+2024,67,"Okanagan Skaha","All Students","07","Numeracy","385",451.9054,451.2544,87.5417
+2024,68,"Nanaimo-Ladysmith","All Students","07","Numeracy","1018",437.4839,437.838,110.2322
+2024,69,"Qualicum","All Students","07","Numeracy","335",464.789,465.8448,88.9266
+2024,70,"Pacific Rim","All Students","07","Numeracy","276",418.7014,408.5748,85.38
+2024,71,"Comox Valley","All Students","07","Numeracy","640",479.842,481.8661,101.7612
+2024,72,"Campbell River","All Students","07","Numeracy","386",426.0428,430.4073,94.2381
+2024,73,"Kamloops-Thompson","All Students","07","Numeracy","1157",458.3361,453.8618,92.5552
+2024,74,"Gold Trail","All Students","07","Numeracy","81",389.8071,392.3505,103.6597
+2024,75,"Mission","All Students","07","Numeracy","470",398.4342,392.4818,88.8706
+2024,78,"Fraser-Cascade","All Students","07","Numeracy","115",418.78,423.793,101.7793
+2024,79,"Cowichan Valley","All Students","07","Numeracy","575",416.9403,412.2824,106.8405
+2024,81,"Fort Nelson","All Students","07","Numeracy","49",515.6641,505.0512,83.339
+2024,82,"Coast Mountains","All Students","07","Numeracy","298",383.876,371.0911,93.8107
+2024,83,"K̓wsaltktnéws ne Secwepemcúl’ecw","All Students","07","Numeracy","499",433.4542,429.0497,96.2205
+2024,84,"Vancouver Island West","All Students","07","Numeracy","25",372.231,351.9398,110.245
+2024,85,"Vancouver Island North","All Students","07","Numeracy","75",403.436,400.5801,72.5015
+2024,87,"Stikine","All Students","07","Numeracy","Msk",421.9637,433.6393,95.9984
+2024,91,"Nechako Lakes","All Students","07","Numeracy","196",443.7315,436.5802,89.1443
+2024,92,"Nisga'a","All Students","07","Numeracy","32",298.9922,297.0084,74.121
