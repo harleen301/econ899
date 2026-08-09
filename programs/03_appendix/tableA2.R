@@ -54,7 +54,7 @@ iv_g7_75km <- feols(
 )
 
 # ------------------------------------------------------------
-# 6. Save Appendix Table A3
+# 6. Save Appendix Table A2
 # ------------------------------------------------------------
 
 capture.output(
@@ -66,7 +66,7 @@ capture.output(
       pm25 = "PM2.5"
     )
   ),
-  file = "results/tableA3_buffer75km.txt"
+  file = "results/tableA2_buffer75km.txt"
 )
 
 # First-stage diagnostics

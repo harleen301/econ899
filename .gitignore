@@ -18,8 +18,14 @@
 .Rproj.user/
 
 # Raw Data Files
+
+#Large satellite PM 2.5 NetCDF files
 data/raw_data/PM2.5/*.nc
+
+#Original FSA Excel files
 data/raw_data/FSA/*.xlsx
+
+#Raw Wildfire files 
 data/raw_data/Wildfire
 
 

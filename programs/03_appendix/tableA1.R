@@ -31,7 +31,7 @@ iv_g7_no_covid <- feols(
   cluster = ~ SCHOOL_DISTRICT_NUMBER,
   data = panel_no_covid_g7)
 
-# Save Appendix Table A2: IV results excluding 2020 and 2021
+# Save Appendix Table A1: IV results excluding 2020 and 2021
 capture.output(
   etable(
     iv_g4_no_covid,
@@ -41,5 +41,5 @@ capture.output(
       pm25 = "PM2.5"
     )
   ),
-  file = "results/tableA2_covid_robustness.txt"
+  file = "results/tableA1_covid_robustness.txt"
 )
