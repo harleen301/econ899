@@ -1,40 +1,75 @@
-# Data for analysis
+# Data for Analysis
 
-This folder contains cleaned datasets generated from the raw data in
-`/data/raw_data` by the scripts in `/programs/01_dataprep`.
+This folder contains the cleaned and processed data sets used in the analysis. 
+These files are included in the repository and provide the starting point for the 
+standard replication. This allows the paper's results to be reproduced without rerunning 
+the computationally intensive processing of the original spatial and satellite data.
 
-The contents of this folder are not tracked in Git and can be recreated by 
-running the data preparation scripts.
+The programs used to construct these data sets from the original raw data are 
+provided in `programs/01_dataprep/`.
 
-Current datasets include:
+
+## Final Analysis Panels
+
+- `final_panel.rds` and `final_panel.csv`  
+  Final district-year-grade analysis panel using wildfire activity measured within
+  the baseline 50 km buffer.
+
+- `final_panel_75km.rds` and `final_panel_75km.csv`  
+  Alternative analysis panel using wildfire activity measured within a 75 km buffer 
+  for the robustness analysis.
+
+
+## FSA Data
+
+- `fsa_num.rds` and `fsa_num.csv`  
+  Cleaned district-level FSA Numeracy results for Grade 4 and Grade 7 students from 2017–2024.
+
+- `fsa_province_stats.rds` and `fsa_province_stats.csv`  
+  Province-level average Numeracy scores and standard deviations by year and grade.
+  These statistics are used to construct the standardized numeracy outcome used in the main analysis.
+
 
 ## PM2.5 Exposure Data
 
-File:
-`pm25_monthly.csv`
-`pm25_monthly.rds`
+- `pm25_monthly.rds` and `pm25_monthly.csv`  
+  District-level monthly PM2.5 concentrations for 2017–2024 derived from the satellite PM2.5 data.
 
-Description:
-District-level monthly PM2.5 exposure measures for British Columbia school 
-districts derived from satellite-based PM2.5 estimates. The dataset contains 
-average PM2.5 concentrations by district, year, and month for 2017–2024.
+- `pm25_yearly.rds` and `pm25_yearly.csv`  
+  District-year average PM2.5 concentrations over the May–September wildfire season.
 
-Created by:
-`programs/01_dataprep/01_extract_pm25.R`
 
-## FSA Numeracy Data
+## Wildfire Data
 
-File:
-`fsa_num.csv`
-`fsa_num.rds`
+- `wildfire_monthly_50km.rds` and `wildfire_monthly_50km.csv`  
+  Monthly wildfire activity measured within 50 km of each school district.
 
-Description:
-District-level Foundation Skills Assessment (FSA) Numeracy results for Grades 4 
-and 7, All Students, from 2017–2024. Variables include average score, median 
-score, standard deviation, and number of writers.
+- `wildfire_yearly_50km.rds` and `wildfire_yearly_50km.csv`  
+  District-year wildfire activity measured within the baseline 50 km buffer.
 
-Created by:
-`programs/01_dataprep/02_clean_fsa.R`
+- `wildfire_monthly_75km.rds` and `wildfire_monthly_75km.csv`  
+  Monthly wildfire activity measured within 75 km of each school district.
 
-Additional cleaned datasets and the final analysis panel will be 
-added to this folder as the project progresses.
+- `wildfire_yearly_75km.rds` and `wildfire_yearly_75km.csv`  
+  District-year wildfire activity measured within the alternative 75 km buffer.
+
+
+## Spatial Data
+
+- `school_district_boundaries.rds`  
+  Processed spatial boundaries for British Columbia school districts.
+
+- `nbac_bc_clean.rds`  
+  Processed National Burned Area Composite wildfire data restricted to British Columbia.
+
+
+## Replication Note
+
+The standard replication uses the processed data sets in this folder and does not require the original raw data.
+
+Running `programs/01_main.R` rebuilds the final analysis panels from the relevant processed files 
+and then reproduces the main and appendix results.
+
+The original raw-data processing programs are retained in `programs/01_dataprep/` for transparency but 
+are not executed by default because processing the satellite PM2.5 and spatial data is 
+significantly more computationally intensive.

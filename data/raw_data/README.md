@@ -1,61 +1,68 @@
 # Raw Data
 
-This folder contains all raw data used in the project.
+This folder is intended to contain the original raw data used to construct the processed
+data sets for the project. The original raw data files are not included in the repository. 
+All three primary data sources are publicly available from their respective providers. 
+The standard replication does not require these files because the processed data sets are 
+included in `data/data_for_analysis/`.
+
+The programs used to process the original data are provided in `programs/01_dataprep/`.
+
 
 ## PM2.5 Data
 
-Source: Atmospheric Composition Analysis Group (ACAG)
+**Source:** Atmospheric Composition Analysis Group (ACAG), Washington University in St. Louis
 
-Website:
+**Website:**  
 https://sites.wustl.edu/acag/surface-pm2-5/
 
-Description:
-Monthly satellite-derived PM2.5 concentration estimates for North America. 
-Data are provided as netCDF (.nc) files and are used to construct 
-district-level PM2.5 exposure measures for British Columbia school districts.
+**Description:**  
+Monthly satellite-derived surface PM2.5 concentration estimates for North America. 
+he data are provided as NetCDF (`.nc`) files at approximately 1 km spatial resolution.
+Monthly PM2.5 concentrations are spatially aggregated to British Columbia school districts 
+and used to construct average wildfire-season exposure from May through September.
 
-Files stored in:
-`data/raw_data/PM2.5`
+**Years used:** 2017–2024
 
-Years used:
-2017–2024
+**Raw data location:**  
+`data/raw_data/PM2.5/`
+
 
 ## Foundation Skills Assessment (FSA) Data
 
-Source: Education Analytics Office, Government of British Columbia
+**Source:** Education Analytics Office, Government of British Columbia
 
-Description:
-District-level Foundation Skills Assessment (FSA) results for Grades 4 and 7. 
-This dataset includes Numeracy, Reading, and Writing assessments from 
-2007/2008 to 2020/2021, and Numeracy and Literacy assessments from 2021/2022 onward. 
-The 2021/2022 assessment is considered a new dataset because Reading and Writing 
-were combined into a Literacy component and a new vendor administered the assessment.
-
-For this project, district-level FSA results are used to construct student 
-achievement outcomes. 
-The primary outcome measure is Numeracy performance for All Students.
-
-Files stored in:
-`data/raw_data/FSA`
-
-Years used:
-2017–2024
-
-Licence:
-Open Government Licence – British Columbia
-
-Source website:
+**Source website:**  
 https://www2.gov.bc.ca/gov/content?id=33B2B62049BF484EBE270F95A46075B0
 
-Published by:
-Education Analytics Office
-Government of British Columbia
+**Description:**  
+District-level Foundation Skills Assessment results for British Columbia students.
+The analysis uses Numeracy results for Grade 4 and Grade 7 students in the All Students category.
+
+The analysis also uses province-level FSA average scores and standard deviations to 
+construct year- and grade-specific standardized numeracy outcomes.
+
+**Years used:** 2017–2024
+
+**Licence:** Open Government Licence – British Columbia
+
+**Raw data location:**  
+`data/raw_data/FSA/`
+
 
 ## Wildfire Data
 
-Source: ---
+**Source:** Natural Resources Canada, Canadian Forest Service
 
-Description:------
+**Dataset:** National Burned Area Composite (NBAC)
 
-Files will be stored in:
-`data/raw_data/wildfires`
+**Description:**  
+Geospatial wildfire burned-area data for Canada. The data are restricted to 
+British Columbia and used to construct district-year measures of total hectares burned
+within 50 km of each school district. A 75 km measure is also constructed for the 
+alternative-buffer robustness specification.
+
+**Years used:** 2017–2024
+
+**Raw data location:**  
+`data/raw_data/Wildfire/`
