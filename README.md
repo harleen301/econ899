@@ -1,6 +1,5 @@
 # Wildfire Smoke and Student Achievement: Evidence from British Columbia
-Harleen Kaur 
-August 2026
+Harleen Kaur (August 2026)
 
 ## Overview
 
@@ -50,7 +49,7 @@ the standard replication begins from the processed data sets included with the r
 
 ### Statement about Rights
 
-I certify that the author(s) of the manuscript have legitimate access to and permission to use the data 
+I certify that the author of the manuscript have legitimate access to and permission to use the data 
 used in this manuscript. 
 
 ### Data Availability Summary
@@ -280,14 +279,14 @@ The standard replication reproduces all tables and figures reported in the paper
 
 | Figure/Table | Program | Output |
 |---|---|---|
-| Figure 1 | `programs/02_analysis/figure01.R` | Saved in `results/` |
+| Figure 1 | `programs/02_analysis/figure01.R` | `results/figure01_exposure_maps_2017_2024.png` |
 | Table 1: Summary Statistics | `programs/02_analysis/table01.R` | `results/table01_summary_statistics.txt` |
 | Table 2: First-Stage Results | `programs/02_analysis/table02.R` | `results/table02_first_stage.txt` |
 | Table 3: Main IV and OLS Results | `programs/02_analysis/table03.R` | `results/table03_main_results.txt` |
-| Appendix Table A1 | `programs/03_appendix/tableA1.R` | Saved in `results/` |
-| Appendix Table A2 | `programs/03_appendix/tableA2.R` | Saved in `results/` |
+| Appendix Table A1 | `programs/03_appendix/tableA1.R` | `results/tableA1_covid_robustness.txt` |
+| Appendix Table A2 | `programs/03_appendix/tableA2.R` | `results/tableA2_buffer75km.txt` |
 
-All generated outputs are written automatically to the `results/` directory in text format.
+All generated outputs are written automatically to the `results/` directory.
 
 
 ## References
