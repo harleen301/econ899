@@ -1,19 +1,16 @@
----
-title: README for "Wildfire Smoke and Student Achievement: Evidence from Britsh Columbia"
-contributors:
-  - Harleen Kaur
-version: August, 2026
----
+# Wildfire Smoke and Student Achievement: Evidence from British Columbia
+Harleen Kaur 
+August 2026
 
-# Overview
+## Overview
 
 This repository contains the data, code, and replication materials for my MA research paper, 
-*Wildfire Smoke and Student Achievement: Evidence from British Columbia*.The paper examines 
+*Wildfire Smoke and Student Achievement: Evidence from British Columbia*. The paper examines 
 whether wildfire smoke exposure affects student achievement across British Columbia 
 school districts between 2017 and 2024. I combine district-level Foundation Skills Assessment (FSA) 
 numeracy outcomes with satellite-derived PM₂.₅ concentrations and geospatial information on wildfire
 burned area. Student numeracy performance is standardized relative to the corresponding provincial 
-mean and standard deviation for each grade and year.The empirical analysis uses a two-stage least 
+mean and standard deviation for each grade and year. The empirical analysis uses a two-stage least 
 squares (2SLS) instrumental variables approach in which nearby wildfire activity is used as an instrument 
 for wildfire-season PM₂.₅ exposure. All specifications include school district and year fixed effects, 
 with standard errors clustered at the school district level. The repository contains the processed data 
@@ -21,7 +18,7 @@ required to reproduce the analysis, the programs used to construct the analysis 
 required to reproduce all tables and figures reported in the paper.
 
 
-# Data Availability and Provenance Statements
+## Data Availability and Provenance Statements
 
 
 All data used in this paper were obtained from publicly available sources. The analysis combines three 
@@ -56,7 +53,7 @@ the standard replication begins from the processed data sets included with the r
 I certify that the author(s) of the manuscript have legitimate access to and permission to use the data 
 used in this manuscript. 
 
-## Data Availability Summary
+### Data Availability Summary
 
 | Data | Source | Original Raw Data Provided | Processed Data Provided |
 |---|---|---:|---:|
@@ -65,7 +62,7 @@ used in this manuscript.
 | Monthly PM₂.₅ concentrations | Atmospheric Composition Analysis Group (ACAG) | No | Yes |
 
 
-## Processed Analysis Data
+### Processed Analysis Data
 
 The `data/data_for_analysis/` directory contains the processed data sets required by the 
 standard replication workflow. Key files include:
@@ -88,7 +85,7 @@ standard replication workflow. Key files include:
 Additional intermediate data sets used by the data-preparation programs are also included in this directory.
 
 
-# Repository Structure
+## Repository Structure
 
 The replication package is organized as follows:
 
@@ -122,7 +119,7 @@ The replication package is organized as follows:
     |-- results/
 
 
-# Software Requirements
+## Software Requirements
 
 The analysis was conducted in **R version 4.5.1** on Windows 11.
 
@@ -150,12 +147,12 @@ Additional package dependencies are installed automatically when required packag
 No pseudo-random number generation is used in the analysis. Results are therefore deterministic.
 
 
-# Replication Instructions
+## Replication Instructions
 
 The standard replication uses the processed data sets included in `data/data_for_analysis/`.
 
 
-## Step 1: Configure the repository location
+### Step 1: Configure the repository location
 
 Open:
 
@@ -170,7 +167,7 @@ For example:
 This is the only program that should require user-specific modification.
 
 
-## Step 2: Run the setup program
+### Step 2: Run the setup program
 
 Run:
 
@@ -180,7 +177,7 @@ This program installs any missing R packages and creates the required project di
 The setup program only needs to be run once on a new system.
 
 
-## Step 3: Run the main replication program
+### Step 3: Run the main replication program
 
 Run:
 
@@ -197,7 +194,7 @@ Specifically, it runs:
 No additional manual intervention is required once the main replication program has been launched.
 
 
-# Runtime and Computational Requirements
+## Runtime and Computational Requirements
 
 The standard replication begins from the processed data sets included in `data/data_for_analysis/`. 
 On the system used to develop and test the code, the complete standard replication takes less than one minute.
@@ -212,29 +209,29 @@ Approximately 5–10 GB of available storage is recommended if the original raw 
 the processed data are reconstructed from scratch.
 
 
-# Description of Programs
+## Description of Programs
 
 
-## `programs/00_setup.R`
+### `programs/00_setup.R`
 
 Installs the R packages required by the project and creates the required project directories. 
 This program is intended to be run once on a new system.
 
 
-## `programs/config.R`
+### `programs/config.R`
 
 Defines the repository and sub folder locations and loads the packages required by the 
 data-preparation and analysis programs. The repository location specified by `repo_root` 
 is the only setting that a replicator should need to modify.
 
 
-## `programs/01_main.R`
+### `programs/01_main.R`
 
 Master replication program. It calls the data-preparation, main-analysis, and appendix 
 main programs in the correct order.
 
 
-## `programs/01_dataprep/`
+### `programs/01_dataprep/`
 
 Contains the programs used to construct the analysis data sets.
 
@@ -255,7 +252,7 @@ data sets from the original raw data are retained in this directory but are
 commented out in the standard data-preparation workflow.
 
 
-## `programs/02_analysis/`
+### `programs/02_analysis/`
 
 Contains the programs used to reproduce the main tables and figure reported in the paper.
 
@@ -267,7 +264,7 @@ Contains the programs used to reproduce the main tables and figure reported in t
 `programs/02_analysis/main.R` runs these programs in the required order.
 
 
-## `programs/03_appendix/`
+### `programs/03_appendix/`
 
 Contains the programs used to reproduce the appendix robustness checks.
 
@@ -277,7 +274,7 @@ Contains the programs used to reproduce the appendix robustness checks.
 `programs/03_appendix/main.R` runs both appendix programs.
 
 
-# Tables and Figures
+## Tables and Figures
 
 The standard replication reproduces all tables and figures reported in the paper.
 
@@ -293,7 +290,7 @@ The standard replication reproduces all tables and figures reported in the paper
 All generated outputs are written automatically to the `results/` directory in text format.
 
 
-# References
+## References
 
 
 Canadian Forest Service (2026) “National Burned Area Composite (NBAC).” Natural Resources Canada. 
