@@ -1,368 +1,311 @@
 ---
-title: README for "The  Effect of Wildfire Smoke Exposure on Student Performance in Britsh Columbia"
+title: README for "Wildfire Smoke and Student Achievement: Evidence from Britsh Columbia"
 contributors:
   - Harleen Kaur
-version: July 15, 2026
+version: August, 2026
 ---
 
-## Overview
+# Overview
 
-This repository contains the data, code, and replication materials for my MA research paper The Effect of Wildfire Smoke Exposure on Student Performance in British Columbia. The paper examines whether wildfire smoke exposure affects student numeracy performance across British Columbia school districts 
-between 2017 and 2024. Wildfire smoke exposure is measured using satellite-derived PM₂.₅ concentrations and wildfire activity from the National Burned Area Composite (NBAC). Student achievement is measured using district-level Foundation Skills Assessment (FSA) numeracy scores. The empirical analysis
-employs a two-stage least squares (2SLS) instrumental variables approach, using nearby wildfire activity as an instrument for wildfire-season PM₂.₅ exposure. The replication package contains scripts to construct the analysis dataset, estimate all models presented in the paper, and reproduce all tables 
-and figures.
+This repository contains the data, code, and replication materials for my MA research paper, 
+*Wildfire Smoke and Student Achievement: Evidence from British Columbia*.The paper examines 
+whether wildfire smoke exposure affects student achievement across British Columbia 
+school districts between 2017 and 2024. I combine district-level Foundation Skills Assessment (FSA) 
+numeracy outcomes with satellite-derived PM₂.₅ concentrations and geospatial information on wildfire
+burned area. Student numeracy performance is standardized relative to the corresponding provincial 
+mean and standard deviation for each grade and year.The empirical analysis uses a two-stage least 
+squares (2SLS) instrumental variables approach in which nearby wildfire activity is used as an instrument 
+for wildfire-season PM₂.₅ exposure. All specifications include school district and year fixed effects, 
+with standard errors clustered at the school district level. The repository contains the processed data 
+required to reproduce the analysis, the programs used to construct the analysis data sets, and the code 
+required to reproduce all tables and figures reported in the paper.
 
-## Data Availability and Provenance Statements
 
-All data used in this paper are obtained from publicly available sources. The analysis combines three datasets:
+# Data Availability and Provenance Statements
 
-Foundation Skills Assessment (FSA) data obtained from the British Columbia Education Analytics Office.
-Wildfire perimeter and burned area data obtained from the National Burned Area Composite (NBAC), Natural Resources Canada.
-Monthly PM₂.₅ concentration data obtained from the Atmospheric Composition Analysis Group (ACAG), Washington University in St. Louis.
 
-The replication package contains all code used to clean, merge, and analyze these datasets. Raw data files are stored in the data/raw_data directory, while cleaned analysis datasets are stored in data/data_for_analysis.
+All data used in this paper were obtained from publicly available sources. The analysis combines three 
+primary data sources:
 
-Researchers wishing to fully reproduce the analysis should obtain the original public datasets from their respective providers and place them in the appropriate data/raw_data folders before running the data preparation scripts.
+1. **Foundation Skills Assessment (FSA)** data from the British Columbia Education Analytics Office.
+This provides district-level numeracy outcomes for Grade 4 and Grade 7 students.
+
+2. **National Burned Area Composite (NBAC)** data from Natural Resources Canada. 
+This provides geospatial information on wildfire burned area and are used to construct measures
+of wildfire activity surrounding each school district.
+
+3. **Monthly PM₂.₅ concentration data** from the Atmospheric Composition Analysis Group (ACAG), 
+Washington University in St. Louis. The satellite-derived data are provided at approximately 1 km 
+spatial resolution and are used to construct district-level wildfire-season PM₂.₅ exposure.
+
+The processed data sets required for the standard replication are included in:
+
+`data/data_for_analysis/`
+
+The original raw data sets are not included in the repository. They can be obtained from their 
+respective public data providers. Programs documenting the construction of the processed data sets from the 
+original sources are provided in:
+
+`programs/01_dataprep/`
+
+Because processing the monthly satellite PM₂.₅ raster files is computationally intensive, 
+the standard replication begins from the processed data sets included with the repository.
 
 ### Statement about Rights
 
-I certify that the author(s) of the manuscript have legitimate access to and permission to use the data used in this manuscript. 
+I certify that the author(s) of the manuscript have legitimate access to and permission to use the data 
+used in this manuscript. 
+
+## Data Availability Summary
 
-### Summary of Availability
+| Data | Source | Original Raw Data Provided | Processed Data Provided |
+|---|---|---:|---:|
+| Foundation Skills Assessment (FSA) | BC Education Analytics Office | No | Yes |
+| National Burned Area Composite (NBAC) | Natural Resources Canada | No | Yes |
+| Monthly PM₂.₅ concentrations | Atmospheric Composition Analysis Group (ACAG) | No | Yes |
 
-All data **are** publicly available.
 
-The original datasets are publicly available from their respective providers but may be subject to their own distribution or licensing requirements. The replication package therefore includes the code necessary to reconstruct the analysis datasets from the publicly available sources.
+## Processed Analysis Data
 
-#### Summary of Data Availability
+The `data/data_for_analysis/` directory contains the processed data sets required by the 
+standard replication workflow. Key files include:
 
+| File | Description |
+|---|---|
+| `final_panel.rds` | Final district-year-grade analysis panel using the baseline 50 km wildfire buffer |
+| `final_panel.csv` | CSV version of the final baseline analysis panel |
+| `final_panel_75km.rds` | Analysis panel used for the alternative 75 km wildfire-buffer specification |
+| `final_panel_75km.csv` | CSV version of the 75 km analysis panel |
+| `pm25_yearly.rds` | District-year average PM₂.₅ exposure for the May–September wildfire season |
+| `pm25_monthly.rds` | District-month PM₂.₅ exposure estimates |
+| `wildfire_yearly_50km.rds` | District-year wildfire activity measured within 50 km |
+| `wildfire_yearly_75km.rds` | District-year wildfire activity measured within 75 km |
+| `fsa_num.rds` | Cleaned district-level FSA numeracy data |
+| `fsa_province_stats.rds` | Provincial FSA means and standard deviations used to construct standardized numeracy outcomes |
+| `school_district_boundaries.rds` | Processed BC school district spatial boundaries |
+| `nbac_bc_clean.rds` | Processed NBAC wildfire data for British Columbia |
 
-| Data.Name | Data.Source | Provided | 
-| -- | -- | -- | -- | -- | 
-| “Foundation Skills Assessment (FSA)” | BC Education Analytics Office | NO (download from source) | 
-| “National Burned Area Composite (NBAC)” | Natural Resources Canada | NO (download from source) |
-| “Monthly PM₂.₅” | Atmospheric Composition Analysis Group (ACAG) | NO (download from source) |
+Additional intermediate data sets used by the data-preparation programs are also included in this directory.
 
 
-### Details on each Data Source
+# Repository Structure
 
-> INSTRUCTIONS: For each data source, list the file that contains data from that source here; if providing combined/derived datafiles, list them separately after the DAS. For each data source or file, as appropriate, 
-> 
-> - Describe the format (open formats preferred, but some software-specific formats OK if open-source readers available): `.dta`, `.xlsx`, `.csv`, `netCDF`, etc.
-> - Provide a data dictionary, either as part of the archive (list the file name), or at a URL (list the URL). Some formats are self-describing *if* they have the requisite information (e.g., `.dta` should have both variable and value labels).
-> - List availability within the package
-> - Use proper bibliographic references in addition to a verbose description (and provide a bibliography at the end of the README, expanding those references)
-> - Describe how you obtained access to the data.
-> - If different, describe how others can obtain access to the data. 
-> - Mention any relevant restrictions: approximate cost, required residency, necessary physical location, access only from within country or through VPN, etc.
+The replication package is organized as follows:
 
+    econ899/
+    |
+    |-- programs/
+    |   |-- 00_setup.R
+    |   |-- config.R
+    |   |-- 01_main.R
+    |   |
+    |   |-- 01_dataprep/
+    |   |   |-- main.R
+    |   |   |-- data preparation programs
+    |   |
+    |   |-- 02_analysis/
+    |   |   |-- main.R
+    |   |   |-- figure01.R
+    |   |   |-- table01.R
+    |   |   |-- table02.R
+    |   |   |-- table03.R
+    |   |
+    |   |-- 03_appendix/
+    |       |-- main.R
+    |       |-- tableA1.R
+    |       |-- tableA2.R
+    |
+    |-- data/
+    |   |-- raw_data/
+    |   |-- data_for_analysis/
+    |
+    |-- results/
 
 
-### Example for public use data collected by the authors
+# Software Requirements
 
-> The [DATA TYPE] data used to support the findings of this study have been deposited in the [NAME] repository ([DOI or OTHER PERSISTENT IDENTIFIER]). [[1](https://www.hindawi.com/research.data/#statement.templates)]. The data were collected by the authors, and are available under a Creative Commons Non-commercial license.
+The analysis was conducted in **R version 4.5.1** on Windows 11.
 
-### Example for public use data sourced from elsewhere and provided
+The replication package includes:
 
-> Data on National Income and Product Accounts (NIPA) were downloaded from the U.S. Bureau of Economic Analysis (BEA, 2016). We use Table 30. Data can be downloaded from https://apps.bea.gov/regional/downloadzip.cfm, under "Personal Income (State and Local)", select CAINC30: Economic Profile by County, then download. Data can also be directly downloaded using  https://apps.bea.gov/regional/zip/CAINC30.zip. A copy of the data is provided as part of this archive. The data are in the public domain.
+`programs/00_setup.R`
 
-Datafile:  `CAINC30__ALL_AREAS_1969_2018.csv`
+This program installs any missing R packages required by the project and creates the required  
+project directories. It is intended to be run once before executing the replication.
 
-### Example for public use data with required registration and provided extract
+The packages used in the project include:
 
-> The paper uses IPUMS Terra data (Ruggles et al, 2018). IPUMS-Terra does not allow for redistribution, except for the purpose of replication archives. Permissions as per https://terra.ipums.org/citation have been obtained, and are documented within the "data/IPUMS-terra" folder.
->> Note: the reference to "Ruggles et al, 2018" would be resolved in the Reference section of this README, **and** in the main manuscript.
+- tidyverse
+- sf
+- terra
+- exactextractr
+- bcdata
+- readxl
+- lubridate
+- patchwork
+- scales
+- fixest
 
-Datafile: `data/raw/ipums_terra_2018.dta`
+Additional package dependencies are installed automatically when required packages are installed.
+No pseudo-random number generation is used in the analysis. Results are therefore deterministic.
 
-### Example for free use data with required registration, extract not provided
 
-> The paper uses data from the World Values Survey Wave 6 (Inglehart et al, 2019). Data is subject to a redistribution restriction, but can be freely downloaded from http://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp. Choose `WV6_Data_Stata_v20180912`, fill out the registration form, including a brief description of the project, and agree to the conditions of use. Note: "the data files themselves are not redistributed" and other conditions. Save the file in the directory `data/raw`. 
+# Replication Instructions
 
->> Note: the reference to "Inglehart et al, 2018" would be resolved in the Reference section of this README, **and** in the main manuscript.
+The standard replication uses the processed data sets included in `data/data_for_analysis/`.
 
-Datafile: `data/raw/WV6_Data_Stata_v20180912.dta` (not provided)
 
-### Example for confidential data
+## Step 1: Configure the repository location
 
-> INSTRUCTIONS: Citing and describing confidential data, in particular when it does not have a regular distribution channel or online landing page, can be tricky. A citation can be crafted ([see guidance](https://social-science-data-editors.github.io/guidance/FAQ.html#data-citation-without-online-link)), and the DAS should describe how to access, whom to contact (including the role of the particular person, should that person retire), and other relevant information, such as required citizenship status or cost.
+Open:
 
-> The data for this project (DESE, 2019) are confidential, but may be obtained with Data Use Agreements with the Massachusetts Department of Elementary and Secondary Education (DESE). Researchers interested in access to the data may contact [NAME] at [EMAIL], also see www.doe.mass.edu/research/contact.html. It can take some months to negotiate data use agreements and gain access to the data. The author will assist with any reasonable replication attempts for two years following publication.
+`programs/config.R`
 
-### Example for confidential Census Bureau data
+and change `repo_root` to the location of the repository on the user's computer.
 
-> All the results in the paper use confidential microdata from the U.S. Census Bureau. To gain access to the Census microdata, follow the directions here on how to write a proposal for access to the data via a Federal Statistical Research Data Center: https://www.census.gov/ces/rdcresearch/howtoapply.html. 
-You must request the following datasets in your proposal:
->1. Longitudinal Business Database (LBD), 2002 and 2007
->2. Foreign Trade Database – Import (IMP), 2002 and 2007
-[...]
+For example:
 
-(adapted from [Fort (2016)](https://doi.org/10.1093/restud/rdw057))
+    repo_root <- "C:/Users/USERNAME/Documents/GitHub/econ899"
 
-### Example for preliminary code during the editorial process
+This is the only program that should require user-specific modification.
 
-> Code for data cleaning and analysis is provided as part of the replication package. It is available at https://dropbox.com/link/to/code/XYZ123ABC for review. It will be uploaded to the [JOURNAL REPOSITORY] once the paper has been conditionally accepted.
 
-## Dataset list
+## Step 2: Run the setup program
 
-> INSTRUCTIONS: In some cases, authors will provide one dataset (file) per data source, and the code to combine them. In others, in particular when data access might be restrictive, the replication package may only include derived/analysis data. Every file should be described. This can be provided as a Excel/CSV table, or in the table below.
+Run:
 
-> INSTRUCTIONS: While it is often most convenient to provide data in the native format of the software used to analyze and process the data, not all formats are "open" and can be read by other (free) software. Data should at a minimum be provided in formats that can be read by open-source software (R, Python, others), and ideally be provided in non-proprietary, archival-friendly formats. 
+`programs/00_setup.R`
 
-> INSTRUCTIONS: All data files should be fully documented: variables/columns should have labels (long-form meaningful names), and values should be explained. This might mean generating a codebook, pointing at a public codebook, or providing data in (non-proprietary) formats that allow for a rich description. This is in particular important for data that is not distributable.
+This program installs any missing R packages and creates the required project directories.
+The setup program only needs to be run once on a new system.
 
-> INSTRUCTIONS: Some journals require, and it is considered good practice, to provide synthetic or simulated data that has some of the key characteristics of the restricted-access data which are not provided. The level of fidelity may vary - it may be useful for debugging only, or it should allow to assess the key characteristics of the statistical/econometric procedure or the main conclusions of the paper.
 
-| Data file | Source | Notes    |Provided |
-|-----------|--------|----------|---------|
-| `data/raw/lbd.dta` | LBD | Confidential | No |
-| `data/raw/terra.dta` | IPUMS Terra | As per terms of use | Yes |
-| `data/derived/regression_input.dta`| All listed | Combines multiple data sources, serves as input for Table 2, 3 and Figure 5. | Yes |
+## Step 3: Run the main replication program
 
+Run:
 
-## Computational requirements
+`programs/01_main.R`
 
-> INSTRUCTIONS: In general, the specific computer code used to generate the results in the article will be within the repository that also contains this README. However, other computational requirements - shared libraries or code packages, required software, specific computing hardware - may be important, and is always useful, for the goal of replication. Some example text follows. 
+This program calls the data preparation, main analysis, and appendix programs in the correct order.
 
-> INSTRUCTIONS: We strongly suggest providing setup scripts that install/set up the environment. Sample scripts for [Stata](https://github.com/gslab-econ/template/blob/master/config/config_stata.do),  [R](https://github.com/labordynamicsinstitute/paper-template/blob/master/programs/global-libraries.R), [Julia](https://github.com/labordynamicsinstitute/paper-template/blob/master/programs/packages.jl) are easy to set up and implement. Specific software may have more sophisticated tools: [Python](https://pip.pypa.io/en/stable/user_guide/#ensuring-repeatability), [Julia](https://julia.quantecon.org/more_julia/tools_editors.html#Package-Environments).
+Specifically, it runs:
 
-### Software Requirements
+1. `programs/01_dataprep/main.R`
+2. `programs/02_analysis/main.R`
+3. `programs/03_appendix/main.R`
 
-The analysis was conducted in R (version 4.5.1) using RStudio.
+No additional manual intervention is required once the main replication program has been launched.
 
-The replication package includes a setup script (00_setup.R) that installs all required R packages. 
-This script should be run before executing any other programs.
 
-The primary R packages used in the analysis include:
+# Runtime and Computational Requirements
 
-tidyverse
-dplyr
-sf
-terra
-exactextractr
-bcdata
-fixest
-ggplot2
-patchwork
-lubridate
-readxl
-purrr
+The standard replication begins from the processed data sets included in `data/data_for_analysis/`. 
+On the system used to develop and test the code, the complete standard replication takes less than one minute.
+The analysis is designed to run on a standard desktop or laptop computer and does not require high-performance 
+computing resources.
 
-Additional package dependencies are installed automatically by 00_setup.R.
+Reconstructing the processed PM₂.₅ data from the original monthly satellite raster files is significantly more 
+computationally intensive and can require approximately 8–10 hours. The programs used for this processing are 
+included in `programs/01_dataprep/` but are not executed by default in the standard replication.
 
-### Controlled Randomness
+Approximately 5–10 GB of available storage is recommended if the original raw PM₂.₅ files are downloaded and 
+the processed data are reconstructed from scratch.
 
-No pseudo-random number generation is used in the analysis.
 
-All results are deterministic and can be reproduced by running the scripts in the order described in this README.
+# Description of Programs
 
-### Memory, Runtime, Storage Requirements
 
-#### Summary time to reproduce
+## `programs/00_setup.R`
 
-Two replication options are provided:
+Installs the R packages required by the project and creates the required project directories. 
+This program is intended to be run once on a new system.
 
-Replication Option
-Full replication (beginning with raw PM₂.₅ raster files)	8–10 hours
-Realistic replication (beginning with cleaned analysis datasets)	Less than 10 minutes
 
-The majority of computation time is devoted to extracting district-level PM₂.₅ exposure from monthly satellite raster files. All subsequent data preparation, estimation, 
-tables, and figures require only a few minutes.
+## `programs/config.R`
 
-#### Summary of required storage space
+Defines the repository and sub folder locations and loads the packages required by the 
+data-preparation and analysis programs. The repository location specified by `repo_root` 
+is the only setting that a replicator should need to modify.
 
-Approximately 5–10 GB of available storage is recommended to accommodate the raw datasets, intermediate files, and generated outputs.
 
-#### Computational Details
+## `programs/01_main.R`
 
-The code was developed and tested using:
+Master replication program. It calls the data-preparation, main-analysis, and appendix 
+main programs in the correct order.
 
-Operating System: Windows 11
-R Version: 4.5.1
-RStudio: (Update version if desired)
 
-The analysis is designed to run on a standard desktop or laptop computer and does not require high-performance computing resources.
+## `programs/01_dataprep/`
 
-## Description of programs/code
+Contains the programs used to construct the analysis data sets.
 
-The replication package is organized into four main folders: programs/, data/, results/, and paper/.
+The programs document:
 
-*programs/00_setup.R*
+- cleaning and preparing the Foundation Skills Assessment data
+- processing monthly satellite-derived PM₂.₅ concentrations
+- calculating district-level wildfire-season PM₂.₅ exposure
+- processing NBAC wildfire data
+- constructing wildfire exposure measures using 50 km and 75 km buffers
+- constructing the final district-year-grade analysis panels
 
-Installs all required R packages and creates the directory structure needed to run the replication package. This script should be run once on a new system before 
-executing any other programs.
+The standard `programs/01_dataprep/main.R` begins from the processed data supplied
+in `data/data_for_analysis/` and rebuilds the final analysis panels.
 
-*programs/01_dataprep/*
+The computationally intensive programs used to reconstruct the processed spatial 
+data sets from the original raw data are retained in this directory but are 
+commented out in the standard data-preparation workflow.
 
-Contains all scripts used to clean the raw datasets and construct the analysis datasets.
 
-These scripts include:
+## `programs/02_analysis/`
 
-Importing and cleaning Foundation Skills Assessment (FSA) data.
-Processing monthly satellite-derived PM₂.₅ data and calculating district-level wildfire-season exposure.
-Processing National Burned Area Composite (NBAC) wildfire polygons and constructing district-level wildfire exposure measures.
-Building the final analysis panel used throughout the paper.
+Contains the programs used to reproduce the main tables and figure reported in the paper.
 
-The final cleaned datasets are saved in: *data/data_for_analysis/*
+- `figure01.R` generates Figure 1.
+- `table01.R` generates Table 1: Summary Statistics.
+- `table02.R` generates Table 2: First-Stage Regression Results.
+- `table03.R` generates Table 3: Main IV and OLS Results.
 
-*programs/02_analysis/*
+`programs/02_analysis/main.R` runs these programs in the required order.
 
-Contains scripts that reproduce all tables and figures reported in the main paper.
 
-These scripts estimate:
+## `programs/03_appendix/`
 
-Descriptive statistics
-First-stage regression
-Instrumental variables estimates
-Main figures and maps
+Contains the programs used to reproduce the appendix robustness checks.
 
-All outputs are automatically saved in *results/* using filenames corresponding to the tables and figures reported in the paper.
+- `tableA1.R` generates Appendix Table A1.
+- `tableA2.R` generates Appendix Table A2.
 
-*programs/03_appendix/*
+`programs/03_appendix/main.R` runs both appendix programs.
 
-Contains scripts used to generate all appendix tables and robustness checks, including:
 
-Ordinary Least Squares (OLS) estimates
-COVID-19 exclusion robustness check
-Alternative 75 km wildfire buffer specification
-Excluding the 2023 wildfire season
+# Tables and Figures
 
-Outputs are saved in *results/* using filenames corresponding to the appendix tables.
+The standard replication reproduces all tables and figures reported in the paper.
 
+| Figure/Table | Program | Output |
+|---|---|---|
+| Figure 1 | `programs/02_analysis/figure01.R` | Saved in `results/` |
+| Table 1: Summary Statistics | `programs/02_analysis/table01.R` | `results/table01_summary_statistics.txt` |
+| Table 2: First-Stage Results | `programs/02_analysis/table02.R` | `results/table02_first_stage.txt` |
+| Table 3: Main IV and OLS Results | `programs/02_analysis/table03.R` | `results/table03_main_results.txt` |
+| Appendix Table A1 | `programs/03_appendix/tableA1.R` | Saved in `results/` |
+| Appendix Table A2 | `programs/03_appendix/tableA2.R` | Saved in `results/` |
 
-## Instructions to Replicators
+All generated outputs are written automatically to the `results/` directory in text format.
 
-Two replication options are provided.
 
-*Option 1: Full Replication*
+# References
 
-This option reproduces the complete analysis beginning with the original raw datasets.
 
-Download the original datasets listed in the Data Availability section and place them in the appropriate folders under data/raw_data/
-Run programs/00_setup.R
-Run programs/01_main_full.R
+Canadian Forest Service (2026) “National Burned Area Composite (NBAC).” Natural Resources Canada. 
+Available at: https://cwfis.cfs.nrcan.gc.ca/ (Accessed: June 6, 2026).
 
-This script executes all data preparation, estimation, table generation, and figure generation from the raw data.
+Education Analytics Office (2013) “BC Schools - Foundation Skills Assessment (FSA).”
+https://catalogue.data.gov.bc.ca/dataset/bc-schools-foundation-skills-assessment-fsa- (Accessed: June 6, 2026).
 
-*Expected runtime: approximately 8–10 hours*, primarily due to processing the monthly PM₂.₅ raster files.
+Education Analytics Office (2008) “School Districts of BC.” 
+https://catalogue.data.gov.bc.ca/dataset/school-districts-of-bc (Accessed: June 6, 2026).
 
-*Option 2: Quick Replication*
+Shen, S. et al. (2024) “Enhancing global estimation of fine particulate matter concentrations by 
+including geophysical a priori information in deep learning,” ACS ES&T Air, 1(5), pp. 332–345.
+https://doi.org/10.1021/acsestair.3c00054.
 
-This option begins from the cleaned analysis datasets contained in data/data_for_analysis/
-
-Run programs/00_setup.R
-Run programs/02_main_quick.R
-
-This script reproduces:
-
-the final analysis panel,
-all regression results,
-all tables,
-all figures, and
-all appendix outputs.
-
-*Expected runtime: less than 10 minutes*
-
-Notes: 
-All intermediate datasets are saved as both .csv and .rds files to improve transparency and reproducibility.
-Figure and table scripts automatically save outputs to the results/ folder.
-The analysis is fully reproducible without requiring manual intervention after the appropriate replication script has been launched.
-
-### Details on various programs
-
-*programs/00_setup.R*
-Installs all required R packages used throughout the project.
-This script should be run once before executing any other programs.
-
-*programs/01_dataprep/*
-
-Contains all scripts used to construct the analysis datasets from the original raw data.
-
-Cleaning and preparing Foundation Skills Assessment (FSA) data.
-Processing monthly ACAG PM₂.₅ raster files to calculate district-level wildfire-season exposure.
-Processing National Burned Area Composite (NBAC) wildfire polygons to construct wildfire exposure measures.
-Building the final district-year analysis panel used throughout the paper.
-
-These scripts should be run in numerical order.
-
-The PM₂.₅ processing script is the most computationally intensive component of the replication package and requires approximately 8 hours to complete. 
-All other data preparation scripts complete within a few minutes.
-
-*programs/02_analysis/*
-
-Contains scripts used to reproduce all tables and figures reported in the main paper.
-
-The scripts generate:
-
-Table 1: Summary Statistics
-Table 2: First-Stage Regression Results
-Table 3: Instrumental Variables Estimates
-Figure 1: Spatial Distribution of Wildfire Smoke Exposure Across British Columbia School Districts
-
-Each script automatically saves its output to the results/ folder.
-
-Scripts should be run in numerical order.
-
-*programs/03_appendix/*
-
-Contains scripts used to reproduce all appendix tables and robustness checks.
-
-The scripts generate:
-
-Appendix Table A1: Ordinary Least Squares Estimates
-Appendix Table A2: Excluding COVID-19 (2020–2021)
-Appendix Table A3: Alternative 75 km Wildfire Buffer
-Appendix Table A4: Excluding the 2023 Wildfire Season
-
-Outputs are automatically saved to the results/ folder.
-
-Scripts should be run in numerical order.
-
-Main Replication Scripts 
-
-Two master scripts are provided for replication:
-
-*programs/01_main_full.R* reproduces the complete analysis beginning with the raw datasets, including PM₂.₅ extraction.
-*programs/02_main_quick.R* reproduces all tables and figures beginning from the cleaned datasets contained in data/data_for_analysis.
-
-
-## List of tables and programs
-
-
-> INSTRUCTIONS: Your programs should clearly identify the tables and figures as they appear in the manuscript, by number. Sometimes, this may be obvious, e.g. a program called "`table1.do`" generates a file called `table1.png`. Sometimes, mnemonics are used, and a mapping is necessary. In all circumstances, provide a list of tables and figures, identifying the program (and possibly the line number) where a figure is created.
->
-> NOTE: If the public repository is incomplete, because not all data can be provided, as described in the data section, then the list of tables should clearly indicate which tables, figures, and in-text numbers can be reproduced with the public material provided.
-
-The provided code reproduces:
-
-- [ ] All numbers provided in text in the paper
-- [ ] All tables and figures in the paper
-- [ ] Selected tables and figures in the paper, as explained and justified below.
-
-
-| Figure/Table #    | Program                  | Line Number | Output file                      | Note                            |
-|-------------------|--------------------------|-------------|----------------------------------|---------------------------------|
-| Table 1           | 02_analysis/table1.do    |             | summarystats.csv                 ||
-| Table 2           | 02_analysis/table2and3.do| 15          | table2.csv                       ||
-| Table 3           | 02_analysis/table2and3.do| 145         | table3.csv                       ||
-| Figure 1          | n.a. (no data)           |             |                                  | Source: Herodus (2011)          |
-| Figure 2          | 02_analysis/fig2.do      |             | figure2.png                      ||
-| Figure 3          | 02_analysis/fig3.do      |             | figure-robustness.png            | Requires confidential data      |
-
-## References
-
-> INSTRUCTIONS: As in any scientific manuscript, you should have proper references. For instance, in this sample README, we cited "Ruggles et al, 2019" and "DESE, 2019" in a Data Availability Statement. The reference should thus be listed here, in the style of your journal:
-
-Steven Ruggles, Steven M. Manson, Tracy A. Kugler, David A. Haynes II, David C. Van Riper, and Maryia Bakhtsiyarava. 2018. "IPUMS Terra: Integrated Data on Population and Environment: Version 2 [dataset]." Minneapolis, MN: *Minnesota Population Center, IPUMS*. https://doi.org/10.18128/D090.V2
-
-Department of Elementary and Secondary Education (DESE), 2019. "Student outcomes database [dataset]" *Massachusetts Department of Elementary and Secondary Education (DESE)*. Accessed January 15, 2019.
-
-U.S. Bureau of Economic Analysis (BEA). 2016. “Table 30: "Economic Profile by County, 1969-2016.” (accessed Sept 1, 2017).
-
-Inglehart, R., C. Haerpfer, A. Moreno, C. Welzel, K. Kizilova, J. Diez-Medrano, M. Lagos, P. Norris, E. Ponarin & B. Puranen et al. (eds.). 2014. World Values Survey: Round Six - Country-Pooled Datafile Version: http://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp. Madrid: JD Systems Institute.
-
----
-
-## Acknowledgements
-
-Some content on this page was copied from [Hindawi](https://www.hindawi.com/research.data/#statement.templates). Other content was adapted  from [Fort (2016)](https://doi.org/10.1093/restud/rdw057), Supplementary data, with the author's permission.
